@@ -19,7 +19,8 @@ body {
     font-size: 50px; 
     font-family: Modern Sans; 
     font-weight: 500; 
-    word-wrap: break-word
+    word-wrap: break-word;
+    margin-left: 50px;
 }
 
 .WebDeveloper{
@@ -43,7 +44,10 @@ body {
     font-family: Modern Sans; 
     font-weight: 500; 
     word-wrap: break-word; 
+    margin-left: 100px;
+   
 }
+
 
 .CTA {
     color: white; 
