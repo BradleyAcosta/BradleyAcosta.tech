@@ -123,7 +123,7 @@
 }
 .node-jc {
     color: white; 
-    font-size: 27px; 
+    font-size: 20px; 
     font-family: Modern Sans; 
     font-weight: 500;
      word-wrap: break-word;
@@ -134,17 +134,45 @@
     margin-top: 200px; /* Adds a margin of 200px to move the element down */; 
       position: absolute
   }
+  .node-text{
+    font-size: larger;
+  }
   .node-package-manager {
     color: white; 
-    font-size: 27px; 
+    font-size: 20px; 
     font-family: Modern Sans; 
     font-weight: 500;
      word-wrap: break-word;
      width: 400px;
       height: 310px; 
-      left: 1200px; 
+      left: 1100px; 
       top: 1115px; 
     margin-top: 700px; /* Adds a margin of 200px to move the element down */; 
       position: absolute;
+  }
+  .description{
+    font-size: 20px; 
 
   }
+
+.npm-libraries {
+    color: white; 
+    position: absolute;
+    font-size: 30px; 
+    font-family: Modern Sans; 
+    font-weight: 500;
+     word-wrap: break-word;
+     width: 400px;
+     height: 310px; 
+     left: 200px; 
+     top: 1115px; 
+   margin-top: 600px; /* Adds a margin of 200px to move the element down */; 
+  }
+
+.npm-library-description{
+    font-size: 20px; 
+
+
+  }
+  
+ 
