@@ -61,7 +61,7 @@
 
 .starting-up-repository-description {
     color: white;
-    font-size: 27px;
+    font-size: 22px;
     font-family: Modern Sans;
     font-weight: 500;
     word-wrap: break-word;
@@ -72,13 +72,16 @@
     height: 156px;
     left: 1079px;
     top: 419px;
+    margin-top: 350px; /* Adds a margin of 200px to move the element down */;
     position: absolute;
 }
 
 .contribution-text {
+
     color: white;
     font-size: 40px;
     font-family: Modern Sans;
+    
     font-weight: 500;
     word-wrap: break-word;
 }
@@ -123,7 +126,7 @@
 }
 .node-jc {
     color: white; 
-    font-size: 20px; 
+    font-size: 25px; 
     font-family: Modern Sans; 
     font-weight: 500;
      word-wrap: break-word;
@@ -139,7 +142,7 @@
   }
   .node-package-manager {
     color: white; 
-    font-size: 20px; 
+    font-size: 25px; 
     font-family: Modern Sans; 
     font-weight: 500;
      word-wrap: break-word;
@@ -150,9 +153,9 @@
     margin-top: 700px; /* Adds a margin of 200px to move the element down */; 
       position: absolute;
   }
+  
   .description{
     font-size: 20px; 
-
   }
 
 .npm-libraries {
@@ -165,14 +168,26 @@
      width: 400px;
      height: 310px; 
      left: 200px; 
-     top: 1115px; 
+     top: 1120px; 
    margin-top: 600px; /* Adds a margin of 200px to move the element down */; 
   }
 
 .npm-library-description{
     font-size: 20px; 
-
-
   }
   
+  .EnsuringScaleAndAspectRatios {
+    color: white; 
+    position: absolute;
+    font-size: 30px; 
+    font-family: Modern Sans; 
+    font-weight: 500;
+     word-wrap: break-word;
+     width: 680px;
+     height: 213px; 
+     left: 550px; 
+     top: 1120px; 
+   margin-top: 1300px; /* Adds a margin of 200px to move the element down */;
+}
+
  
