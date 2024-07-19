@@ -5,6 +5,7 @@
     background: white;
 }
 
+
 .background {
     width: 1920px;
     height: 5400px;
@@ -36,6 +37,7 @@
     font-family: Modern Sans;
     font-weight: 500;
     word-wrap: break-word;
+    margin-left: 20px; /* Move the line on text */
 }
 
 .starting-up-repository {
@@ -49,6 +51,7 @@
     font-weight: 500; 
     word-wrap: break-word; 
     color:white;
+    
 }
 
 .starting-up-repository-text {
@@ -57,6 +60,7 @@
     font-family: Modern Sans;
     font-weight: 500;
     word-wrap: break-word;
+    
 }
 
 .starting-up-repository-description {
@@ -88,6 +92,7 @@
 
 .contribution-description {
     color: white;
+    margin-left: 20px; /* Move the line on text */
     font-size: 27px;
     font-family: Modern Sans;
     font-weight: 500;
@@ -111,7 +116,6 @@
 }
 
 .naval-air-warfare-internship {
-    width: 794px;
     left: 1355px;
     top: 224px;
     position: absolute;
@@ -190,4 +194,27 @@
    margin-top: 1300px; /* Adds a margin of 200px to move the element down */;
 }
 
+
+.PuttingItAllTogether {
+    color: white; 
+    position: absolute;
+    font-size: 40px; 
+    font-family: Modern Sans; 
+    font-weight: 500;
+     word-wrap: break-word;
+     width:702px;
+     height: 213px; 
+     left: 150px; 
+     top: 1120px; 
+   margin-top: 1700px; /* Adds a margin of 200px to move the element down */;
+  }
+
+  .descriptio {
+    color: white;
+    font-size: 20px;
+    font-family: Modern Sans;
+    font-weight: 500;
+    word-wrap: break-word;
+  }
+  
  
