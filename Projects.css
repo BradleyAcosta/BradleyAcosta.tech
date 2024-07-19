@@ -121,3 +121,30 @@
     font-weight: 500;
     word-wrap: break-word;
 }
+.node-jc {
+    color: white; 
+    font-size: 27px; 
+    font-family: Modern Sans; 
+    font-weight: 500;
+     word-wrap: break-word;
+     width: 344px;
+      height: 428px; 
+      left: 669px; 
+      top: 1115px; 
+    margin-top: 400px; /* Adds a margin of 200px to move the element down */; 
+      position: absolute
+  }
+  .node-package-manager {
+    color: white; 
+    font-size: 27px; 
+    font-family: Modern Sans; 
+    font-weight: 500;
+     word-wrap: break-word;
+     width:  677px;
+      height: 310px; 
+      left: 1200px; 
+      top: 1115px; 
+    margin-top: 1200px; /* Adds a margin of 200px to move the element down */; 
+      position: absolute;
+
+  }
