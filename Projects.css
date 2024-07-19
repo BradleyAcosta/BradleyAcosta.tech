@@ -126,7 +126,7 @@
 }
 .node-jc {
     color: white; 
-    font-size: 25px; 
+    font-size: 20px; 
     font-family: Modern Sans; 
     font-weight: 500;
      word-wrap: break-word;
@@ -153,7 +153,7 @@
     margin-top: 700px; /* Adds a margin of 200px to move the element down */; 
       position: absolute;
   }
-  
+
   .description{
     font-size: 20px; 
   }
