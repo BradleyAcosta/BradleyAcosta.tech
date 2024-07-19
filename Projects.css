@@ -42,7 +42,7 @@
     width: 400px; 
     height: 319px; 
     left: 135px;
-    top: 983px;
+    top: 950px;
     position: absolute;
     font-size: 40px; 
     font-family: Modern Sans; 
@@ -131,7 +131,7 @@
       height: 428px; 
       left: 669px; 
       top: 1115px; 
-    margin-top: 400px; /* Adds a margin of 200px to move the element down */; 
+    margin-top: 200px; /* Adds a margin of 200px to move the element down */; 
       position: absolute
   }
   .node-package-manager {
@@ -140,11 +140,11 @@
     font-family: Modern Sans; 
     font-weight: 500;
      word-wrap: break-word;
-     width:  677px;
+     width: 400px;
       height: 310px; 
       left: 1200px; 
       top: 1115px; 
-    margin-top: 1200px; /* Adds a margin of 200px to move the element down */; 
+    margin-top: 700px; /* Adds a margin of 200px to move the element down */; 
       position: absolute;
 
   }
