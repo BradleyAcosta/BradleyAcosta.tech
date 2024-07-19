@@ -1,0 +1,123 @@
+.container {
+    width: 1920px;
+    height: 5400px;
+    position: relative;
+    background: white;
+}
+
+.background {
+    width: 1920px;
+    height: 5400px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: linear-gradient(180deg, #765A6B 0%, #DCA8C7 100%);
+}
+
+.project-objective {
+    width: 723px;
+    height: 224px;
+    left: 135px;
+    top: 440px;
+    position: absolute;
+}
+
+.objective-text {
+    color: white;
+    font-size: 40px;
+    font-family: Modern Sans;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+.objective-description {
+    color: white;
+    font-size: 27px;
+    font-family: Modern Sans;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+.starting-up-repository {
+    width: 400px; 
+    height: 319px; 
+    left: 135px;
+    top: 983px;
+    position: absolute;
+    font-size: 40px; 
+    font-family: Modern Sans; 
+    font-weight: 500; 
+    word-wrap: break-word; 
+    color:white;
+}
+
+.starting-up-repository-text {
+    color: white;
+    font-size: 40px;
+    font-family: Modern Sans;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+.starting-up-repository-description {
+    color: white;
+    font-size: 27px;
+    font-family: Modern Sans;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+.intern-contribution {
+    width: 685px;
+    height: 156px;
+    left: 1079px;
+    top: 419px;
+    position: absolute;
+}
+
+.contribution-text {
+    color: white;
+    font-size: 40px;
+    font-family: Modern Sans;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+.contribution-description {
+    color: white;
+    font-size: 27px;
+    font-family: Modern Sans;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+.full-stack-development {
+    width: 1202px;
+    height: 156px;
+    left: 135px;
+    top: 202px;
+    position: absolute;
+}
+
+.development-text {
+    color: white;
+    font-size: 80px;
+    font-family: Modern Sans;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+.naval-air-warfare-internship {
+    width: 794px;
+    left: 1355px;
+    top: 224px;
+    position: absolute;
+}
+
+.internship-text {
+    color: white;
+    font-size: 40px;
+    font-family: Modern Sans;
+    font-weight: 500;
+    word-wrap: break-word;
+}
