@@ -1,14 +1,35 @@
+body {
+    background: linear-gradient(180deg, #5A6A61 0%, #9BB8A8 100%);
+    margin: 0;
+}
+
+.CTA {
+    color: white; 
+    font-size: 25px; 
+    font-family: Modern Sans; 
+    font-weight: 500;     
+     
+    line-height: normal;
+    letter-spacing: 2.97px;
+}
+
+.CTA a {
+    text-align: left;
+    margin-left: 20px;
+    color: white; /* Add this line to set the link color to white */
+}
+
+
 .Proyecto2{
-     width: 2141px; 
-     height: 11098px; 
+     height: 11000px;
      position: relative; 
-      background: linear-gradient(180deg, #5A6A61 0%, #9BB8A8 100%);
+
 }
 
 .ProjectObjectives{
      width: 786px; 
      height: 304px; 
-     left: 149px; 
+     left: 30px; 
      top: 561px; 
      position: absolute;
      color: white; 
@@ -32,7 +53,7 @@
 .IntendedAudience{
      width: 873px;
      height: 714px; 
-     left: 1090px; 
+     left:  1000px; 
      top: 565px;
      position: absolute;
 }
@@ -99,7 +120,8 @@
 }
 
 .PolytechnicUniversity{
-   left: 1260px; 
+   width: 873px; 
+   left: 1150px; 
    top: 182px; 
    position: absolute; 
    color: white; 
@@ -139,18 +161,18 @@
 .InThisClassDiagrams{
     width: 941px; 
     height: 598px; 
-    left: 1005px; 
+    left: 900px; 
     top: 3833px; 
     position: absolute; 
     color: white; 
-    font-size: 30px; 
+    font-size: 25px; 
     font-family: Modern Sans; 
     font-weight: 500; 
     word-wrap: break-word;
 }
 
 .Implementation{
-    width: 1194px; 
+    width:450px; 
     height: 473px; 
     left: 1089px; 
     top: 4597px; 
@@ -163,7 +185,7 @@
 }
 
 .Authentication{
-width: 1131px; 
+width: 400px; 
 height: 327px; 
 left: 256px; 
 top: 5453px; 
@@ -176,7 +198,7 @@ word-wrap: break-word;
 }
 
 .OnCodeupdate{
-    width: 1106px; 
+    width: 700px; 
     height: 264px; 
     left: 942px; 
     top: 5946px; 
