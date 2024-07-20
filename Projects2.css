@@ -1,0 +1,242 @@
+.Proyecto2{
+     width: 2141px; 
+     height: 11098px; 
+     position: relative; 
+      background: linear-gradient(180deg, #5A6A61 0%, #9BB8A8 100%);
+}
+
+.ProjectObjectives{
+     width: 786px; 
+     height: 304px; 
+     left: 149px; 
+     top: 561px; 
+     position: absolute;
+     color: white; 
+     font-family: Modern Sans; 
+     font-weight: 500;
+     word-wrap: break-word;
+     color: white; 
+     font-size: 27px; 
+}
+.project{
+     font-size: 40px; 
+}
+.AimtoAssist{
+     color: #FFF;
+     font-family: "Modern Sans";
+     font-size: 22px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: normal;
+}
+.IntendedAudience{
+     width: 873px;
+     height: 714px; 
+     left: 1090px; 
+     top: 565px;
+     position: absolute;
+}
+.IntenDes{
+    color: white; 
+    font-size:  40px; 
+    font-family: Modern Sans; 
+    font-weight: 500; 
+    word-wrap: break-word;
+}
+.IntenText{
+    color: white; 
+    font-size: 22px; 
+    font-family: Modern Sans; 
+    font-weight: 500; 
+    word-wrap: break-word;
+}
+.Features{
+     width: 621px; 
+     height: 461px; 
+     left: 746px; 
+     top: 1026px; 
+     position: absolute; 
+}
+
+.FeaturesDes{
+     color: white; 
+     font-size: 40px; 
+     font-family: Modern Sans; 
+     font-weight: 500; 
+     word-wrap: break-word;
+}
+.FeaturesText{
+     color: white; 
+     font-size: 22px; 
+     font-family: Modern Sans;
+     font-weight: 500; 
+     word-wrap: break-word;
+}
+
+.UserInterfaces{
+     width: 873px; 
+     height: 744px; 
+     left: 1019px; 
+     top: 1814px; 
+     position: absolute; 
+     text-align: right;
+}
+
+.UserInterfacesDes{
+     color: white; 
+     font-size: 42px; 
+     font-family: Modern Sans; 
+     font-weight: 500; 
+     word-wrap: break-word"
+}
+
+.UserInterfacesText{
+    color: white; 
+    font-size: 25px; 
+    font-family: Modern Sans; 
+    font-weight: 500; 
+    word-wrap: break-word;
+}
+
+.PolytechnicUniversity{
+   left: 1260px; 
+   top: 182px; 
+   position: absolute; 
+   color: white; 
+   font-size: 40px; 
+   font-family: Modern Sans; 
+   font-weight: 500; 
+   word-wrap: break-word 
+}
+
+.StudentSystem{
+    width: 843px; 
+    height: 156px; 
+    left: 101px; 
+    top: 160px; 
+    position: absolute; 
+    color: white; 
+    font-size: 80px; 
+    font-family: Modern Sans; 
+    font-weight: 500; 
+    word-wrap: break-word;
+}
+
+.WorkedWithLucidchart{
+    width:555px; 
+    height: 47px; 
+    left: 793px; 
+    top: 2699px; 
+    position: absolute; 
+    text-align: center; 
+    color: white; 
+    font-size: 30px; 
+    font-family: Type Machine; 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+
+.InThisClassDiagrams{
+    width: 941px; 
+    height: 598px; 
+    left: 1005px; 
+    top: 3833px; 
+    position: absolute; 
+    color: white; 
+    font-size: 30px; 
+    font-family: Modern Sans; 
+    font-weight: 500; 
+    word-wrap: break-word;
+}
+
+.Implementation{
+    width: 1194px; 
+    height: 473px; 
+    left: 1089px; 
+    top: 4597px; 
+    position: absolute; 
+    color: white; 
+    font-size: 30px; 
+    font-family: Modern Sans; 
+    font-weight: 500; 
+    word-wrap: break-word;
+}
+
+.Authentication{
+width: 1131px; 
+height: 327px; 
+left: 256px; 
+top: 5453px; 
+position: absolute; 
+color: white; 
+font-size: 30px; 
+font-family: Modern Sans; 
+font-weight: 500; 
+word-wrap: break-word;
+}
+
+.OnCodeupdate{
+    width: 1106px; 
+    height: 264px; 
+    left: 942px; 
+    top: 5946px; 
+    position: absolute; 
+    color: white; 
+    font-size: 30px; 
+    font-family: Modern Sans; 
+    font-weight: 500; 
+    word-wrap: break-word;
+}
+
+.WorkedWithSQL{
+width: 325px; 
+height: 61px; 
+left: 129px; 
+top: 6543px; 
+position: absolute; 
+color: white; 
+font-size: 35px; 
+font-family: Modern Sans; 
+font-weight: 500; 
+word-wrap: break-word;
+}
+
+.IAddedADatabase{
+    width: 500px; 
+    height: 188px; 
+    left: 20px; 
+    top: 6669px; 
+    position: absolute; 
+    color: white; 
+    font-size: 30px; 
+    font-family: Modern Sans; 
+    font-weight: 500; 
+    word-wrap: break-word;
+}
+
+.InTotal{
+    width: 418px; 
+    height: 291px; 
+    left: 1204px; 
+    top: 7338px; 
+    position: absolute; 
+    color: white; 
+    font-size: 30px; 
+    font-family: Modern Sans; 
+    font-weight: 500; 
+    word-wrap: break-word;
+}
+
+.Results{
+    width: 441px; 
+    height: 80px; 
+    left: 850px; 
+    top: 8066px; 
+    position: absolute; 
+    text-align: center;
+    color: white; 
+    font-size: 35px; 
+    font-family: Type Machine; 
+    font-weight: 400; 
+    word-wrap: break-word; 
+}
