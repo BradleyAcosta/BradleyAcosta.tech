@@ -58,7 +58,6 @@ body {
     letter-spacing: 2.97px;
     margin-left: 20%; 
     margin-top: -150px; /* Add this line to move it up more */
-    text-decoration: none!important;
     display: flex;
     justify-content: flex-end;
 }
@@ -67,4 +66,5 @@ body {
     text-align: left;
     margin-left: 20px;
     color: white; /* Add this line to set the link color to white */
+    text-decoration: none;
 }
