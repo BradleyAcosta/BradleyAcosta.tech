@@ -53,18 +53,36 @@ body {
     color: white; 
     font-size: 25px; 
     font-family: Modern Sans; 
-    font-weight: 500;     padding: 50px; 
+    font-weight: 500;     
+    justify-content: flex-end;    
     line-height: normal;
-    letter-spacing: 2.97px;
-    margin-left: 20%; 
-    margin-top: -150px; /* Add this line to move it up more */
+    margin-left: auto;
     display: flex;
-    justify-content: flex-end;
+    align-items: center;
+    letter-spacing: 2.97px;
+    margin-top: -100px; /* Add this line to move it up more */
+    padding: 50px; 
+    text-decoration: none!important;
+    
 }
 
-.CTA a {
+.nav__links{
+    display: inline-block;
+}
+.nav__links li {
+    padding: 0px 20px;
+
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
     text-align: left;
-    margin-left: 20px;
     color: white; /* Add this line to set the link color to white */
     text-decoration: none;
+
+}
+
+.nav__links li a:hover{
+    color: #8B6E80; 
+
 }
