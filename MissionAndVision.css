@@ -21,9 +21,9 @@ body {
 }
 
 .Vision{
-    width: 524px; 
-    height: 226px; 
-    left: 250px; 
+    width: 800px; 
+    height: 450px; 
+    left: 150px; 
     top: 150px; 
     position: absolute; 
     text-align: justify; 
@@ -32,11 +32,12 @@ body {
     font-family: Modern Sans; 
     font-weight: 500; 
     word-wrap: break-word;
+  
 }
 
 .Mission{
-    width: 505px; 
-    height: 306px; 
+    width: 750px; 
+    height: 450px; 
     left: 1100px; 
     top: 500px; 
     position: absolute; 
