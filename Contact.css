@@ -30,6 +30,15 @@ body {
     text-decoration: none;
     justify-content: space-between;
     align-items: center;
+ 
+}
+.contact-info a {
+
+        color:#814269; /* LinkedIn Blue */
+        text-decoration: none;
+}
+.contact-info a:hover {
+    text-decoration: underline;
 }
 
 
@@ -67,5 +76,5 @@ body {
 }
 
 .nav__links li a:hover{
-color: #839A8D;
+color:#8B6E80;
 }
