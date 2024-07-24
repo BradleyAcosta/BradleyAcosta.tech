@@ -188,3 +188,25 @@
     word-wrap: break-word;
 }
 
+.SomeOfNpms{
+    width: 587px; 
+    height: 196px; 
+    left: 133px; 
+    top: 1708px; 
+    position: absolute;
+}
+.SomeNpmLibraries{
+    color: white; 
+    font-size: 40px; 
+    font-family: Modern Sans; 
+    font-weight: 500; 
+    word-wrap: break-word;
+}
+
+.Electron{
+    color: white; 
+    font-size: 27px; 
+    font-family: Modern Sans; 
+    font-weight: 500; 
+    word-wrap: break-word;
+}
