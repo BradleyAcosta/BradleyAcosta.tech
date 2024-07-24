@@ -172,7 +172,19 @@
     position: absolute;
 }
 
+.NodePackageDes{
+    color: white; 
+    font-size: 40px; 
+    font-family: Modern Sans; 
+    font-weight: 500; 
+    word-wrap: break-word;
+}
 
-
-
+.NodePackageText{
+    color: white; 
+    font-size: 27px; 
+    font-family: Modern Sans; 
+    font-weight: 500; 
+    word-wrap: break-word;
+}
 
