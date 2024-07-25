@@ -1,7 +1,7 @@
 /* Global Styles */
 body{
     background: linear-gradient(180deg, #5A6A61 0%, #9BB8A8 100%);
-margin: 0;
+   margin: 0;
 }
 
   .CTA {
@@ -40,14 +40,17 @@ margin: 0;
 
 }
   
+
   /* Project 1 Slide 1 Styles */
+
   
   .Proyect1Slide1 {
     width: 1920px;
     height: 5400px;
     position: relative;
-
+    
   }
+  
   
   .BackgrountBaseColor{
     width: 1920px; 
