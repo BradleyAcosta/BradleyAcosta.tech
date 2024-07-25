@@ -4,6 +4,7 @@ body{
    margin: 0;
 }
 
+
   .CTA {
     color: white; 
     font-size: 25px; 
@@ -40,17 +41,18 @@ body{
 
 }
   
-
   /* Project 1 Slide 1 Styles */
-
-  
   .Proyect1Slide1 {
     width: 1920px;
-    height: 5400px;
+    height: 5476px;
     position: relative;
-    
+    transform: translateY(0);
+  transition: transform 1s ease-in-out;
   }
   
+  .Proyect1Slide1.animate {
+    transform: translateY(-100%);
+  }
   
   .BackgrountBaseColor{
     width: 1920px; 
@@ -132,8 +134,8 @@ body{
   }
 
   .NavalAirWarfare{
-    width: 794px; 
-    left: 1320px; 
+    width: 519px; 
+    left: 1300px; 
     top: 224px; 
     position: absolute; 
     color: white; 
