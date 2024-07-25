@@ -1,12 +1,44 @@
 /* Global Styles */
+body{
+    background: linear-gradient(180deg, #5A6A61 0%, #9BB8A8 100%);
+margin: 0;
+}
 
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-  
- 
+  .CTA {
+    color: white; 
+    font-size: 25px; 
+    font-family: Modern Sans; 
+    font-weight: 500;     
+    justify-content: space-between;
+    line-height: normal;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    
+}
+
+.nav__links{
+    display: inline-block;
+    
+    
+}
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+    
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+    text-align: left;
+    color: white; /* Add this line to set the link color to white */
+    text-decoration: none;
+}
+
+.nav__links li a:hover{
+    color: #765A6B;
+
+}
   
   /* Project 1 Slide 1 Styles */
   
@@ -14,7 +46,7 @@
     width: 1920px;
     height: 5400px;
     position: relative;
-    background: white;
+
   }
   
   .BackgrountBaseColor{
@@ -209,4 +241,109 @@
     font-family: Modern Sans; 
     font-weight: 500; 
     word-wrap: break-word;
+}
+
+.ExperienceITook{
+  width: 1147px; 
+  height: 781px; 
+  left: 404px; 
+  top: 3489px; 
+  position: absolute; 
+  text-align: center;
+}
+
+.ExperienceITookDs{
+  color: white; 
+  font-size: 80px; 
+  font-family: Modern Sans; 
+  font-weight: 500; 
+  word-wrap: break-word;
+}
+
+.ExperienceITookDes{
+  color: white; 
+  font-size: 45px; 
+  font-family: Modern Sans; 
+  font-weight: 500; 
+  word-wrap: break-word;
+}
+
+.ExperienceITookText{
+  color: white; 
+  font-size: 50px; 
+  font-family: Modern Sans; 
+  font-weight: 500; 
+  word-wrap: break-word;
+}
+
+.EnsuringScale{
+   width: 680px; 
+   height: 213px; 
+   left: 696px; 
+   top: 2190px;
+   position: absolute;
+}
+
+.EnsuringScaleDes{
+  color: white; 
+  font-size: 40px; 
+  font-family: Modern Sans; 
+  font-weight: 500;
+   word-wrap: break-word;
+}
+
+.EnsuringScaleText{
+  color: white; font-size: 27px; 
+  font-family: Modern Sans;
+   font-weight: 500; 
+   word-wrap: break-word;
+}
+
+.CreatedAnElectron{
+  width: 702px; 
+  height: 580px; 
+  left: 180px;
+   top: 2677px; 
+   position: absolute;
+}
+
+.CreatedAnElectronDs{
+  font-size: 70px; 
+  font-family: Modern Sans; 
+  font-weight: 500; 
+  word-wrap: break-word;
+}
+
+.CreatedAnElectronText{
+  color: white; 
+  font-size: 30px; 
+  font-family: Modern Sans; 
+  font-weight: 500; 
+  word-wrap: break-word;
+}
+
+.PuttingItAllTogether{
+  width: 1014px; 
+  left: 352px; 
+  top: 2644px; 
+  position: absolute; 
+  text-align: center; 
+  color: white; 
+  font-size: 70px; 
+  font-family: Modern Sans; 
+  font-weight: 500; 
+  word-wrap: break-word"
+}
+
+.UsedNode{
+  width: 563px; 
+  height: 366px; 
+  left: 1165px; 
+  top: 2765px; 
+  position: absolute; 
+  color: white; 
+  font-size: 30px; 
+  font-family: Modern Sans; 
+  font-weight: 500; 
+  word-wrap: break-word;
 }
