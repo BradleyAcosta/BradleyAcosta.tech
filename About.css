@@ -4,50 +4,56 @@ body {
     margin: 0;
 }
 
-.AboutMe{
-    width: 1920px;
-     height: 1080px; 
-     position: relative;
- }
-
-
-.BackgrountBaseColor{
-    width: 1920px; 
-    height: 1080px; 
-    left: 0px; 
-    top: 0px; 
-    position: absolute; 
-    background: linear-gradient(180deg, #839A8D 31%, #8B6E80 100%);
-}
-
-.Vision{
-    width: 800px; 
-    height: 450px; 
-    left: 150px; 
-    top: 150px; 
-    position: absolute; 
-    text-align: justify; 
-    color: white; 
-    font-size: 27px; 
+body {
     font-family: Modern Sans; 
-    font-weight: 500; 
-    word-wrap: break-word;
-  
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color:#839A8D;
 }
 
-.Mission{
-    width: 750px; 
-    height: 450px; 
-    left: 1100px; 
-    top: 500px; 
-    position: absolute; 
-    text-align: justify; 
-    color: white;
-     font-size: 27px; 
-    font-family: Modern Sans; 
-    font-weight: 500;
-     word-wrap: break-word;
+.container {
+    max-width: 800px;
+    margin:1%;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
 }
+
+h1, h2 {
+    color: #8B6E80;
+}
+
+h1 {
+    border-bottom: 2px solid #839A8D;
+    padding-bottom: 10px;
+}
+
+p {
+    margin: 20px 0;
+    font-size: 20px; 
+
+}
+
+.contact-info {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info li {
+    margin: 10px 0;
+}
+
+.contact-info a {
+    color:#839A8D;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
 
 .CTA {
     color: white; 
