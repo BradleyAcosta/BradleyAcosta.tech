@@ -2,6 +2,7 @@
 body{
     background: linear-gradient(180deg, #5A6A61 0%, #9BB8A8 100%);
    margin: 0;
+   padding: 0;
 }
 
 
@@ -44,19 +45,17 @@ body{
   /* Project 1 Slide 1 Styles */
   .Proyect1Slide1 {
     width: 1920px;
-    height: 5476px;
+    height: 5200px;
     position: relative;
-    transform: translateY(0);
-  transition: transform 1s ease-in-out;
+  
   }
   
   .Proyect1Slide1.animate {
-    transform: translateY(-100%);
   }
   
   .BackgrountBaseColor{
     width: 1920px; 
-    height: 5400px; 
+    height: 5200px; 
     left: 0px; 
     top: 0px; 
     position: absolute; 

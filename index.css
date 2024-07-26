@@ -1,53 +1,3 @@
-body {
-    background: linear-gradient(180deg, #839A8D 31.01%, #8B6E80 100%);
-    height: 100vh;
-    margin: 0;
-}
-
-.container {
-    color: white; 
-    font-size: 48px; 
-    font-family: Modern Sans; 
-    font-weight: 500; 
-    word-wrap: break-word; 
-    text-align: right; 
-    padding: 70px;
-}
-
-.BradleyAcostaRojas{
-    color: white; 
-    font-size: 50px; 
-    font-family: Modern Sans; 
-    font-weight: 500; 
-    word-wrap: break-word;
-    margin-left: 50px;
-}
-
-.WebDeveloper{
-    color: white; 
-    font-size: 30px; 
-    font-family: Modern Sans;
-    font-weight: 500; 
-    word-wrap: break-word;
-    padding: 20px;
-    text-align: left;
-    margin-left: 425px; /* Add this line to move it more to the right */
-}
-
-.TextOMS{ 
-    /* text about my self*/
-    width: 38%;  
-    height: 252px; 
-    text-align: justify; 
-    color: white; 
-    font-size: 27px; 
-    font-family: Modern Sans; 
-    font-weight: 500; 
-    word-wrap: break-word; 
-    margin-left: 100px;
-   
-}
-
 
 .CTA {
     color: white; 
@@ -60,7 +10,7 @@ body {
     display: flex;
     align-items: center;
     letter-spacing: 2.97px;
-    margin-top: -100px; /* Add this line to move it up more */
+    margin-top: 400px; /* Add this line to move it up more */
     padding: 50px; 
     text-decoration: none!important;
     
@@ -83,5 +33,51 @@ body {
 }
 
 .nav__links li a:hover{
-color: #839A8D;
+color:#8B6E80;
 }
+.BackgrountBaseColor{
+     width: 1920px;
+      height: 1080px; 
+      left: 0px; 
+      top: 0px; 
+      position: absolute; 
+     background: linear-gradient(180deg, #839A8D 31%, #8B6E80 100%);
+}
+
+.BradleyAcostaRojas{
+     left: 99px; 
+     top: 352px; 
+     position: absolute; 
+     color: white; 
+     font-size: 80px; 
+     font-family: Modern Sans; 
+     font-weight: 500; 
+     word-wrap: break-word;
+}
+
+.WebDeveloper{
+    left: 891px; 
+    top: 435px; 
+    position: absolute; 
+    color: white; 
+    font-size: 30px; 
+    font-family: Modern Sans; 
+    font-weight: 500; 
+    word-wrap: break-word;
+}
+
+.BradleyHi{
+    width: 393px; 
+    height: 252px; 
+    left: 185px; 
+    top: 551px; 
+    position: absolute; 
+    text-align: justify; 
+    color: white; 
+    font-size: 27px; 
+    font-family: Modern Sans; 
+    font-weight: 500; 
+    word-wrap: break-word;
+}
+
+
