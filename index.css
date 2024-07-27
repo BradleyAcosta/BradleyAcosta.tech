@@ -1,10 +1,25 @@
 body {
-    background: linear-gradient(180deg, #839A8D 31.01%, #8B6E80 100%);
     height: 100vh;
     margin: 0;
-}
-
-.CTA {
+  }
+  
+  .BradleyAcostaRojas, .WebDeveloper, .BradleyHi, .CTA, .Image7 {
+    opacity: 0;
+    animation: fadeIn 1.5s ease-in-out forwards;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .CTA {
     color: white; 
     font-size: 25px; 
     font-family: Modern Sans; 
@@ -18,51 +33,50 @@ body {
     margin-top: 400px; /* Add this line to move it up more */
     padding: 50px; 
     text-decoration: none!important;
-    
-}
-
-.nav__links{
+  }
+  
+  .nav__links{
     display: inline-block;
-}
-.nav__links li {
+  }
+  .nav__links li {
     padding: 0px 20px;
-
-}
-
-.nav__links li a {
+  
+  }
+  
+  .nav__links li a {
     transition: all 0.3s ease 0s;
     text-align: left;
     color: white; /* Add this line to set the link color to white */
     text-decoration: none;
+  
+  }
+  
+  .nav__links li a:hover{
+    color:#8B6E80;
+  }
+  
+  .BackgroundBaseColor{
+    width: 1900px;
+    background: linear-gradient(180deg, #839A8D 31.01%, #8B6E80 100%);
 
-}
-
-.nav__links li a:hover{
-color:#8B6E80;
-}
-
-
-
-.BackgroundBaseColor{
-     width: 1900px;
-      height: 1080px; 
-      left: 0px; 
-      top: 0px; 
-      position: absolute; 
-}
-
-.BradleyAcostaRojas{
-     left: 99px; 
-     top: 352px; 
-     position: absolute; 
-     color: white; 
-     font-size: 80px; 
-     font-family: Modern Sans; 
-     font-weight: 500; 
-     word-wrap: break-word;
-}
-
-.WebDeveloper{
+    height: 1080px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+  }
+  
+  .BradleyAcostaRojas{
+    left: 99px; 
+    top: 352px; 
+    position: absolute; 
+    color: white; 
+    font-size: 80px; 
+    font-family: Modern Sans; 
+    font-weight: 500; 
+    word-wrap: break-word;
+  }
+  
+  .WebDeveloper{
     left: 891px; 
     top: 435px; 
     position: absolute; 
@@ -71,9 +85,9 @@ color:#8B6E80;
     font-family: Modern Sans; 
     font-weight: 500; 
     word-wrap: break-word;
-}
-
-.BradleyHi{
+  }
+  
+  .BradleyHi{
     width: 393px; 
     height: 252px; 
     left: 185px; 
@@ -85,6 +99,5 @@ color:#8B6E80;
     font-family: Modern Sans; 
     font-weight: 500; 
     word-wrap: break-word;
-}
-
+  }
 
