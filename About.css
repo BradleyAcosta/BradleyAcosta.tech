@@ -55,40 +55,51 @@ p {
 }
 
 
-.CTA {
+.header {
+    width: 100%;
+    right: 2px;
+    display: flex;
+    margin-left: auto;
+    background: linear-gradient(180deg, #5A6A61 0%, #9BB8A8 100%);
     color: white; 
     font-size: 25px; 
     font-family: Modern Sans; 
-    font-weight: 500;     
-    justify-content: space-between;
     line-height: normal;
-    margin-left: auto;
+    position: fixed;
+    z-index: 1000; /* Ensure it stays above other content */
     display: flex;
-    align-items: center;
-    
-}
-
-.nav__links{
-    display: inline-block;
-    
-    
-}
-.nav__links li {
-    display: inline-block;
-    padding: 0px 20px;
-    
-}
-
-.nav__links li a {
-    transition: all 0.3s ease 0s;
-    text-align: left;
-    color: white; /* Add this line to set the link color to white */
-    text-decoration: none;
-}
-
-.nav__links li a:hover{
-    color:#8B6E80 ;
-
-}
-
-
+    justify-content: space-between;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Optional: add a shadow for better visibility */
+  }
+  
+  .header img {
+    width: 75px;
+    height: 40px;
+    /* Remove position absolute to allow flexbox alignment */
+  }
+  
+  
+  .nav__links{
+      display: inline-block;
+      
+      
+  }
+  .nav__links li {
+  
+      margin-left: 20px; /* Adjust as needed */
+      display: inline-block;
+      padding: 0px 20px;
+      
+  }
+  
+  .nav__links li a {
+      transition: all 0.3s ease 0s;
+      text-align: left;
+      color: white; /* Add this line to set the link color to white */
+      text-decoration: none;
+  }
+  
+  .nav__links li a:hover{
+      color: #765A6B;
+  
+  }
