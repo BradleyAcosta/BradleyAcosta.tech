@@ -13,12 +13,11 @@ body {
 }
 
 .container {
-    max-width: 800px;
+    max-width: 900px;
     margin:1%;
-    padding: 20px;
+    padding: 30px;
     background: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    
 }
 
 h1, h2 {
