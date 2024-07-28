@@ -4,9 +4,7 @@ body {
 }
 
 
-.ProjectObjectives, .InternContribution, .FullStackDevelopmentUsingElectronAndNode, .NavalAirWarfare, .StartingUpRepository,
-.NodeJs, .NodePackage, .SomeOfNpms, .Electron, .ExperienceITook, .EnsuringScale, .CreatedAnElectron, 
-.PuttingItAllTogether, .UsedNode, .header{
+.ProjectObjectives, .header{
   opacity: 0;
   animation: fadeIn 1.5s ease-in-out forwards;
 }

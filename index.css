@@ -1,7 +1,14 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
 body {
-    height: 100vh;
-    margin: 0;
-  }
+  background: linear-gradient(to bottom, #839A8D 31.01%, #8B6E80 100%); /* Adjust gradient colors as needed */
+  display: flex;
+  flex-direction: column;
+}
+
   
   .BradleyAcostaRojas, .WebDeveloper, .BradleyHi, .CTA, .Image7 {
     opacity: 0;
@@ -56,18 +63,41 @@ body {
   }
   
   .BackgroundBaseColor{
-    width: 1900px;
+    width: 100%;
     background: linear-gradient(180deg, #839A8D 31.01%, #8B6E80 100%);
-
-    height: 1080px; 
+    height: 100%; 
     left: 0px; 
     top: 0px; 
     position: absolute; 
   }
   
+  .Image1{
+    width: 369px; 
+    height: 170.14px; 
+    padding: 2px; 
+    left: 1444px;
+     top: 205px; 
+     position: absolute; 
+     background: linear-gradient(180deg, rgba(0, 0, 0, 0.25) 0%, rgba(102, 102, 102, 0.25) 100%); 
+     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+     flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: center; 
+    gap: 10px; 
+    display: inline-flex;
+  }
+
+  .Image7{
+    width: 369px; 
+    height: 170.14px; 
+    left: 1px; 
+    top: 2px; 
+    position: absolute;
+  }
+
   .BradleyAcostaRojas{
     left: 99px; 
-    top: 352px; 
+    top: 250px; 
     position: absolute; 
     color: white; 
     font-size: 80px; 
@@ -91,7 +121,7 @@ body {
     width: 393px; 
     height: 252px; 
     left: 185px; 
-    top: 551px; 
+    top: 510px; 
     position: absolute; 
     text-align: justify; 
     color: white; 
@@ -101,3 +131,131 @@ body {
     word-wrap: break-word;
   }
 
+  .Vector2{
+    width: 0px; 
+    height: 250px; 
+    left: 1141px; 
+    top: 468px; 
+    position: absolute; 
+    transform: rotate(90deg); 
+    transform-origin: 0 0; 
+    border: 1px white solid;
+  }
+  .Vector3{
+  width: 0px; 
+  height: 260px; 
+  left: 171px; 
+  top:780px; 
+  position: absolute; 
+  transform: rotate(-180deg); 
+  transform-origin: 0 0; 
+  border: 2px white solid;
+  }
+
+
+/* Tablet styles */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .BradleyAcostaRojas {
+    font-size: 60px;
+    left: 50px;
+    width: 800px;
+    top: 200px;
+  }
+  .WebDeveloper {
+    font-size: 25px;
+    width: 300px;
+    left: 600px;
+    top: 350px;
+  }
+  .BradleyHi {
+    width: 500px;
+    height: 200px;
+    left: 100px;
+    top: 700px;
+    font-size: 22px;
+  }
+  .CTA {
+    margin-top: 300px;
+  }
+  .Vector2 {
+    width: 0px; 
+    height: 200px; 
+    left: 810px; 
+    top: 385px; 
+    position: absolute; 
+    transform: rotate(90deg); 
+    transform-origin: 0 0; 
+    border: 1px white solid;
+  }
+  .Vector3 {
+    width: 0px; 
+    height: 180px; 
+    left: 90px; 
+    top: 870px; 
+    position: absolute; 
+    transform: rotate(-180deg); 
+    transform-origin: 0 0; 
+    border: 2px white solid;
+  }
+}
+/* Phone styles */
+@media only screen and (max-width: 767px) {
+  .BradleyAcostaRojas {
+    font-size: 40px;
+    left: 20px;
+    top: 150px;
+  }
+
+
+  .BackgroundBaseColor{
+    width: 100%;
+    background: linear-gradient(180deg, #839A8D 31.01%, #8B6E80 100%);
+    height:  100vh; /* Reduced height from 100% to 80vh */
+    left: 0px; 
+    top: 0px; 
+    position: absolute;
+  }
+  .WebDeveloper {
+    font-size: 20px;
+    left: 20px;
+    top: 300px;
+  }
+  .BradleyHi {
+    width: 250px;
+    height: 200px;
+    left: 20px;
+    top: 550px;
+    font-size: 18px;
+  }
+  
+  .CTA {
+    margin-top: 550px;
+  
+  }
+  .Vector2 {
+    width: 0px; 
+    height: 150px; 
+    left: 180px; 
+    top: 325px; 
+    position: absolute; 
+    transform: rotate(90deg); 
+    transform-origin: 0 0; 
+    border: 1px white solid;
+  }
+  .Vector3 {
+    width: 0px; 
+    height: 190px; 
+    left: 20px; 
+    top: 750px; 
+    position: absolute; 
+    transform: rotate(-180deg); 
+    transform-origin: 0 0; 
+    border: 2px white solid;
+  }
+  .nav__links {
+    display: block;
+  }
+  .nav__links li {
+    padding: 10px;
+  }
+}
