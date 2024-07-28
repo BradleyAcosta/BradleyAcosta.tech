@@ -425,17 +425,16 @@ body{
     width: 90%;
     height: auto;
   }
-  .BackgrountBaseColor {
-    width: 90%;
-    height: auto;
-  }
+ 
   .ProjectOBJ {
-    width: 80%;
-    left: 10%;
+    top: 350px;
+    width: 90%;
+    left: 5%;
   }
   .InternContribution {
-    width: 80%;
-    left: 10%;
+    top: 500px;
+    width: 90%;
+    left: 5%;
   }
   .FullStackDevelopmentUsingElectronAndNode {
     font-size: 50px;

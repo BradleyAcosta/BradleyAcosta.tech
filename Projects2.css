@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(180deg, #765A6B 0%, #DCA8C7 100%);
+    background: linear-gradient(180deg, #5A6A61 0%, #9BB8A8 100%);
     margin: 0;
 }
 
@@ -319,3 +319,119 @@ word-wrap: break-word;
     font-weight: 400; 
     word-wrap: break-word; 
 }
+
+
+
+/* Tablet styles (768px to 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    /* Modify styles for tablet devices */
+    .header {
+      font-size: 20px;
+    }
+    .ProjectObjectives {
+      width: 600px;
+      height: 250px;
+    }
+    .IntendedAudience {
+      left: 700px;
+    }
+    .Features {
+      left: 500px;
+    }
+    .UserInterfaces {
+      left: 600px;
+    }
+    .PolytechnicUniversity {
+      left: 800px;
+    }
+    /* Add more styles as needed */
+  }
+  
+  @media only screen and (max-width: 600px) {
+    /* Styles for phone layout */
+    .header {
+        font-size: 16px;
+      }
+      .ProjectObjectives {
+        width: 300px;
+        height: 200px;
+        font-size: 18px;
+      }
+      .IntendedAudience {
+        left: 200px;
+        font-size: 16px;
+      }
+      .Features {
+        left: 200px;
+        font-size: 16px;
+      }
+      .UserInterfaces {
+        left: 200px;
+        font-size: 16px;
+      }
+      .PolytechnicUniversity {
+        left: 200px;
+        font-size: 16px;
+      }
+      .project {
+        font-size: 24px;
+      }
+      .AimtoAssist {
+        font-size: 14px;
+      }
+      .IntenDes {
+        font-size: 18px;
+      }
+      .IntenText {
+        font-size: 14px;
+      }
+      .FeaturesDes {
+        font-size: 18px;
+      }
+      .FeaturesText {
+        font-size: 14px;
+      }
+      .UserInterfacesDes {
+        font-size: 18px;
+      }
+      .UserInterfacesText {
+        font-size: 14px;
+      }
+   
+    
+    /* Add more styles as needed */
+  }
+  /* Small phone styles (less than 480px) */
+  @media (max-width: 479px) {
+    /* Modify styles for small phone devices */
+    .header {
+      font-size: 16px;
+    }
+    .ProjectObjectives {
+      width: 300px;
+      height: 150px;
+    }
+ 
+    .IntenDes{
+        width: 100%;
+        top: 30px;
+        position: absolute;
+        left: 1200px;
+         font-size: 16px;
+    }
+    .IntenText{
+        font-size: 10px;
+        top: 35px;
+      
+    }
+    .Features {
+      left: 200px;
+    }
+    .UserInterfaces {
+      left: 200px;
+    }
+    .PolytechnicUniversity {
+      left: 200px;
+    }
+    /* Add more styles as needed */
+  }
