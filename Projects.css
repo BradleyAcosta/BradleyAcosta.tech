@@ -78,9 +78,7 @@ body{
   
   }
   
-  .Proyect1Slide1.animate {
-  }
-  
+ 
   .BackgrountBaseColor{
     width: 1920px; 
     height: 5200px; 
@@ -378,4 +376,72 @@ body{
   font-family: Modern Sans; 
   font-weight: 500; 
   word-wrap: break-word;
+}
+
+
+/* Phone media query */
+@media only screen and (max-width: 600px) {
+  /* Styles for phone layout */
+  .header {
+    font-size: 18px;
+  }
+  .nav__links li {
+    margin-left: 10px;
+  }
+  .Proyect1Slide1 {
+    width: 100%;
+    height: auto;
+  }
+
+  .ProjectOBJ {
+    top: 350px;
+    width: 90%;
+    left: 5%;
+  }
+  .InternContribution {
+    top: 500px;
+    width: 90%;
+    left: 5%;
+  }
+  .FullStackDevelopmentUsingElectronAndNode {
+    font-size: 40px;
+  }
+  .NavalAirWarfare {
+    font-size: 30px;
+  }
+  /* Add more styles as needed */
+}
+
+/* Tablet media query */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  /* Styles for tablet layout */
+  .header {
+    font-size: 22px;
+  }
+  .nav__links li {
+    margin-left: 15px;
+  }
+  .Proyect1Slide1 {
+    width: 90%;
+    height: auto;
+  }
+  .BackgrountBaseColor {
+    width: 90%;
+    height: auto;
+  }
+  .ProjectOBJ {
+    width: 80%;
+    left: 10%;
+  }
+  .InternContribution {
+    width: 80%;
+    left: 10%;
+  }
+  .FullStackDevelopmentUsingElectronAndNode {
+    font-size: 50px;
+  }
+  .NavalAirWarfare {
+    font-size: 35px;
+  }
+  /* Add more styles as needed */
 }
