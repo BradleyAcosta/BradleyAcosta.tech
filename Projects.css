@@ -5,9 +5,7 @@ body{
    padding: 0;
 }
 
-.ProjectOBJ, .InternContribution, .FullStackDevelopmentUsingElectronAndNode, .NavalAirWarfare, .StartingUpRepository,
-.NodeJs, .NodePackage, .SomeOfNpms, .Electron, .ExperienceITook, .EnsuringScale, .CreatedAnElectron, 
-.PuttingItAllTogether, .UsedNode, .header{
+.Proyect1Slide1, .header {
   opacity: 0;
   animation: fadeIn 1.5s ease-in-out forwards;
 }
