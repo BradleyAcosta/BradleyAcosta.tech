@@ -5,7 +5,38 @@ body {
 }
 
 
+.Contact-Me, .contact-info, .Image1, .CTA {
+    opacity: 0;
+    animation: fadeIn 1.5s ease-in-out forwards;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
 
+
+  .Image1{
+    width: 369px;
+     height: 170.14px; 
+     padding: 2px; 
+     left: 1444px; 
+     top: 205px; 
+     position: absolute; 
+     background: linear-gradient(180deg, rgba(0, 0, 0, 0.25) 0%, rgba(102, 102, 102, 0.25) 100%); 
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: center; 
+    gap: 10px; 
+    display: inline-flex"
+  }
 
 .Contact-Me{
     width: 800px;
