@@ -8,6 +8,7 @@ body {
         margin: 0;
         padding: 0;
         color:#839A8D;
+        
     
     
 }
@@ -121,3 +122,144 @@ p {
       color: #765A6B;
   
   }
+
+  .Vector7 {
+    width: 1850px; 
+    height: 0px; 
+    left: 20px; 
+    top: 80px; 
+    position: absolute; 
+    border: 2px white solid;
+  }
+
+
+  
+  
+ 
+  
+  /* Medium Screens (768px to 991px) */
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    body {
+      background: linear-gradient(180deg, #839A8D 31.01%, #8B6E80 100%);
+    }
+    .container {
+      max-width: 600px;
+      padding: 60px;
+    }
+    .header {
+      font-size: 20px;
+    }
+    .nav__links li {
+      margin-left: 15px;
+    }
+    .contact-info {
+      font-size: 18px;
+    }
+    h1 {
+      font-size: 32px;
+    }
+    h2 {
+      font-size: 24px;
+    }
+    p {
+      font-size: 20px;
+    }
+  }
+  
+  /* Small Screens (576px to 767px) */
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    body {
+      background: linear-gradient(180deg, #839A8D 31.01%, #8B6E80 100%);
+    }
+    .container {
+      max-width: 500px;
+      padding: 40px;
+    }
+    .header {
+      font-size: 18px;
+    }
+    .nav__links li {
+      margin-left: 10px;
+    }
+    .contact-info {
+      font-size: 16px;
+    }
+    h1 {
+      font-size: 28px;
+    }
+    h2 {
+      font-size: 22px;
+    }
+    p {
+      font-size: 18px;
+    }
+  }
+  
+  /* Extra Small Screens (480px to 575px) */
+  @media only screen and (min-width: 480px) and (max-width: 575px) {
+    body {
+      background: linear-gradient(180deg, #839A8D 31.01%, #8B6E80 100%);
+    }
+    .container {
+      max-width: 400px;
+      padding: 30px;
+    }
+    .header {
+      font-size: 10px;
+    }
+    .nav__links li {
+      margin-left: 8px;
+    }
+    .contact-info {
+      font-size: 14px;
+    }
+    h1 {
+      font-size: 24px;
+    }
+    h2 {
+      font-size: 20px;
+    }
+    p {
+      font-size: 16px;
+    }
+  }
+  
+  /* Mobile Screens (max-width: 479px) */
+  @media only screen and (max-width: 479px) {
+    body {
+      background: linear-gradient(180deg, #839A8D 31.01%, #8B6E80 100%);
+      margin: 0;
+      font-family: Modern Sans; 
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      height: 200vh;
+
+    }
+    .container {
+      max-width: 400px;
+      padding: 20px;
+      text-align: center;
+    }
+    .header {
+      font-size: 8px;
+    }
+    .nav__links li {
+      margin-left: 5px;
+    }
+    .contact-info {
+      font-size: 12px;
+    }
+    h1 {
+      font-size: 20px;
+    }
+   .Vector7{
+    top: 58px;
+    left: 1px;
+    }
+
+    .header img {
+        width: 40px;
+        height: 40px;
+    }
+}
