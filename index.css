@@ -64,6 +64,7 @@ body {
   
   .BackgroundBaseColor{
     width: 100%;
+    overflow: hidden; /* Prevent overflow issues */
     height: 100%; 
     left: 0px; 
     top: 0px; 
@@ -218,63 +219,105 @@ body {
     border: 2px white solid;
   }
 }
-/* Phone styles */
-@media only screen and (max-width: 767px) {
-  .BradleyAcostaRojas {
-    font-size: 40px;
-    left: 20px;
-    top: 150px;
-  }
 
 
-  .BackgroundBaseColor{
-    width: 100%;
-    height:  100vh; /* Reduced height from 100% to 80vh */
-    left: 0px; 
-    top: 0px; 
-    position: absolute;
+@media only screen and (max-width: 430px) and (device-height: 932px) and (-webkit-device-pixel-ratio: 3) {
+  .BackgroundBaseColor {
+    width: 430px;
+    height: 932px;
+    position: relative;
+    background: linear-gradient(180deg, #839A8D 31%, #8B6E80 100%);
   }
-  .WebDeveloper {
-    font-size: 20px;
-    left: 20px;
-    top: 300px;
-  }
+
   .BradleyHi {
-    width: 250px;
-    height: 200px;
-    left: 20px;
-    top: 550px;
-    font-size: 18px;
+    width: 182px;
+    height: 208px;
+    left: 26px;
+    top: 422px;
+    position: absolute;
+    text-align: justify;
+    color: white;
+    font-size: 16px;
+    font-family: Modern Sans;
+    font-weight: 500;
+    word-wrap: break-word;
   }
-  
-  .CTA {
-    margin-top: 550px;
-  
+
+  .BradleyAcostaRojas {
+    width: 427px;
+    left: 26px;
+    top: 195px;
+    position: absolute;
+    color: white;
+    font-size: 24px;
+    font-family: Modern Sans;
+    font-weight: 500;
+    word-wrap: break-word;
   }
+
+  .Image1 {
+    width: 124px;
+    height: 67px;
+    left: 280px;
+    top: 32px;
+    position: absolute;
+  
+    background: #839A8D;
+  }
+
+  .Image7{
+    width: 123px;
+    height: 63px;
+    left: 4px;
+    top: 5px;
+    position: absolute;
+
+  }
+
+
+  .WebDeveloper {
+    left: 172px;
+    top: 282px;
+    position: absolute;
+    color: white;
+    font-size: 24px;
+    font-family: Modern Sans;
+    font-weight: 500;
+    word-wrap: break-word;
+  }
+
   .Vector2 {
-    width: 0px; 
-    height: 150px; 
-    left: 180px; 
-    top: 325px; 
-    position: absolute; 
-    transform: rotate(90deg); 
-    transform-origin: 0 0; 
+    width: 0px;
+    height: 200px;
+    left: 372px;
+    top: 305px;
+    position: absolute;
+    transform: rotate(90deg);
+    transform-origin: 0 0;
     border: 1px white solid;
   }
+
+  .CTA {
+    top: 250px;
+    right: -55px;
+    position: absolute;
+    color: white;
+    font-size: 27px;
+    font-family: Modern Sans;
+    font-weight: 500;
+    letter-spacing: 2.97px;
+    word-wrap: break-word;
+  }
+  
+
   .Vector3 {
-    width: 0px; 
-    height: 190px; 
-    left: 20px; 
-    top: 750px; 
-    position: absolute; 
-    transform: rotate(-180deg); 
-    transform-origin: 0 0; 
-    border: 2px white solid;
-  }
-  .nav__links {
-    display: block;
-  }
-  .nav__links li {
-    padding: 10px;
+    width: 0px;
+    height: 214px;
+    left: 18px;
+    top: 630px;
+    position: absolute;
+    transform: rotate(-180deg);
+    transform-origin: 0 0;
+    border: 1px white solid;
   }
 }
