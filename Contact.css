@@ -7,17 +7,16 @@ body {
   background: linear-gradient(to bottom, #839A8D 31.01%, #8B6E80 100%); /* Adjust gradient colors as needed */
   display: flex;
   flex-direction: column;
-
 }
 
-.Contact-Me, .contact-info, .Image1, .CTA {
+.Contact-Me, .contact-info, .Image7, .CTA, .Contact-Me, .ContactDes, .ContactText, .Vector7 {
     opacity: 0;
     animation: fadeIn 1.5s ease-in-out forwards;
   }
   
   @keyframes fadeIn {
     0% {
-      opacity: 1;
+      opacity: 0;
       transform: translateY(20px);
     }
     100% {
@@ -29,7 +28,6 @@ body {
 
   .CTA {
     color: white; 
-    width: 500px;
     font-size: 25px; 
     font-family: Modern Sans; 
     font-weight: 500;     
@@ -39,20 +37,11 @@ body {
     display: flex;
     align-items: center;
     letter-spacing: 2.97px;
-    margin-top: -100px; /* Add this line to move it up more */
+    margin-top: 400px; /* Add this line to move it up more */
     padding: 50px; 
     text-decoration: none!important;
-    
   }
 
-  .BackgroundBaseColor{
-    width: 100%;
-    overflow: hidden; /* Prevent overflow issues */
-    height: 100%; 
-    left: 0px; 
-    top: 0px; 
-    position: absolute; 
-  }
 
 
 
@@ -74,6 +63,16 @@ body {
 
 .nav__links li a:hover{
 color:#8B6E80;
+}
+
+
+.BackgroundBaseColor{
+  width: 100%;
+    overflow: hidden; /* Prevent overflow issues */
+    height: 100%; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
 }
 
 
@@ -129,7 +128,7 @@ color:#8B6E80;
   .Image7 {
     width: 369px; 
     height: 170.14px; 
-    left: 2px; 
+    left: 1px; 
     top: 2px;
      position: absolute;
   }
@@ -137,31 +136,41 @@ color:#8B6E80;
   
 
 
-.Contact-Me{
-    width: 800px;
-    color: white; 
-    font-size: 25px; 
-    font-family: Modern Sans; 
-    font-weight: 500; 
-    word-wrap: break-word;
-    margin-left: 50px;
-    margin-top: 200px;
+.ContactDes{
+  left: 99px; 
+  top: 250px; 
+  position: absolute; 
+  color: white; 
+  font-size: 80px; 
+  font-family: Modern Sans; 
+  font-weight: 500; 
+  word-wrap: break-word;
+}
+.ContactText{
+  width: 1200px; 
+  height: 252px; 
+  left: 30px; 
+  top: 350px; 
+  position: absolute; 
+  text-align: justify; 
+  color: white; 
+  font-size: 20px; 
+  font-family: Modern Sans; 
+  font-weight: 500; 
+  word-wrap: break-word;
 }
 
 
 .contact-info{
-    width: 850px;
+    width: 820px;
+    position: absolute;
+    left: 100px;
+    top: 480px;
     color: white; 
-    font-size: 25px; 
+    font-size: 30px; 
     font-family: Modern Sans; 
     font-weight: 500; 
     word-wrap: break-word;
-    margin-left: 50px;
-    margin-top: -10px;
-   
-    justify-content: space-between;
-    align-items: center;
- 
 }
 .contact-info a {
 
@@ -170,13 +179,14 @@ color:#8B6E80;
 }
 .contact-info a:hover {
     text-decoration: underline;
+    
 }
 
 .Vector7{
-  width: 800px; 
+  width: 1070px; 
   height: 0px; 
   left: 20px; 
-  top:350px; 
+  top: 405px; 
   position: absolute; 
   border: 2px white solid;
   }
@@ -186,7 +196,7 @@ color:#8B6E80;
   /* styles for iPhone 12-15 Pro Max devices go here */
  
   .CTA {
-    width: 300px; /* adjust width for smaller screen */
+    width: 100px; /* adjust width for smaller screen */
     position: absolute;
     font-size: 20px; /* adjust font size for smaller screen */
     top: 750px;
@@ -211,10 +221,10 @@ color:#8B6E80;
   }
 
   .Contact-Me {
-    width: 360px;
-    font-size: 20px; 
-    margin-left: 20px; 
-    margin-top: 150px; 
+    width: 220px;
+    font-size: 10px; 
+    top: -100px;
+   
   }
 
   .contact-info {
