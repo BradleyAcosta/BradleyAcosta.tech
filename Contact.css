@@ -195,7 +195,7 @@ color:#8B6E80;
   }
 
 /* iPhone 12-15 Pro Max queries */
-@media only screen and (max-width: 430px) and (device-height: 932px) and (-webkit-device-pixel-ratio: 3) {
+@media only screen and (max-width: 430px) and (device-height: 932px) {
   /* styles for iPhone 12-15 Pro Max devices go here */
   .CTA {
     width: 50%;
