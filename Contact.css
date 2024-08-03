@@ -206,12 +206,10 @@ color:#8B6E80;
   }
 
   .CTA {
-    width: 50%;
    font-size: 20px;
    position: absolute;
    margin-top: 700px;
-   margin-left: auto; /* Push to the right */
-   right: 0; /* Ensure it's at the right edge */
+   right: -55px;
 
   }
 
