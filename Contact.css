@@ -195,76 +195,6 @@ color:#8B6E80;
   }
 
 
-  @media only screen and (max-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) {
-    .BackgroundBaseColor {
-      width: 428px;
-      height: 926px;
-      position: relative;
-      background: linear-gradient(180deg, #839A8D 31%, #8B6E80 100%);
-    }
-  
-    .CTA {
-      width: 50%;
-      font-size: 20px;
-      margin-top: 700px;
-      position: absolute;
-
-    }
-    .Image1 {
-     left: 260px;
-     width: 124px;
-     height: 67px;
-     top: 32px;
-     position: absolute;
-  
-    }
-    .Image7 {
-      width: 123px;
-      height: 63px;
-      left: 2px;
-      top: 5px;
-      position: absolute;
-     
-    }
-    .contact-info {
-      width: 100%;
-      font-size: 18px;
-      top: 450px ; 
-      position: absolute;
-
-      left: 10px;
-    }
-    .ContactDes{
-      left: 20px; 
-      top: 200px; 
-      position: absolute; 
-      color: white; 
-      font-size: 30px; 
-      font-family: Modern Sans; 
-      font-weight: 500; 
-      word-wrap: break-word;
-    }
-    .ContactText{
-      width: 250px;
-      left: 20px; 
-      top: 250px; 
-      position: absolute; 
-      color: white; 
-      font-size: 15px; 
-      font-family: Modern Sans; 
-      font-weight: 500; 
-      word-wrap: break-word;
-    }
-    
-    .Vector7 {
-      width: 59%;
-      height: 0px;
-      left: 20px;
-      top: 320px;
-      position: absolute;
-      border: 2px white solid;
-    }
-  }
 
 /* iPhone 12-15 Pro Max queries */
 @media only screen and (max-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) {
@@ -277,10 +207,11 @@ color:#8B6E80;
 
   .CTA {
     width: 50%;
-    font-size: 20px;
-    position: absolute;
-    margin-top: 700px;
-    transform: translateX(100%); /* Move 100% to the right */
+   font-size: 20px;
+   position: absolute;
+   margin-top: 700px;
+   margin-left: auto; /* Push to the right */
+   right: 0; /* Ensure it's at the right edge */
 
   }
 
@@ -341,76 +272,3 @@ color:#8B6E80;
   }
 }
 
-/* iPhone 12-13-14-15 Pro queries */
-@media only screen and (max-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) {
-  .BackgroundBaseColor {
-     width: 390px;
-     height: 844px;
-     position: relative;
-     background: linear-gradient(180deg, #839A8D 31%, #8B6E80 100%);
-   }
- 
-  .CTA {
-     width: 50%;
-     font-size: 20px;
-     position: absolute;
-     margin-top: 550px; /* Adjusted margin-top value */
-     transform: translateX(100%); /* Move 100% to the right */
-   }
- 
-  .Image1 {
-     left: 200px;
-     width: 124px;
-     height: 67px;
-     top: 32px;
-     position: absolute;
-   }
- 
-  .Image7 {
-     width: 123px;
-     height: 63px;
-     left: 2px;
-     top: 5px;
-     position: absolute;
-   }
- 
-  .contact-info {
-     width: 100%;
-     font-size: 18px;
-     top: 380px;
-     left: 10px;
-     position: absolute;
-   }
- 
-  .ContactDes {
-     left: 20px;
-     top: 160px;
-     position: absolute;
-     color: white;
-     font-size: 30px;
-     font-family: Modern Sans;
-     font-weight: 500;
-     word-wrap: break-word;
-   }
- 
-  .ContactText {
-     width: 250px;
-     left: 20px;
-     top: 210px;
-     position: absolute;
-     color: white;
-     font-size: 15px;
-     font-family: Modern Sans;
-     font-weight: 500;
-     word-wrap: break-word;
-   }
- 
-  .Vector7 {
-     width: 59%;
-     height: 0px;
-     left: 20px;
-     top: 280px;
-     position: absolute;
-     border: 2px white solid;
-  }
-}
