@@ -197,12 +197,17 @@ color:#8B6E80;
 /* iPhone 12-15 Pro Max queries */
 @media only screen and (max-width: 430px) and (device-height: 932px) {
   /* styles for iPhone 12-15 Pro Max devices go here */
+  .BackgroundBaseColor {
+    width: 430px;
+    height: 932px;
+    position: relative;
+    background: linear-gradient(180deg, #839A8D 31%, #8B6E80 100%);
+  }
+
   .CTA {
     width: 50%;
     font-size: 20px;
     margin-top: 700px;
-
-   
   }
   .Image1 {
    left: 260px;
