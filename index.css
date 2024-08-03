@@ -223,8 +223,8 @@ body {
 /* IPhone 12 Pro max queries*/
 @media only screen and (max-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) {
   .BackgroundBaseColor {
-    width: 430px;
-    height: 932px;
+    width: 428px;
+    height: 926px;
     position: relative;
     background: linear-gradient(180deg, #839A8D 31%, #8B6E80 100%);
   }
