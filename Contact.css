@@ -181,12 +181,12 @@ color:#8B6E80;
   border: 2px white solid;
   }
 
-/* iPhone 14-15 Pro Max queries */
+/* iPhone 12-15 Pro Max queries */
 @media only screen and (max-width: 430px) and (device-height: 932px) and (-webkit-device-pixel-ratio: 3) {
-  /* styles for iPhone 14-15 Pro Max devices go here */
+  /* styles for iPhone 12-15 Pro Max devices go here */
   .BackgroundBaseColor {
-    width: 430px;
-    height: 932px;
+    width: 100%;
+    height: 100vh;
     position: relative;
     background: linear-gradient(180deg, #839A8D 31%, #8B6E80 100%);
   }
@@ -205,7 +205,6 @@ color:#8B6E80;
     top: 32px;
     position: absolute;
   
-    
   }
   .Image7{
     width: 123px;
@@ -224,27 +223,26 @@ color:#8B6E80;
   }
 
   .contact-info {
-    width: 650px; /* adjust width for smaller screen */
+    width: 100%; /* adjust width for smaller screen */
     font-size: 20px; /* adjust font size for smaller screen */
     margin-left: 20px; /* adjust margin left for smaller screen */
     margin-top: -10px; /* adjust margin top for smaller screen */
   }
 
   .Vector7{
-    width: 380px; 
+    width: 100%; 
     height: 0px; 
     left: 20px; 
     top: 290px; 
     position: absolute; 
     border: 2px white solid;
-    }
+  }
 
   .ThanksFor{
     position: absolute; 
     top: 200px;
-    width: 350px; /* adjust width for smaller screen */
+    width: 100%; /* adjust width for smaller screen */
   }
-
 }
 
 /* iPhone 12-13-14-15 Pro queries */
