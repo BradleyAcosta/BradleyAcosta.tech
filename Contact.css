@@ -280,7 +280,7 @@ color:#8B6E80;
     font-size: 20px;
     position: absolute;
     margin-top: 700px;
-    margin-left: 500px;
+    transform: translateX(100%); /* Move 100% to the right */
 
   }
 
@@ -355,7 +355,7 @@ color:#8B6E80;
      font-size: 20px;
      position: absolute;
      margin-top: 550px; /* Adjusted margin-top value */
-     margin-left: 120px; /* Adjusted margin-left value */
+     transform: translateX(100%); /* Move 100% to the right */
    }
  
   .Image1 {
