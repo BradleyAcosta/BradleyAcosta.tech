@@ -181,7 +181,12 @@ color:#8B6E80;
 /* iPhone 14-15 Pro Max queries */
 @media only screen and (max-width: 430px) and (device-height: 932px) and (-webkit-device-pixel-ratio: 3) {
   /* styles for iPhone 14-15 Pro Max devices go here */
-
+  .BackgroundBaseColor {
+    width: 430px;
+    height: 932px;
+    position: relative;
+    background: linear-gradient(180deg, #839A8D 31%, #8B6E80 100%);
+  }
   .CTA {
     width: 300px; /* adjust width for smaller screen */
     position: absolute;
@@ -241,7 +246,11 @@ color:#8B6E80;
 
 @media only screen and (max-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) {
   /* styles for iPhone 12-13-14-15 Pro devices go here */
-
+  .BackgroundBaseColor {
+    width: 390px;
+    height: 844px;
+    position: relative;
+  }
   .CTA {
     width: 280px; /* adjust width for smaller screen */
     position: absolute;
