@@ -125,6 +125,9 @@ color:#8B6E80;
       opacity: 1; 
     }
   }
+
+
+
   .Image7 {
     width: 369px; 
     height: 170.14px; 
@@ -194,122 +197,127 @@ color:#8B6E80;
 /* iPhone 12-15 Pro Max queries */
 @media only screen and (max-width: 430px) and (device-height: 932px) and (-webkit-device-pixel-ratio: 3) {
   /* styles for iPhone 12-15 Pro Max devices go here */
- 
   .CTA {
-    width: 100px; /* adjust width for smaller screen */
-    position: absolute;
-    font-size: 20px; /* adjust font size for smaller screen */
-    top: 750px;
-    right: -55px;
-  }
+    width: 50%;
+    font-size: 20px;
+    margin-top: 700px;
 
-  .Image1 {
-    width: 124px;
-    height: 67px;
-    left: 280px;
-    top: 32px;
-    position: absolute;
-  
-  }
-  .Image7{
-    width: 123px;
-    height: 63px;
-    left: 4px;
-    top: 3px;
-    position: absolute;
-
-  }
-
-  .Contact-Me {
-    width: 220px;
-    font-size: 10px; 
-    top: -100px;
    
   }
+  .Image1 {
+   left: 260px;
+   width: 124px;
+   height: 67px;
+   top: 32px;
+   position: absolute;
 
+  }
+  .Image7 {
+    width: 123px;
+    height: 63px;
+    left: 2px;
+    top: 5px;
+    position: absolute;
+   
+  }
   .contact-info {
-    width: 100%; /* adjust width for smaller screen */
-    font-size: 20px; /* adjust font size for smaller screen */
-    margin-left: 20px; /* adjust margin left for smaller screen */
-    margin-top: -10px; /* adjust margin top for smaller screen */
+    width: 100%;
+    font-size: 18px;
+    top: 450px ; 
+    left: 10px;
   }
-
-  .Vector7{
-    width: 100%; 
-    height: 0px; 
+  .ContactDes{
     left: 20px; 
-    top: 290px; 
+    top: 200px; 
     position: absolute; 
-    border: 2px white solid;
+    color: white; 
+    font-size: 30px; 
+    font-family: Modern Sans; 
+    font-weight: 500; 
+    word-wrap: break-word;
   }
-
-  .ThanksFor{
+  .ContactText{
+    width: 250px;
+    left: 20px; 
+    top: 250px; 
     position: absolute; 
-    top: 200px;
-    width: 100%; /* adjust width for smaller screen */
+    color: white; 
+    font-size: 15px; 
+    font-family: Modern Sans; 
+    font-weight: 500; 
+    word-wrap: break-word;
+  }
+  
+  .Vector7 {
+    width: 59%;
+    height: 0px;
+    left: 20px;
+    top: 320px;
+    position: absolute;
+    border: 2px white solid;
   }
 }
 
 /* iPhone 12-13-14-15 Pro queries */
 @media only screen and (max-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) {
   /* styles for iPhone 12-13-14-15 Pro devices go here */
-  .BackgroundBaseColor {
-    width: 390px;
-    height: 844px;
-    position: relative;
-  }
   .CTA {
-    width: 280px; /* adjust width for smaller screen */
-    position: absolute;
-    font-size: 20px; /* adjust font size for smaller screen */
-    top: 700px;
-    right: -50px;
+    width: 50%;
+    font-size: 20px;
+    margin-top: 615px;
+   margin-left: 100px;
+   
   }
-
   .Image1 {
-    width: 114px;
-    height: 60px;
-    left: 260px;
-    top: 30px;
+   left: 240px;
+   width: 124px;
+   height: 67px;
+   top: 32px;
+   position: absolute;
+
+  }
+  .Image7 {
+    width: 123px;
+    height: 63px;
+    left: 2px;
+    top: 5px;
     position: absolute;
-  
-    
+   
   }
-  .Image7{
-    width: 113px;
-    height: 58px;
-    left: 4px;
-    top: 3px;
-    position: absolute;
-
-  }
-
-  .Contact-Me {
-    width: 340px;
-    font-size: 20px; 
-    margin-left: 20px; 
-    margin-top: 140px; 
-  }
-
   .contact-info {
-    width: 630px; /* adjust width for smaller screen */
-    font-size: 20px; /* adjust font size for smaller screen */
-    margin-left: 20px; /* adjust margin left for smaller screen */
-    margin-top: -10px; /* adjust margin top for smaller screen */
+    width: 100%;
+    font-size: 18px;
+    top: 400px ; 
+    left: 10px;
   }
-
-  .Vector7{
-    width: 360px; 
-    height: 0px; 
+  .ContactDes{
     left: 20px; 
-    top: 290px; 
+    top: 200px; 
     position: absolute; 
+    color: white; 
+    font-size: 30px; 
+    font-family: Modern Sans; 
+    font-weight: 500; 
+    word-wrap: break-word;
+  }
+  .ContactText{
+    width: 250px;
+    left: 20px; 
+    top: 250px; 
+    position: absolute; 
+    color: white; 
+    font-size: 15px; 
+    font-family: Modern Sans; 
+    font-weight: 500; 
+    word-wrap: break-word;
+  }
+  
+  .Vector7 {
+    width: 59%;
+    height: 0px;
+    left: 20px;
+    top: 320px;
+    position: absolute;
     border: 2px white solid;
-    }
-
-  .ThanksFor{
-    position: absolute; 
-    top: 190px;
-    width: 330px; /* adjust width for smaller screen */
   }
 }
