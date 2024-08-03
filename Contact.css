@@ -136,6 +136,8 @@ color:#8B6E80;
      position: absolute;
   }
 
+  
+
 
 .ContactDes{
   left: 99px; 
@@ -160,6 +162,7 @@ color:#8B6E80;
   font-weight: 500; 
   word-wrap: break-word;
 }
+
 
 .contact-info{
     width: 820px;
@@ -224,26 +227,22 @@ color:#8B6E80;
      
     }
     .contact-info {
-      width: 427px;
-      left: 26px;
-      top: 195px;
+      width: 100%;
+      font-size: 18px;
+      top: 450px ; 
       position: absolute;
-      color: white;
-      font-size: 24px;
-      font-family: Modern Sans;
-      font-weight: 500;
-      word-wrap: break-word;
+
+      left: 10px;
     }
-    
     .ContactDes{
-      left: 172px;
-    top: 282px;
-    position: absolute;
-    color: white;
-    font-size: 24px;
-    font-family: Modern Sans;
-    font-weight: 500;
-    word-wrap: break-word;
+      left: 20px; 
+      top: 200px; 
+      position: absolute; 
+      color: white; 
+      font-size: 30px; 
+      font-family: Modern Sans; 
+      font-weight: 500; 
+      word-wrap: break-word;
     }
     .ContactText{
       width: 250px;
@@ -266,12 +265,12 @@ color:#8B6E80;
       border: 2px white solid;
     }
   }
+
 /* iPhone 12-15 Pro Max queries */
-@media only screen and (max-width: 430px) and (device-height: 932px) and (-webkit-device-pixel-ratio: 3) {
-  /* styles for iPhone 12-15 Pro Max devices go here */
+@media only screen and (max-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) {
   .BackgroundBaseColor {
-    width: 430px;
-    height: 932px;
+    width: 414px;
+    height: 896px;
     position: relative;
     background: linear-gradient(180deg, #839A8D 31%, #8B6E80 100%);
   }
@@ -280,55 +279,56 @@ color:#8B6E80;
     width: 50%;
     font-size: 20px;
     position: absolute;
-
     margin-top: 700px;
   }
-  .Image1 {
-   left: 260px;
-   width: 124px;
-   height: 67px;
-   top: 32px;
-   position: absolute;
 
+  .Image1 {
+    left: 260px;
+    width: 124px;
+    height: 67px;
+    top: 32px;
+    position: absolute;
   }
+
   .Image7 {
     width: 123px;
     height: 63px;
     left: 2px;
     top: 5px;
     position: absolute;
-   
   }
+
   .contact-info {
     width: 100%;
     font-size: 18px;
-    position: absolute;
-
-    top: 450px ; 
+    top: 450px;
     left: 10px;
+    position: absolute;
   }
-  .ContactDes{
-    left: 20px; 
-    top: 200px; 
-    position: absolute; 
-    color: white; 
-    font-size: 30px; 
-    font-family: Modern Sans; 
-    font-weight: 500; 
+
+  .ContactDes {
+    left: 20px;
+    top: 200px;
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    font-family: Modern Sans;
+    font-weight: 500;
     word-wrap: break-word;
   }
-  .ContactText{
+
+  .ContactText {
     width: 250px;
-    left: 20px; 
-    top: 250px; 
-    position: absolute; 
-    color: white; 
-    font-size: 15px; 
-    font-family: Modern Sans; 
-    font-weight: 500; 
+    left: 20px;
+    top: 250px;
+    position: absolute;
+    color: white;
+    font-size: 15px;
+    font-family: Modern Sans;
+    font-weight: 500;
     word-wrap: break-word;
   }
-  
+
   .Vector7 {
     width: 59%;
     height: 0px;
@@ -379,8 +379,7 @@ color:#8B6E80;
     font-size: 18px;
     top: 400px ; 
     left: 10px;
-    position: absolute;
-
+         position: absolute;
   }
   .ContactDes{
     left: 20px; 
