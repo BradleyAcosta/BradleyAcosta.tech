@@ -174,7 +174,7 @@ body {
   }
 
 
-/* Tablet styles */
+/* Tablet styles------------------------------------------------------------------------ */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   .BradleyAcostaRojas {
     font-size: 60px;
@@ -220,7 +220,7 @@ body {
   }
 }
 
-/* IPhone 12 Pro max queries*/
+/* IPhone 12 Pro max queries-------------------------------------------------------------------------------*/
 @media only screen and (max-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) {
   .BackgroundBaseColor {
     width: 428px;
@@ -323,7 +323,7 @@ body {
 }
 
 
-/* IPhone 14-15 Pro max queries*/
+/* IPhone 14-15 Pro max queries---------------------------------------------------------------------------*/
 @media only screen and (max-width: 430px) and (device-height: 932px) and (-webkit-device-pixel-ratio: 3) {
   .BackgroundBaseColor {
     width: 430px;
@@ -424,7 +424,7 @@ body {
     border: 1px white solid;
   }
 }
-/*iPhone pro 12-15*/
+/*iPhone pro 12-15----------------------------------------------------------------------------------------*/
 @media only screen and (max-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) {
   .BackgroundBaseColor {
     width: 390px;
