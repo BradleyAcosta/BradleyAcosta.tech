@@ -28,6 +28,7 @@ body {
 
   .CTA {
     color: white; 
+    width: 500px;
     font-size: 25px; 
     font-family: Modern Sans; 
     font-weight: 500;     
