@@ -69,38 +69,44 @@
         // Your web app's Firebase configuration
         // For Firebase JS SDK v7.20.0 and later, measurementId is optional
         const firebaseConfig = {
-          apiKey: "AIzaSyB1Cf5RkMEU_C2rlHGDw4dW-75nxlDO0rs",
-          authDomain: "bradleyacostatech.firebaseapp.com",
-          projectId: "bradleyacostatech",
-          storageBucket: "bradleyacostatech.appspot.com",
-          messagingSenderId: "259570769453",
-          appId: "1:259570769453:web:dd11e51c72078fcc5462a4",
-          measurementId: "G-CEMMD7E0KP"
-        };
-      
+     apiKey: "AIzaSyB1Cf5RkMEU_C2rlHGDw4dW-75nxlDO0rs",
+     authDomain: "bradleyacostatech.firebaseapp.com",
+     databaseURL: "https://bradleyacostatech-default-rtdb.firebaseio.com",
+     projectId: "bradleyacostatech",
+     storageBucket: "bradleyacostatech.appspot.com",
+     messagingSenderId: "259570769453",
+     appId: "1:259570769453:web:dd11e51c72078fcc5462a4",
+     measurementId: "G-CEMMD7E0KP"
+};
+
+
+    import { getFirestore, doc, getDoc, setDoc, updateDoc } from "https://www.gstatic.com/firebasejs/10.12.5/firebase-firestore.js";
+
+    
         // Initialize Firebase
-        const app = initializeApp(firebaseConfig);
-        const analytics = getAnalytics(app);
+    // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+  const db = getFirestore(app);
 
-        //Track page views
-        function trackPageView() {
-      const docRef = db.collection("pageViews").doc("count");
+// Track page views
+  async function trackPageView() {
+    const docRef = doc(db, "pageViews", "count");
+    const docSnap = await getDoc(docRef);
 
-      docRef.get().then((doc) => {
-          if (doc.exists) {
-              const currentCount = doc.data().count || 0;
-              docRef.update({
-                  count: currentCount + 1
-              });
-          } else {
-              docRef.set({ count: 1 });
-          }
-      }).catch((error) => {
-          console.error("Error updating page view count: ", error);
-      });
-  }
-  //Call the function
-  trackPageView();
-      </script>
+    if (docSnap.exists()) {
+        const currentCount = docSnap.data().count || 0;
+        await updateDoc(docRef, {
+            count: currentCount + 1
+        });
+    } else {
+        await setDoc(docRef, { count: 1 });
+    }
+}
+
+// Call the function on page load
+trackPageView();
+</script>
+
 </body>
 </html>
