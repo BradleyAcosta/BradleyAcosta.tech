@@ -34,7 +34,7 @@ body {
 .container {
     max-width: 5000px;
     text-align: center;
-    margin:1%;
+    margin:4%;
     padding: 80px;
     background: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -124,28 +124,40 @@ p {
   }
 
   .Vector7 {
-    width: 1850px; 
+    width: 100%; 
     height: 0px; 
     left: 20px; 
-    top: 80px; 
+    top: 115px; 
     position: absolute; 
-    border: 2px white solid;
+    border: 3px white solid;
   }
 
 
   /* Medium Screens (768px to 991px) */
-  @media only screen and (min-width: 768px) and (max-width: 991px) {
-    body {
-      background: linear-gradient(180deg, #839A8D 31.01%, #8B6E80 100%);
-    }
+  @media only screen and (min-width: 768px) and (max-width: 1618px) {
+  
     .container {
-      max-width: 600px;
       padding: 60px;
+      max-width: 5000px;
+      text-align: center;
+      margin:1%;
+      padding: 80px;
     }
     .header {
-      font-size: 20px;
+      display: flex;
+      font-size: 25px; 
+      font-family: Modern Sans; 
+      align-items: center;
+      justify-content: space-between;
+    }
+    .nav__links {
+      
+      display: flex;
+      flex-direction: row;
+      align-items: center;
     }
     .nav__links li {
+    
       margin-left: 15px;
     }
     .contact-info {
@@ -160,40 +172,142 @@ p {
     p {
       font-size: 20px;
     }
+    .Image1 {
+      margin-right: 20px;
+    }
+    .Image7 {
+      width: 75px;
+      height: 40px;
+    }
+    .Vector7{
+      width: 100%;
+      position: absolute;
+      top: 93px;
+
+    }
   }
   
   
   
   
   
-  /* Mobile Screens (max-width: 479px) */
-  @media only screen and (max-width: 767px) {
-    /* Adjust styles for small screens here */    
-    .container {
-      max-width: 400px;
-      padding: 20px;
-      text-align: center;
-    }
-    .header {
-      font-size: 8px;
-    }
-    .nav__links li {
-      margin-left: 5px;
-    }
-    .contact-info {
-      font-size: 12px;
-    }
-    h1 {
-      font-size: 20px;
-    }
-   .Vector7{
-    top: 58px;
-    left: 1px;
-    }
+ /* Mobile Screens (max-width: 767px) */
+@media only screen and (max-width: 767px) {
+  /* Adjust styles for small screens here */    
+   
+  .container {
+    position: absolute;
+    padding: 20px;
+    max-width: 100%;
+    text-align: center;
+    margin: 1%;
+  }
+  .header {
+    display: flex;
+    font-size: 9px; 
+    font-family: Modern Sans; 
+    align-items: center;
+    justify-content: space-between;
+  }
 
-    .header img {
-        width: 40px;
-        height: 40px;
-    }
+  .nav__links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .nav__links li {
+    margin-bottom: 10px;
+  }
+  .contact-info {
+    font-size: 18px;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 18px;
+  }
+  .Image1 {
+    top: 0px;
+    left: 1px;
+    position: absolute;
+    width: 0;
+    height: 0;
+
+  }
+  .Image7 {
+    width: 75px;
+    height: 40px;
+ 
+  }
+  .Vector7{
+    left: 0;
+    width: 800px;
+      position: absolute;
+      top: 40px;
+  }
+}
   
+  
+/* Mobile Screens (max-width: 320px) */
+@media only screen and (max-width: 320px) {
+  /* Adjust styles for small screens here */    
+   
+  .container {
+    position: absolute;
+    padding: 20px;
+    max-width: 100%;
+    text-align: center;
+    margin: 1%;
+  }
+  .header {
+    display: flex;
+    font-size: 5px; 
+    font-family: Modern Sans; 
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .nav__links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .nav__links li {
+    margin-bottom: 10px;
+  }
+  .contact-info {
+    font-size: 18px;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 18px;
+  }
+  .Image1 {
+    top: 0px;
+    left: 1px;
+    position: absolute;
+    width: 0;
+    height: 0;
+
+  }
+  .Image7 {
+    width: 75px;
+    height: 40px;
+ 
+  }
+  .Vector7{
+    left: 0;
+    width: 800px;
+      position: absolute;
+      top: 40px;
+  }
 }
