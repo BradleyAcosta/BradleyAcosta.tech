@@ -66,18 +66,22 @@
     
         // Track page views
         async function trackPageView() {
-            const docRef = doc(db, "pageViews", "count");
-            const docSnap = await getDoc(docRef);
-    
-            if (docSnap.exists()) {
-                const currentCount = docSnap.data().count || 0;
-                await updateDoc(docRef, {
-                    count: currentCount + 1
-                });
-            } else {
-                await setDoc(docRef, { count: 1 });
-            }
-        }
+    const docRef = doc(db, "pageViews", "count");
+    const docSnap = await getDoc(docRef);
+
+    if (docSnap.exists()) {
+        console.log("Document data:", docSnap.data());
+        const currentCount = docSnap.data().count || 0;
+        await updateDoc(docRef, {
+            count: currentCount + 1
+        });
+        console.log("Page view updated:", currentCount + 1);
+    } else {
+        await setDoc(docRef, { count: 1 });
+        console.log("Page view set to 1");
+    }
+}
+
     
         // Call the function on page load
         trackPageView();
