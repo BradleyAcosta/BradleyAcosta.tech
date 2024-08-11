@@ -196,374 +196,44 @@ color:#8B6E80;
   }
 
 
-  @media only screen and (max-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) {
-    .BackgroundBaseColor {
-      width: 428px;
-      height: 926px;
-      position: relative;
-      background: linear-gradient(180deg, #839A8D 31%, #8B6E80 100%);
-    }
-  
-    .CTA {
-      width: 50%;
-      font-size: 20px;
-      margin-top: 700px;
-      position: absolute;
-
-    }
-    .Image1 {
-     left: 260px;
-     width: 124px;
-     height: 67px;
-     top: 32px;
+  /* Desktop screens (min-width: 1200px) */
+@media only screen and (min-width: 1200px) {
+  /* Adjust styles for large screens here */
+  .CTA {
+    font-size: 30px; /* Increase font size for larger screens */
+    position: absolute;
+  }
+  .Image7 {
+    width: 369px; 
+    height: 170.14px; 
+    left: 1px; 
+    top: 2px;
      position: absolute;
-  
-    }
-    .Image7 {
-      width: 123px;
-      height: 63px;
-      left: 2px;
-      top: 5px;
-      position: absolute;
-     
-    }
-    .contact-info {
-      width: 100%;
-      font-size: 18px;
-      top: 450px ; 
-      position: absolute;
+  }
 
-      left: 10px;
-    }
-    .ContactDes{
-      left: 20px; 
-      top: 200px; 
-      position: absolute; 
-      color: white; 
-      font-size: 30px; 
-      font-family: Modern Sans; 
-      font-weight: 500; 
-      word-wrap: break-word;
-    }
-    .ContactText{
-      width: 250px;
-      left: 20px; 
-      top: 250px; 
-      position: absolute; 
-      color: white; 
-      font-size: 15px; 
-      font-family: Modern Sans; 
-      font-weight: 500; 
-      word-wrap: break-word;
-    }
+  .ContactDes {
+    font-size: 100px; /* Increase font size for larger screens */
+    position: absolute;
+
+  }
+  .ContactText {
+    font-size: 25px; /* Increase font size for larger screens */
+    position: absolute;
+
+  }
+  .contact-info {
+    font-size: 35px; /* Increase font size for larger screens */
+    position: absolute;
+
+  }
+  .BackgroundBaseColor{
     
-    .Vector7 {
-      width: 59%;
-      height: 0px;
-      left: 20px;
-      top: 320px;
-      position: absolute;
-      border: 2px white solid;
-    }
-  }
-
-
-/* iPhone 12-15 Pro Max queries */
-@media only screen and (max-width: 430px) and (device-height: 932px) and (-webkit-device-pixel-ratio: 3) {
-  .BackgroundBaseColor {
-     width: 414px;
-     height: 896px;
-     position: relative;
-     background: linear-gradient(180deg, #839A8D 31%, #8B6E80 100%);
-   }
- 
-  .CTA {
-     width: 50%;
-     font-size: 20px;
-     position: absolute;
-     margin-top: 600px; /* Adjusted margin-top value */
-     margin-left: 150px; /* Adjusted margin-left value */
-   }
- 
-  .Image1 {
-     left: 220px;
-     width: 124px;
-     height: 67px;
-     top: 32px;
-     position: absolute;
-   }
- 
-  .Image7 {
-     width: 123px;
-     height: 63px;
-     left: 2px;
-     top: 5px;
-     position: absolute;
-   }
- 
-  .contact-info {
-     width: 100%;
-     font-size: 18px;
-     top: 420px;
-     left: 10px;
-     position: absolute;
-   }
- 
-  .ContactDes {
-     left: 20px;
-     top: 180px;
-     position: absolute;
-     color: white;
-     font-size: 30px;
-     font-family: Modern Sans;
-     font-weight: 500;
-     word-wrap: break-word;
-   }
- 
-  .ContactText {
-     width: 250px;
-     left: 20px;
-     top: 230px;
-     position: absolute;
-     color: white;
-     font-size: 15px;
-     font-family: Modern Sans;
-     font-weight: 500;
-     word-wrap: break-word;
-   }
- 
-  .Vector7 {
-     width: 59%;
-     height: 0px;
-     left: 20px;
-     top: 300px;
-     position: absolute;
-     border: 2px white solid;
-   }
- }
- @media only screen and (max-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) {
-  .BackgroundBaseColor {
-     width: 390px;
-     height: 844px;
-     position: relative;
-     background: linear-gradient(180deg, #839A8D 31%, #8B6E80 100%);
-   }
- 
-  .CTA {
-     width: 50%;
-     font-size: 20px;
-     position: absolute;
-     margin-top: 550px; /* Adjusted margin-top value */
-     margin-left: 120px; /* Adjusted margin-left value */
-   }
- 
-  .Image1 {
-     left: 200px;
-     width: 124px;
-     height: 67px;
-     top: 32px;
-     position: absolute;
-   }
- 
-  .Image7 {
-     width: 123px;
-     height: 63px;
-     left: 2px;
-     top: 5px;
-     position: absolute;
-   }
- 
-  .contact-info {
-     width: 100%;
-     font-size: 18px;
-     top: 380px;
-     left: 10px;
-     position: absolute;
-   }
- 
-  .ContactDes {
-     left: 20px;
-     top: 160px;
-     position: absolute;
-     color: white;
-     font-size: 30px;
-     font-family: Modern Sans;
-     font-weight: 500;
-     word-wrap: break-word;
-   }
- 
-  .ContactText {
-     width: 250px;
-     left: 20px;
-     top: 210px;
-     position: absolute;
-     color: white;
-     font-size: 15px;
-     font-family: Modern Sans;
-     font-weight: 500;
-     word-wrap: break-word;
-   }
- 
-  .Vector7 {
-     width: 59%;
-     height: 0px;
-     left: 20px;
-     top: 280px;
-     position: absolute;
-     border: 2px white solid;
   }
 }
 
-
-/* iPhone 12, 13, 14, 15 (6.1-inch) */
-@media only screen and (device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) {
-  .BackgroundBaseColor {
-    width: 390px;
-    height: 844px;
-    position: relative;
-    background: linear-gradient(180deg, #839A8D 31%, #8B6E80 100%);
-  }
-
-  .contact-info {
-    width: 100%;
-    left: 10px;
-    top: 422px;
-    font-size: 18px;
-
-   
-  }
-
-  .ContactDes {
-    left: 20px;
-    top: 200px;
-    position: absolute;
-    color: white;
-    font-size: 24px;
-    font-family: Modern Sans;
-    font-weight: 500;
-    word-wrap: break-word;
-  }
-
-  .Image1 {
-    width: 114px;
-    height: 60px;
-    left: 260px;
-    top: 30px;
-    position: absolute;
-  }
-
-  .Image7 {
-    width: 113px;
-    height: 58px;
-    left: 4px;
-    top: 3px;
-    position: absolute;
-  }
-
-  .ContactText {
-    width: 250px;
-    left: 20px;
-    top: 250px;
-    position: absolute;
-    color: white;
-    font-size: 15px;
-    font-family: Modern Sans;
-    font-weight: 500;
-    word-wrap: break-word;
-  }
-
-  .Vector7 {
-    width: 59%;
-    height: 0px;
-    left: 20px;
-    top: 320px;
-    position: absolute;
-    border: 2px white solid;
-  }
-
-  .CTA {
-    width: 50%;
-    font-size: 20px;
-    margin-top: 700px;
-    position: absolute;
-  }
-
- 
-}
-
-/* iPhone 12 mini, 13 mini (5.4-inch) */
-@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
-  .BackgroundBaseColor {
-    width: 390px;
-    height: 844px;
-    position: relative;
-    background: linear-gradient(180deg, #839A8D 31%, #8B6E80 100%);
-  }
-
-  .BradleyHi {
-    width: 182px;
-    height: 208px;
-    left: 26px;
-    top: 422px;
-    position: absolute;
-    text-align: justify;
-    color: white;
-    font-size: 16px;
-    font-family: Modern Sans;
-    font-weight: 500;
-    word-wrap: break-word;
-  }
-
-  .BradleyAcostaRojas {
-    width: 300px;
-    left: 26px;
-    top: 195px;
-    position: absolute;
-    color: white;
-    font-size: 24px;
-    font-family: Modern Sans;
-    font-weight: 500;
-    word-wrap: break-word;
-  }
-
-  .Image1 {
-    width: 114px;
-    height: 60px;
-    left: 260px;
-    top: 30px;
-    position: absolute;
-  }
-
-  .Image7 {
-    width: 113px;
-    height: 58px;
-    left: 4px;
-    top: 3px;
-    position: absolute;
-  }
-
-  .WebDeveloper {
-    left: 172px;
-    top: 282px;
-    position: absolute;
-    color: white;
-    font-size: 24px;
-    font-family: Modern Sans;
-    font-weight: 500;
-    word-wrap: break-word;
-  }
-
-  .Vector2 {
-    width: 0px;
-    height: 200px;
-    left: 372px;
-    top: 305px;
-    position: absolute;
-    transform: rotate(90deg);
-    transform-origin: 0 0;
-    border: 1px white solid;
-  }
-
+  /* Mobile screens (max-width: 767px) */
+@media only screen and (max-width: 767px) {
+  /* Adjust styles for small screens here */
   .CTA {
     top: 230px;
     right: -55px;
@@ -575,24 +245,77 @@ color:#8B6E80;
     letter-spacing: 2.97px;
     word-wrap: break-word;
   }
-
-  .Vector3 {
-    width: 0px;
-    height: 214px;
-    left: 18px;
-    top: 630px;
+  .Image1 {
+    width: 114px;
+    height: 60px;
+    left: 20px;
+    top: 30px;
     position: absolute;
-    transform: rotate(-180deg);
-    transform-origin: 0 0;
-    border: 1px white solid;
+  
+  }
+
+  .Image7{
+    width: 113px;
+    height: 58px;
+    left: 4px;
+    top: 3px;
+    position: absolute;
+
+  }
+
+  .ContactDes {
+    left: 20px;
+    top: 200px;
+    font-size: 30px; /* Increase font size for larger screens */
+    position: absolute;
+    color: white;
+    font-family: modern Sans;
+    font-weight: 500;
+    word-wrap: break-word;
+  }
+  .ContactText {
+    width: 250px; 
+  left: 20px; 
+  top: 250px; 
+  position: absolute; 
+  color: white; 
+  font-size: 15px; 
+  font-family: Modern Sans; 
+  font-weight: 500; 
+  word-wrap: break-word;
+
+  }
+  .contact-info {
+   position: absolute;
+    width: 100%;
+    font-size: 18px;
+    top: 450px;
+    left: 10px;
+  }
+  .Vector7{
+    width: 59%;
+    height: 0px;
+    left: 20px;
+    top: 320px;
+    position: absolute;
+    border: 2px white solid;
   }
 }
-.PageView{
-  position: absolute;
-    color: white;
-    font-size: 20px;
-    font-family: Modern Sans;
-    font-weight: 500;
-    letter-spacing: 2.97px;
-    word-wrap: break-word;
+
+
+/* Tablet screens (min-width: 768px and max-width: 1199px) */
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  /* Adjust styles for medium screens here */
+  .CTA {
+    font-size: 25px; /* Decrease font size for medium screens */
+  }
+  .ContactDes {
+    font-size: 80px; /* Decrease font size for medium screens */
+  }
+  .ContactText {
+    font-size: 20px; /* Decrease font size for medium screens */
+  }
+  .contact-info {
+    font-size: 30px; /* Decrease font size for medium screens */
+  }
 }
