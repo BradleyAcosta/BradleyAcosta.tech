@@ -162,76 +162,13 @@ p {
     }
   }
   
-  /* Small Screens (576px to 767px) */
-  @media only screen and (min-width: 576px) and (max-width: 767px) {
-    body {
-      background: linear-gradient(180deg, #839A8D 31.01%, #8B6E80 100%);
-    }
-    .container {
-      max-width: 500px;
-      padding: 40px;
-    }
-    .header {
-      font-size: 18px;
-    }
-    .nav__links li {
-      margin-left: 10px;
-    }
-    .contact-info {
-      font-size: 16px;
-    }
-    h1 {
-      font-size: 28px;
-    }
-    h2 {
-      font-size: 22px;
-    }
-    p {
-      font-size: 18px;
-    }
-  }
   
-  /* Extra Small Screens (480px to 575px) */
-  @media only screen and (min-width: 480px) and (max-width: 575px) {
-    body {
-      background: linear-gradient(180deg, #839A8D 31.01%, #8B6E80 100%);
-    }
-    .container {
-      max-width: 400px;
-      padding: 30px;
-    }
-    .header {
-      font-size: 10px;
-    }
-    .nav__links li {
-      margin-left: 8px;
-    }
-    .contact-info {
-      font-size: 14px;
-    }
-    h1 {
-      font-size: 24px;
-    }
-    h2 {
-      font-size: 20px;
-    }
-    p {
-      font-size: 16px;
-    }
-  }
+  
+  
   
   /* Mobile Screens (max-width: 479px) */
-  @media only screen and (max-width: 479px) {
-    body {
-      background: linear-gradient(180deg, #839A8D 31.01%, #8B6E80 100%);
-      margin: 0;
-      font-family: Modern Sans; 
-      line-height: 1.6;
-      margin: 0;
-      padding: 0;
-      height: 200vh;
-
-    }
+  @media only screen and (max-width: 767px) {
+    /* Adjust styles for small screens here */    
     .container {
       max-width: 400px;
       padding: 20px;
@@ -258,4 +195,5 @@ p {
         width: 40px;
         height: 40px;
     }
+  
 }
