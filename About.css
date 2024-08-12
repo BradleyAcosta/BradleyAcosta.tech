@@ -94,6 +94,7 @@ p {
     /* Remove position absolute to allow flexbox alignment */
   }
   .Image1{
+    left: 1px;
     top: 20px;
     position: absolute;
   }
@@ -105,7 +106,7 @@ p {
   }
   .nav__links li {
   
-      margin-left: 80px; /* Adjust as needed */
+      margin-left: 20px; /* Adjust as needed */
       display: inline-block;
       padding: 0px 20px;
       
