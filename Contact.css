@@ -240,6 +240,7 @@ color:#8B6E80;
     top: 280px;
     border-width: 1px;
 }
+}
 
 /* Mobile Screens (max-width: 767px) */
 @media only screen and (max-width: 767px) {
@@ -344,4 +345,4 @@ color:#8B6E80;
     border-width: 1px;
   }
 }
-}
+as
