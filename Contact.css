@@ -192,205 +192,76 @@ color:#8B6E80;
 
 
 
-  /* Mobile screens (max-width: 767px) */
+ /* Mobile screens (max-width: 767px) */
 @media only screen and (max-width: 767px) {
-  /* Adjust styles for small screens here */
   .CTA {
     top: 230px;
     right: -55px;
-    position: absolute;
     font-size: 20px;
-    font-family: Modern Sans;
-    font-weight: 500;
-    letter-spacing: 2.97px;
-    word-wrap: break-word;
   }
   .Image1 {
     width: 114px;
     height: 60px;
     left: 20px;
     top: 30px;
-    position: absolute;
-  
   }
-
-  .Image7{
+  .Image7 {
     width: 113px;
     height: 58px;
     left: 4px;
     top: 3px;
-    position: absolute;
-
   }
-
   .ContactDes {
     left: 20px;
     top: 200px;
-    font-size: 30px; /* Increase font size for larger screens */
-    position: absolute;
-    font-family: modern Sans;
-    font-weight: 500;
-    word-wrap: break-word;
+    font-size: 30px;
   }
   .ContactText {
-    width: 250px; 
-  left: 20px; 
-  top: 250px; 
-  position: absolute; 
-
-  font-size: 15px; 
-  font-family: Modern Sans; 
-  font-weight: 500; 
-  word-wrap: break-word;
-
+    width: 250px;
+    left: 20px;
+    top: 250px;
+    font-size: 15px;
   }
   .contact-info {
-   position: absolute;
     width: 100%;
     font-size: 18px;
     top: 450px;
     left: 10px;
   }
-  .Vector7{
+  .Vector7 {
     width: 59%;
     height: 0px;
     left: 20px;
     top: 320px;
-    position: absolute;
   }
 }
 
-
-@media only screen and (min-width: 768px) and (max-width: 1618px) {
-
+/* Tablet and desktop screens (min-width: 768px) */
+@media only screen and (min-width: 768px) {
+  /* Adjust styles for larger screens here */
   .CTA {
-    top: 230px;
-    right: -55px;
-    position: absolute;
-    font-size: 20px;
-    font-family: Modern Sans;
-    font-weight: 500;
-    letter-spacing: 2.97px;
-    word-wrap: break-word;
+    font-size: 24px;
   }
   .Image1 {
-    width: 114px;
-    height: 60px;
-    left: 20px;
-    top: 30px;
-    position: absolute;
-  
+    width: 150px;
+    height: 80px;
   }
-
-  .Image7{
-    width: 113px;
-    height: 58px;
-    left: 4px;
-    top: 3px;
-    position: absolute;
-
+  .Image7 {
+    width: 140px;
+    height: 70px;
   }
-
   .ContactDes {
-    left: 20px;
-    top: 200px;
-    font-size: 30px; /* Increase font size for larger screens */
-    position: absolute;
-    font-family: modern Sans;
-    font-weight: 500;
-    word-wrap: break-word;
+    font-size: 36px;
   }
   .ContactText {
-    width: 250px; 
-  left: 20px; 
-  top: 250px; 
-  position: absolute; 
-
-  font-size: 15px; 
-  font-family: Modern Sans; 
-  font-weight: 500; 
-  word-wrap: break-word;
-
+    width: 300px;
+    font-size: 18px;
   }
   .contact-info {
-   position: absolute;
-    width: 100%;
-    font-size: 18px;
-    top: 450px;
-    left: 10px;
-  }
-  .Vector7{
-    width: 59%;
-    height: 0px;
-    left: 20px;
-    top: 320px;
-    position: absolute;
-  }
-}
-
-@media only screen and (max-width: 320px) {
-  .CTA {
-    top: 230px;
-    right: -55px;
-    position: absolute;
     font-size: 20px;
-    font-family: Modern Sans;
-    font-weight: 500;
-    letter-spacing: 2.97px;
-    word-wrap: break-word;
   }
-  .Image1 {
-    width: 114px;
-    height: 60px;
-    left: 20px;
-    top: 30px;
-    position: absolute;
-  
-  }
-
-  .Image7{
-    width: 113px;
-    height: 58px;
-    left: 4px;
-    top: 3px;
-    position: absolute;
-
-  }
-
-  .ContactDes {
-    left: 20px;
-    top: 200px;
-    font-size: 30px; /* Increase font size for larger screens */
-    position: absolute;
-    font-family: modern Sans;
-    font-weight: 500;
-    word-wrap: break-word;
-  }
-  .ContactText {
-    width: 250px; 
-  left: 20px; 
-  top: 250px; 
-  position: absolute; 
-
-  font-size: 15px; 
-  font-family: Modern Sans; 
-  font-weight: 500; 
-  word-wrap: break-word;
-
-  }
-  .contact-info {
-   position: absolute;
-    width: 100%;
-    font-size: 18px;
-    top: 450px;
-    left: 10px;
-  }
-  .Vector7{
-    width: 59%;
-    height: 0px;
-    left: 20px;
-    top: 320px;
-    position: absolute;
+  .Vector7 {
+    width: 70%;
+    height: 20px;
   }
 }
-
