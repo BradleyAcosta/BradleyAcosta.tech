@@ -190,49 +190,7 @@ color:#8B6E80;
   }
 
 
-  /* Desktop screens (min-width: 1200px) */
-  @media only screen and (min-width: 768px) and (max-width: 1024px) {  
- /* Media query for 1024px and more */
-@media only screen and (min-width: 1024px) {
-  /* Add your styles here */
-  .CTA {
-    width: 600px; /* Adjust the width of the CTA button */
-  }
-  
-  .Image1 {
-    width: 350px; /* Adjust the width of the Image1 */
-    left: 650px; /* Adjust the left position of the Image1 */
-  }
-  
-  .Image7 {
-    width: 350px; /* Adjust the width of the Image7 */
-  }
-  
-  .ContactDes {
-    left: auto;
-    font-size: 20px; /* Adjust the font size of the ContactDes */
-  }
-  
-  .ContactText {
-  
-    left: auto;
-    width: 500px; /* Adjust the width of the ContactText */
-  }
-  
-  .contact-info {
-    width: 1000px;
-    font-size: 20px; /* Adjust the width of the contact-info */
-    left: 20px;
-  }
-  
-  .Vector7 {
-    width: 100%; /* Adjust the width of the Vector7 */
-    top: 420px;
-    left: auto;
-  }
-}
 
-}
 
   /* Mobile screens (max-width: 767px) */
 @media only screen and (max-width: 767px) {
