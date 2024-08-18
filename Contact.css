@@ -188,229 +188,111 @@ color:#8B6E80;
   position: absolute; 
   border: 2px #004d4d solid;
   }
-
-
-
-
-/* iPhone 12/12 Pro and iPhone 13/13 Pro (Screen width: 390px) */
-@media only screen and (min-device-width: 390px) and (max-device-width: 390px) and (-webkit-device-pixel-ratio: 3) {
-  .CTA {
-    position: absolute;
-    font-size: 18px;
-    margin-top: 640px;
+  
+  @media only screen and (min-width: 1024px) {
+    /* Add your styles here */
+    .CTA {
+      width: 600px; /* Adjust the width of the CTA button */
+    }
+    
+    .Image1 {
+      width: 350px; /* Adjust the width of the Image1 */
+      left: 650px; /* Adjust the left position of the Image1 */
+    }
+    
+    .Image7 {
+      width: 350px; /* Adjust the width of the Image7 */
+    }
+    
+    .ContactDes {
+      left: auto;
+      font-size: 20px; /* Adjust the font size of the ContactDes */
+    }
+    
+    .ContactText {
+    
+      left: auto;
+      width: 500px; /* Adjust the width of the ContactText */
+    }
+    
+    .contact-info {
+      width: 1000px;
+      font-size: 20px; /* Adjust the width of the contact-info */
+      left: 20px;
+    }
+    
+    .Vector7 {
+      width: 100%; /* Adjust the width of the Vector7 */
+      top: 420px;
+      left: auto;
+    }
   }
-  .Image1 {
-    position: absolute;
-    width: 100px;
-    height: 45px;
-    left: 10px;
-    top: 20px;
+  
   }
-  .Image7 {
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    left: 5px;
-    top: 5px;
+
+  @media only screen and (max-width: 767px) {
+    /* Adjust styles for small screens here */
+    .CTA {
+      top: 230px;
+      right: -55px;
+      position: absolute;
+      font-size: 20px;
+      font-family: Modern Sans;
+      font-weight: 500;
+      letter-spacing: 2.97px;
+      word-wrap: break-word;
+    }
+    .Image1 {
+      width: 114px;
+      height: 60px;
+      left: 20px;
+      top: 30px;
+      position: absolute;
+    
+    }
+  
+    .Image7{
+      width: 113px;
+      height: 58px;
+      left: 4px;
+      top: 3px;
+      position: absolute;
+  
+    }
+  
+    .ContactDes {
+      left: 20px;
+      top: 200px;
+      font-size: 30px; /* Increase font size for larger screens */
+      position: absolute;
+      font-family: modern Sans;
+      font-weight: 500;
+      word-wrap: break-word;
+    }
+    .ContactText {
+      width: 250px; 
+    left: 20px; 
+    top: 250px; 
+    position: absolute; 
+    font-size: 15px; 
+    font-family: Modern Sans; 
+    font-weight: 500; 
+    word-wrap: break-word;
+  
+    }
+    .contact-info {
+     position: absolute;
+      width: 100%;
+      font-size: 18px;
+      top: 450px;
+      left: 10px;
+    }
+    .Vector7{
+      width: 59%;
+      height: 0px;
+      left: 20px;
+      top: 320px;
+      position: absolute;
+      border: 2px;
+    }
   }
-  .ContactDes {
-    position: absolute;
-    font-size: 40px;
-    left: 10px;
-    top: 150px;
-  }
-  .ContactText {
-    position: absolute;
-    width: 300px;
-    left: 10px;
-    top: 200px;
-    font-size: 16px;
-  }
-  .contact-info {
-    position: absolute;
-    width: 300px;
-    font-size: 20px;
-    left: 10px;
-    top: 350px;
-  }
-  .Vector7 {
-    position: absolute;
-    width: 90%;
-    left: 1%;
-    top: 250px;
-  }
-}
-
-/* iPhone 12 Pro Max, 13 Pro Max, 14 Pro Max, 15 Pro Max (Screen width: 430px) */
-@media only screen and (max-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) {  
-  .CTA {
-  font-size: 20px;
-    padding: 40px;
-  top: 50px;
-    position: absolute;
-  }
-  .Image1 {
-    width: 120px;
-    height: 0;
-    left: 15px;
-    top: 0;
-    position: absolute;
-  }
-  .Image7 {
-    width: 120px;
-    height: 100px;
-    left: 10px;
-    top: 0;
-    position: absolute;
-  }
-  .ContactDes {
-    font-size: 50px;
-    left: 20px;
-    top: 150px;
-    position: absolute;
-  }
-  .ContactText {
-    width: 350px;
-    left: 20px;
-    top: 230px;
-    font-size: 18px;
-    position: absolute;
-  }
-  .contact-info {
-    width: 350px;
-    font-size: 20px;
-    left: 20px;
-    top: 410px;
-    position: absolute;
-  }
-  .Vector7 {
-    width: 95%;
-    left: 2.5%;
-    position: absolute;
-    top: 290px;
-  }
-}
-
-/* IPhone 14-15 Pro max queries---------------------------------------------------------------------------*/
-
-@media only screen and (max-width: 430px) and (device-height: 932px) and (-webkit-device-pixel-ratio: 3) {
-  .CTA{
-  font-size: 20px;
-  padding: 40px;
-  margin-top: 680px;
-  position: absolute;
-  width: 400px;
-}
-.Image1 {
-  width: 120px;
-  height: 0;
-  left: 15px;
-  top: 0;
-  position: absolute;
-}
-.Image7 {
-  width: 120px;
-  height: 100px;
-  left: 10px;
-  top: 0;
-  position: absolute;
-}
-.ContactDes {
-  font-size: 50px;
-  left: 20px;
-  top: 150px;
-  position: absolute;
-}
-.ContactText {
-  width: 350px;
-  left: 20px;
-  top: 230px;
-  font-size: 18px;
-  position: absolute;
-}
-.contact-info {
-  width: 350px;
-  font-size: 20px;
-  left: 20px;
-  top: 410px;
-  position: absolute;
-}
-.Vector7 {
-  width: 95%;
-  left: 2.5%;
-  position: absolute;
-  top: 290px;
-}
-
-}
-
- /* Mobile screens (max-width: 767px) */
- @media only screen and (max-width: 767px) {
-  /* Adjust styles for small screens here */
-
-
-.BradleyHi {
-  width: 182px;
-  height: 208px;
-  left: 26px;
-  top: 422px;
-  position: absolute;
-  text-align: justify;
-  font-size: 16px;
-  font-family: Modern Sans;
-  font-weight: 500;
-  word-wrap: break-word;
-}
-
-.BradleyAcostaRojas {
-  width: 300px;
-  left: 26px;
-  top: 195px;
-  position: absolute;
-  font-size: 24px;
-  font-family: Modern Sans;
-  font-weight: 500;
-  word-wrap: break-word;
-}
-
-.Image1 {
-  width: 114px;
-  height: 60px;
-  left: 20px;
-  top: 30px;
-  position: absolute;
-}
-
-.Image7 {
-  width: 113px;
-  height: 58px;
-  left: 4px;
-  top: 3px;
-  position: absolute;
-}
-
-.WebDeveloper {
-  left: 172px;
-  top: 282px;
-  position: absolute;
-  font-size: 24px;
-  font-family: Modern Sans;
-  font-weight: 500;
-  word-wrap: break-word;
-}
-
-.Vector7{
-  width: 95%;
-  left: 2.5%;
-  position: absolute;
-  top: 400px;
-}
-
-.CTA {
-  font-size: 20px;
-  padding: 40px;
-  margin-top: 680px;
-  position: absolute;
-  width: 400px;
-}
-}
