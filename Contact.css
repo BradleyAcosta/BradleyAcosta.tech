@@ -230,7 +230,7 @@ color:#8B6E80;
   
 
 
-  @media only screen and (max-width: 767px) {
+  @media only screen and (max-width: 767px)  and (max-height: 932px){
     /* Adjust styles for small screens here */
     .CTA {
       top: 230px;
