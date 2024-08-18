@@ -190,6 +190,11 @@ color:#8B6E80;
   }
 
   @media only screen and (max-width: 767px) {
+    .BackgroundBaseColor{
+      width: 428px;
+      height: 926px;
+      position: relative;
+    }
     .CTA {
       font-size: 20px;
       padding: 20px;
