@@ -194,34 +194,39 @@ color:#8B6E80;
 
 
 @media only screen and (max-width: 768px){
-  .BackgroundBaseColor{
-    width: 768px;
-  }
+
   .CTA{
     font-size: 10px;
     width: 360px;
     margin-top: 600px;
     left: 0;
+    position: absolute;
+
   }
   .ContactDes{
     width: 100%;
     font-size: 30px;
     left: 0;
+    position: absolute;
 
   }
   .contact-info{
     width: 100%;
+    position: absolute;
     font-size: 15px;
     left: 0;
     top: 450px;
   }
   .ContactText{
     font-size: 10px;
+    position: absolute;
+
     left: 0;
     width: 100%;
   }
   .Image1{
     top: 0px;
+    position: absolute;
     width: 100px;
     left: 20px;
   }
@@ -229,11 +234,15 @@ color:#8B6E80;
     top: 0;
     left: 1px;
     width: 100%;
+    position: absolute;
+
   }
   .Vector7{
     width: 100%;
     left: 0;
     top: 425px;
+    position: absolute;
+
   }
 }
 
