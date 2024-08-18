@@ -188,7 +188,7 @@ color:#8B6E80;
   position: absolute; 
   border: 2px #004d4d solid;
   }
-  
+
   @media only screen and (min-width: 1024px) {
     /* Add your styles here */
     .CTA {
@@ -228,7 +228,7 @@ color:#8B6E80;
     }
   }
   
-  }
+
 
   @media only screen and (max-width: 767px) {
     /* Adjust styles for small screens here */
