@@ -85,14 +85,9 @@ p {
     box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Optional: add a shadow for better visibility */
   }
   
-  .header img {
-    width: 75px;
-    right: 200px;
-    height: 40px;
-    /* Remove position absolute to allow flexbox alignment */
-  }
+  
+  
   .Image1{
-    left: 1px;
     top: 20px;
     position: absolute;
   }
@@ -131,9 +126,17 @@ p {
     border: 2px #004d4d solid;
   }
 
+
+  .Image1{
+    position: absolute;
+    width: 0;
+    height: 100px;
+  }
   .Image7{
-  width: 100%; 
-  height: 40px;
+    position: absolute;
+    right: -1850px;
+    width: 100%; 
+
   }
 
 
