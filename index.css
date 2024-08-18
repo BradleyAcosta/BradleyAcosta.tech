@@ -4,7 +4,7 @@ html, body {
 }
 
 body {
-  background: linear-gradient(to bottom, #839A8D 31.01%, #8B6E80 100%); /* Adjust gradient colors as needed */
+  background-color: #d9fdeb; /* Result of mixing Azure with darker grey */
   display: flex;
   flex-direction: column;
 }
@@ -27,7 +27,7 @@ body {
   }
   
   .CTA {
-    color: white; 
+    color: #004d4d;
     font-size: 25px; 
     font-family: Modern Sans; 
     font-weight: 500;     
@@ -53,7 +53,7 @@ body {
   .nav__links li a {
     transition: all 0.3s ease 0s;
     text-align: left;
-    color: white; /* Add this line to set the link color to white */
+    color: #004d4d;
     text-decoration: none;
   
   }
@@ -78,14 +78,13 @@ body {
     left: 1500px;
      top: 40px; 
      position: absolute; 
-     background: linear-gradient(180deg, rgba(0, 0, 0, 0.25) 0%, rgba(102, 102, 102, 0.25) 100%); 
-     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
      flex-direction: column; 
     display: inline-flex;
   }
   .Image1:hover {
     animation: shake 0.5s ease-in-out;
-   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25); /* increase box shadow on hover */
+    box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.25); /* increase box shadow on hover */
+    color: #004d4d;
   }
   @keyframes shake {
     0% {
@@ -120,7 +119,7 @@ body {
     left: 99px; 
     top: 250px; 
     position: absolute; 
-    color: white; 
+    color: #004d4d;
     font-size: 80px; 
     font-family: Modern Sans; 
     font-weight: 500; 
@@ -131,7 +130,7 @@ body {
     left: 891px; 
     top: 435px; 
     position: absolute; 
-    color: white; 
+    color: #004d4d;
     font-size: 30px; 
     font-family: Modern Sans; 
     font-weight: 500; 
@@ -145,7 +144,7 @@ body {
     top: 510px; 
     position: absolute; 
     text-align: justify; 
-    color: white; 
+    color: #004d4d;
     font-size: 27px; 
     font-family: Modern Sans; 
     font-weight: 500; 
@@ -160,7 +159,8 @@ body {
     position: absolute; 
     transform: rotate(90deg); 
     transform-origin: 0 0; 
-    border: 1px white solid;
+    border: 1px solid #004d4d;
+
   }
   .Vector3{
   width: 0px; 
@@ -170,7 +170,8 @@ body {
   position: absolute; 
   transform: rotate(-180deg); 
   transform-origin: 0 0; 
-  border: 2px white solid;
+  border: 2px  solid #004d4d ;
+  
   }
 
 
@@ -226,7 +227,6 @@ body {
     width: 428px;
     height: 926px;
     position: relative;
-    background: linear-gradient(180deg, #839A8D 31%, #8B6E80 100%);
   }
 
   .BradleyHi {
@@ -236,7 +236,6 @@ body {
     top: 422px;
     position: absolute;
     text-align: justify;
-    color: white;
     font-size: 16px;
     font-family: Modern Sans;
     font-weight: 500;
@@ -248,7 +247,6 @@ body {
     left: 26px;
     top: 195px;
     position: absolute;
-    color: white;
     font-size: 24px;
     font-family: Modern Sans;
     font-weight: 500;
@@ -262,7 +260,6 @@ body {
     top: 32px;
     position: absolute;
   
-    background: #839A8D;
   }
 
   .Image7{
@@ -279,7 +276,6 @@ body {
     left: 172px;
     top: 282px;
     position: absolute;
-    color: white;
     font-size: 24px;
     font-family: Modern Sans;
     font-weight: 500;
@@ -294,14 +290,13 @@ body {
     position: absolute;
     transform: rotate(90deg);
     transform-origin: 0 0;
-    border: 1px white solid;
+    border: 1px  solid;
   }
 
   .CTA {
     top: 250px;
     right: -55px;
     position: absolute;
-    color: white;
     font-size: 27px;
     font-family: Modern Sans;
     font-weight: 500;
@@ -318,7 +313,6 @@ body {
     position: absolute;
     transform: rotate(-180deg);
     transform-origin: 0 0;
-    border: 1px white solid;
   }
 }
 
@@ -329,7 +323,6 @@ body {
     width: 430px;
     height: 932px;
     position: relative;
-    background: linear-gradient(180deg, #839A8D 31%, #8B6E80 100%);
   }
 
   .BradleyHi {
@@ -339,7 +332,6 @@ body {
     top: 422px;
     position: absolute;
     text-align: justify;
-    color: white;
     font-size: 16px;
     font-family: Modern Sans;
     font-weight: 500;
@@ -351,7 +343,6 @@ body {
     left: 26px;
     top: 195px;
     position: absolute;
-    color: white;
     font-size: 24px;
     font-family: Modern Sans;
     font-weight: 500;
@@ -365,7 +356,6 @@ body {
     top: 32px;
     position: absolute;
   
-    background: #839A8D;
   }
 
   .Image7{
@@ -382,7 +372,6 @@ body {
     left: 172px;
     top: 282px;
     position: absolute;
-    color: white;
     font-size: 24px;
     font-family: Modern Sans;
     font-weight: 500;
@@ -397,14 +386,14 @@ body {
     position: absolute;
     transform: rotate(90deg);
     transform-origin: 0 0;
-    border: 1px white solid;
+    border: 1px  solid;
   }
 
   .CTA {
     top: 250px;
     right: -55px;
     position: absolute;
-    color: white;
+  
     font-size: 27px;
     font-family: Modern Sans;
     font-weight: 500;
@@ -421,7 +410,7 @@ body {
     position: absolute;
     transform: rotate(-180deg);
     transform-origin: 0 0;
-    border: 1px white solid;
+    border: 1px solid;
   }
 }
 /*iPhone pro 12-15----------------------------------------------------------------------------------------*/
@@ -430,7 +419,6 @@ body {
     width: 390px;
     height: 844px;
     position: relative;
-    background: linear-gradient(180deg, #839A8D 31%, #8B6E80 100%);
   }
 
   .BradleyHi {
@@ -440,7 +428,6 @@ body {
     top: 422px;
     position: absolute;
     text-align: justify;
-    color: white;
     font-size: 16px;
     font-family: Modern Sans;
     font-weight: 500;
@@ -452,7 +439,6 @@ body {
     left: 26px;
     top: 195px;
     position: absolute;
-    color: white;
     font-size: 24px;
     font-family: Modern Sans;
     font-weight: 500;
@@ -482,7 +468,6 @@ body {
     left: 172px;
     top: 282px;
     position: absolute;
-    color: white;
     font-size: 24px;
     font-family: Modern Sans;
     font-weight: 500;
@@ -497,14 +482,13 @@ body {
     position: absolute;
     transform: rotate(90deg);
     transform-origin: 0 0;
-    border: 1px white solid;
+    border: 1px  solid;
   }
 
   .CTA {
     top: 230px;
     right: -55px;
     position: absolute;
-    color: white;
     font-size: 20px;
     font-family: Modern Sans;
     font-weight: 500;
@@ -521,7 +505,7 @@ body {
     position: absolute;
     transform: rotate(-180deg);
     transform-origin: 0 0;
-    border: 1px white solid;
+    border: 1px solid;
   }
 }
 
@@ -533,7 +517,6 @@ body {
       top: 230px;
       right: -55px;
       position: absolute;
-      color: white;
       font-size: 20px;
       font-family: Modern Sans;
       font-weight: 500;
@@ -548,7 +531,6 @@ body {
     top: 422px;
     position: absolute;
     text-align: justify;
-    color: white;
     font-size: 16px;
     font-family: Modern Sans;
     font-weight: 500;
@@ -560,7 +542,6 @@ body {
     left: 26px;
     top: 195px;
     position: absolute;
-    color: white;
     font-size: 24px;
     font-family: Modern Sans;
     font-weight: 500;
@@ -587,7 +568,6 @@ body {
     left: 172px;
     top: 282px;
     position: absolute;
-    color: white;
     font-size: 24px;
     font-family: Modern Sans;
     font-weight: 500;
@@ -602,14 +582,13 @@ body {
     position: absolute;
     transform: rotate(90deg);
     transform-origin: 0 0;
-    border: 1px white solid;
+    border: 1px solid;
   }
 
   .CTA {
     top: 230px;
     right: -55px;
     position: absolute;
-    color: white;
     font-size: 20px;
     font-family: Modern Sans;
     font-weight: 500;
@@ -625,7 +604,7 @@ body {
     position: absolute;
     transform: rotate(-180deg);
     transform-origin: 0 0;
-    border: 1px white solid;
+    border: 1px solid;
   }
 }
 
