@@ -1,5 +1,6 @@
 body {
-    background: linear-gradient(180deg, #5A6A61 0%, #9BB8A8 100%);
+  background-color: #d9fdeb; /* Result of mixing Azure with darker grey */
+  padding: 0;
     margin: 0;
 }
 
@@ -26,8 +27,7 @@ body {
     right: 2px;
     display: flex;
     margin-left: auto;
-    background: linear-gradient(180deg, #765A6B 0%, #DCA8C7 100%);
-    color: white; 
+    background-color: #004d4d;
     font-size: 25px; 
     font-family: Modern Sans; 
     line-height: normal;
@@ -39,8 +39,11 @@ body {
   }
   
   .header img {
-    width: 75px;
-    height: 40px;
+    width: 50px;
+    right: 10px;
+    top: -10px;
+    height: 90px;
+    position: absolute;
     /* Remove position absolute to allow flexbox alignment */
   }
   
@@ -61,7 +64,7 @@ body {
   .nav__links li a {
       transition: all 0.3s ease 0s;
       text-align: left;
-      color: white; /* Add this line to set the link color to white */
+      color:  #d9fdeb; /* Add this line to set the link color to white */
       text-decoration: none;
   }
   
@@ -72,10 +75,9 @@ body {
 
 
 .Proyecto2{
-    width:110%;
-     height: 11000px;
+  width: 1920px;
+  height: 5200px;
      position: relative; 
-     background: linear-gradient(180deg, #5A6A61 0%, #9BB8A8 100%);
 
 }
 
@@ -85,19 +87,17 @@ body {
      left: 30px; 
      top: 561px; 
      position: absolute;
-     color: white; 
+     color: #004d4d;
      font-family: Modern Sans; 
      font-weight: 500;
      word-wrap: break-word;
-     color: white; 
-     
      font-size: 27px; 
 }
 .project{
      font-size: 40px; 
 }
 .AimtoAssist{
-     color: #FFF;
+  color: #004d4d;
      font-family: "Modern Sans";
      font-size: 22px;
      font-style: normal;
@@ -105,6 +105,7 @@ body {
      line-height: normal;
 }
 .IntendedAudience{
+  color: #004d4d;
      width: 873px;
      height: 714px; 
      left:  1000px; 
@@ -112,14 +113,16 @@ body {
      position: absolute;
 }
 .IntenDes{
-    color: white; 
+  color: #004d4d;
+
     font-size:  40px; 
     font-family: Modern Sans; 
     font-weight: 500; 
     word-wrap: break-word;
 }
 .IntenText{
-    color: white; 
+  color: #004d4d;
+
     font-size: 27px; 
     font-family: Modern Sans; 
     font-weight: 500; 
@@ -134,14 +137,14 @@ body {
 }
 
 .FeaturesDes{
-     color: white; 
+     color: #004d4d;
      font-size: 40px; 
      font-family: Modern Sans; 
      font-weight: 500; 
      word-wrap: break-word;
 }
 .FeaturesText{
-     color: white; 
+     color: #004d4d;
      font-size: 27px; 
      font-family: Modern Sans;
      font-weight: 500; 
@@ -158,7 +161,7 @@ body {
 }
 
 .UserInterfacesDes{
-     color: white; 
+     color: #004d4d; 
      font-size: 36px; 
      font-family: Modern Sans; 
      font-weight: 500; 
@@ -166,7 +169,7 @@ body {
 }
 
 .UserInterfacesText{
-    color: white; 
+    color: #004d4d;
     font-size: 27px; 
     font-family: Modern Sans; 
     font-weight: 500; 
@@ -178,7 +181,7 @@ body {
    left: 1150px; 
    top: 182px; 
    position: absolute; 
-   color: white; 
+   color: #004d4d; 
    font-size: 40px; 
    font-family: Modern Sans; 
    font-weight: 500; 
@@ -191,7 +194,7 @@ body {
     left: 101px; 
     top: 160px; 
     position: absolute; 
-    color: white; 
+    color: #004d4d;
     font-size: 80px; 
     font-family: Modern Sans; 
     font-weight: 500; 
@@ -205,7 +208,7 @@ body {
     top: 2699px; 
     position: absolute; 
     text-align: center; 
-    color: white; 
+    color: #004d4d;
     font-size: 30px; 
     font-family: Type Machine; 
     font-weight: 400; 
@@ -218,7 +221,7 @@ body {
     left: 900px; 
     top: 3833px; 
     position: absolute; 
-    color: white; 
+    color: #004d4d;
     font-size: 25px; 
     font-family: Modern Sans; 
     font-weight: 500; 
@@ -231,7 +234,7 @@ body {
     left: 1089px; 
     top: 4597px; 
     position: absolute; 
-    color: white; 
+    color: #004d4d; 
     font-size: 30px; 
     font-family: Modern Sans; 
     font-weight: 500; 
@@ -244,7 +247,7 @@ height: 327px;
 left: 256px; 
 top: 5453px; 
 position: absolute; 
-color: white; 
+color: #004d4d;
 font-size: 30px; 
 font-family: Modern Sans; 
 font-weight: 500; 
@@ -257,7 +260,7 @@ word-wrap: break-word;
     left: 942px; 
     top: 5946px; 
     position: absolute; 
-    color: white; 
+    color: #004d4d;
     font-size: 30px; 
     font-family: Modern Sans; 
     font-weight: 500; 
@@ -270,7 +273,7 @@ height: 61px;
 left: 129px; 
 top: 6543px; 
 position: absolute; 
-color: white; 
+color: #004d4d;
 font-size: 35px; 
 font-family: Modern Sans; 
 font-weight: 500; 
@@ -283,7 +286,7 @@ word-wrap: break-word;
     left: 20px; 
     top: 6669px; 
     position: absolute; 
-    color: white; 
+    color: #004d4d;
     font-size: 30px; 
     font-family: Modern Sans; 
     font-weight: 500; 
@@ -296,7 +299,7 @@ word-wrap: break-word;
     left: 1204px; 
     top: 7338px; 
     position: absolute; 
-    color: white; 
+    color: #004d4d;
     font-size: 30px; 
     font-family: Modern Sans; 
     font-weight: 500; 
@@ -310,7 +313,7 @@ word-wrap: break-word;
     top: 8066px; 
     position: absolute; 
     text-align: center;
-    color: white; 
+    color: #004d4d;
     font-size: 35px; 
     font-family: Type Machine; 
     font-weight: 400; 
