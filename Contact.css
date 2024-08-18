@@ -241,6 +241,16 @@ color:#8B6E80;
   /* Mobile screens (max-width: 767px) */
 @media only screen and (max-width: 767px) {
   /* Adjust styles for small screens here */
+  html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  body {
+    background-color: #d9fdeb;
+    display: flex;
+    flex-direction: column;
+  }
   .CTA {
     top: 230px;
     right: -55px;
