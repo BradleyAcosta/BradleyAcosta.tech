@@ -237,7 +237,7 @@ color:#8B6E80;
 }
 
 /* iPhone 12 Pro Max, 13 Pro Max, 14 Pro Max, 15 Pro Max (Screen width: 430px) */
-@media only screen and (min-device-width: 430px) and (max-device-width: 430px) and (-webkit-device-pixel-ratio: 3) {
+@media only screen and (min-device-width: 490px)  {
   .CTA {
     font-size: 20px;
     padding: 40px;
