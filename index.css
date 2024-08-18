@@ -221,6 +221,101 @@ body {
   }
 }
 
+/* IPhone 12 Pro max queries-------------------------------------------------------------------------------*/
+@media only screen and (max-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) {
+  .BackgroundBaseColor {
+    width: 428px;
+    height: 926px;
+    position: relative;
+  }
+
+  .BradleyHi {
+    width: 182px;
+    height: 208px;
+    left: 26px;
+    top: 422px;
+    position: absolute;
+    text-align: justify;
+    font-size: 16px;
+    font-family: Modern Sans;
+    font-weight: 500;
+    word-wrap: break-word;
+  }
+
+  .BradleyAcostaRojas {
+    width: 427px;
+    left: 26px;
+    top: 195px;
+    position: absolute;
+    font-size: 24px;
+    font-family: Modern Sans;
+    font-weight: 500;
+    word-wrap: break-word;
+  }
+
+  .Image1 {
+    width: 124px;
+    height: 67px;
+    left: 280px;
+    top: 32px;
+    position: absolute;
+  
+  }
+
+  .Image7{
+    width: 123px;
+    height: 63px;
+    left: 4px;
+    top: 5px;
+    position: absolute;
+
+  }
+
+
+  .WebDeveloper {
+    left: 172px;
+    top: 282px;
+    position: absolute;
+    font-size: 24px;
+    font-family: Modern Sans;
+    font-weight: 500;
+    word-wrap: break-word;
+  }
+
+  .Vector2 {
+    width: 0px;
+    height: 200px;
+    left: 372px;
+    top: 305px;
+    position: absolute;
+    transform: rotate(90deg);
+    transform-origin: 0 0;
+    border: 1px  solid;
+  }
+
+  .CTA {
+    top: 250px;
+    right: -55px;
+    position: absolute;
+    font-size: 27px;
+    font-family: Modern Sans;
+    font-weight: 500;
+    letter-spacing: 2.97px;
+    word-wrap: break-word;
+  }
+  
+
+  .Vector3 {
+    width: 0px;
+    height: 214px;
+    left: 18px;
+    top: 630px;
+    position: absolute;
+    transform: rotate(-180deg);
+    transform-origin: 0 0;
+  }
+}
+
 
 /* IPhone 14-15 Pro max queries---------------------------------------------------------------------------*/
 @media only screen and (max-width: 430px) and (device-height: 932px) and (-webkit-device-pixel-ratio: 3) {
@@ -311,7 +406,7 @@ body {
     width: 0px;
     height: 214px;
     left: 18px;
-    top: 650px;
+    top: 630px;
     position: absolute;
     transform: rotate(-180deg);
     transform-origin: 0 0;
@@ -483,7 +578,7 @@ body {
     width: 0px;
     height: 200px;
     left: 372px;
-    top: 330px;
+    top: 305px;
     position: absolute;
     transform: rotate(90deg);
     transform-origin: 0 0;
