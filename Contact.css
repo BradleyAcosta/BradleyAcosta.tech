@@ -248,9 +248,8 @@ color:#8B6E80;
   .CTA {
   font-size: 20px;
     padding: 40px;
-    margin-top: 680px;
+  top: 50px;
     position: absolute;
-    width: 400px;
   }
   .Image1 {
     width: 120px;
@@ -345,4 +344,75 @@ color:#8B6E80;
   top: 290px;
 }
 
+}
+
+ /* Mobile screens (max-width: 767px) */
+ @media only screen and (max-width: 767px) {
+  /* Adjust styles for small screens here */
+
+
+.BradleyHi {
+  width: 182px;
+  height: 208px;
+  left: 26px;
+  top: 422px;
+  position: absolute;
+  text-align: justify;
+  font-size: 16px;
+  font-family: Modern Sans;
+  font-weight: 500;
+  word-wrap: break-word;
+}
+
+.BradleyAcostaRojas {
+  width: 300px;
+  left: 26px;
+  top: 195px;
+  position: absolute;
+  font-size: 24px;
+  font-family: Modern Sans;
+  font-weight: 500;
+  word-wrap: break-word;
+}
+
+.Image1 {
+  width: 114px;
+  height: 60px;
+  left: 20px;
+  top: 30px;
+  position: absolute;
+}
+
+.Image7 {
+  width: 113px;
+  height: 58px;
+  left: 4px;
+  top: 3px;
+  position: absolute;
+}
+
+.WebDeveloper {
+  left: 172px;
+  top: 282px;
+  position: absolute;
+  font-size: 24px;
+  font-family: Modern Sans;
+  font-weight: 500;
+  word-wrap: break-word;
+}
+
+.Vector7{
+  width: 95%;
+  left: 2.5%;
+  position: absolute;
+  top: 400px;
+}
+
+.CTA {
+  font-size: 20px;
+  padding: 40px;
+  margin-top: 680px;
+  position: absolute;
+  width: 400px;
+}
 }
