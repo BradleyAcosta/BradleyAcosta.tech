@@ -192,76 +192,178 @@ color:#8B6E80;
 
 
 
- /* Mobile screens (max-width: 767px) */
-@media only screen and (max-width: 767px) {
+/* iPhone 12/12 Pro and iPhone 13/13 Pro (Screen width: 390px) */
+@media only screen and (min-device-width: 390px) and (max-device-width: 390px) and (-webkit-device-pixel-ratio: 3) {
   .CTA {
-    top: 230px;
-    right: -55px;
-    font-size: 20px;
-  }
-  .Image1 {
-    width: 114px;
-    height: 60px;
-    left: 20px;
-    top: 30px;
-  }
-  .Image7 {
-    width: 113px;
-    height: 58px;
-    left: 4px;
-    top: 3px;
-  }
-  .ContactDes {
-    left: 20px;
-    top: 200px;
-    font-size: 30px;
-  }
-  .ContactText {
-    width: 250px;
-    left: 20px;
-    top: 250px;
-    font-size: 15px;
-  }
-  .contact-info {
-    width: 100%;
     font-size: 18px;
-    top: 450px;
-    left: 10px;
-  }
-  .Vector7 {
-    width: 59%;
-    height: 0px;
-    left: 20px;
-    top: 320px;
-  }
-}
-
-/* Tablet and desktop screens (min-width: 768px) */
-@media only screen and (min-width: 768px) {
-  /* Adjust styles for larger screens here */
-  .CTA {
-    font-size: 24px;
+    padding: 30px;
+    margin-top: 640px;
+    width: 350px;
   }
   .Image1 {
-    width: 150px;
-    height: 80px;
+    width: 100px;
+    height: 45px;
+    left: 10px;
+    top: 20px;
   }
   .Image7 {
-    width: 140px;
-    height: 70px;
+    width: 100px;
+    height: 100px;
+    left: 5px;
+    top: 5px;
   }
   .ContactDes {
-    font-size: 36px;
+    font-size: 40px;
+    left: 10px;
+    top: 150px;
   }
   .ContactText {
     width: 300px;
+    left: 10px;
+    top: 200px;
+    font-size: 16px;
+  }
+  .contact-info {
+    width: 300px;
+    font-size: 20px;
+    left: 10px;
+    top: 350px;
+  }
+  .Vector7 {
+    width: 90%;
+    left: 1%;
+    top: 250px;
+  }
+}
+
+/* iPhone 12 Pro Max, 13 Pro Max, 14 Pro Max, 15 Pro Max (Screen width: 430px) */
+@media only screen and (min-device-width: 430px) and (max-device-width: 430px) and (-webkit-device-pixel-ratio: 3) {
+  .CTA {
+    font-size: 20px;
+    padding: 40px;
+    margin-top: 680px;
+    width: 400px;
+  }
+  .Image1 {
+    width: 120px;
+    height: 0;
+    left: 15px;
+    top: 0;
+  }
+  .Image7 {
+    width: 120px;
+    height: 100px;
+    left: 10px;
+    top: 0;
+  }
+  .ContactDes {
+    font-size: 50px;
+    left: 20px;
+    top: 150px;
+  }
+  .ContactText {
+    width: 350px;
+    left: 20px;
+    top: 230px;
     font-size: 18px;
   }
   .contact-info {
+    width: 350px;
     font-size: 20px;
+    left: 20px;
+    top: 410px;
+  }
+  .Vector7 {
+    width: 95%;
+    left: 2.5%;
+    top: 290px;
+  }
+}
+
+/* Small Phones (e.g., iPhone SE (2nd and 3rd gen), screen width: 375px) */
+@media only screen and (max-device-width: 375px) and (-webkit-device-pixel-ratio: 2) {
+  .CTA {
+    font-size: 16px;
+    padding: 20px;
+    margin-top: 200px;
+    width: 280px;
+  }
+  .Image1 {
+    width: 80px;
+    height: 40px;
+    left: 5px;
+    top: 15px;
+  }
+  .Image7 {
+    width: 80px;
+    height: 40px;
+    left: 3px;
+    top: 5px;
+  }
+  .ContactDes {
+    font-size: 30px;
+    left: 5px;
+    top: 100px;
+  }
+  .ContactText {
+    width: 200px;
+    left: 5px;
+    top: 150px;
+    font-size: 14px;
+  }
+  .contact-info {
+    width: 200px;
+    font-size: 16px;
+    left: 5px;
+    top: 250px;
+  }
+  .Vector7 {
+    width: 80%;
+    left: 10%;
+    top: 180px;
+  }
+}
+
+/* Extra Small Phones (e.g., older small devices, screen width: 320px) */
+@media only screen and (max-device-width: 320px) and (-webkit-device-pixel-ratio: 2) {
+  .CTA {
+    font-size: 14px;
+    padding: 15px;
+    margin-top: 150px;
+    width: 260px;
+  }
+  .Image1 {
+    width: 70px;
+    height: 35px;
+    left: 3px;
+    top: 10px;
+  }
+  .Image7 {
+    width: 70px;
+    height: 35px;
+    left: 2px;
+    top: 3px;
+  }
+  .ContactDes {
+    font-size: 25px;
+    left: 3px;
+    top: 80px;
+  }
+  .ContactText {
+    width: 180px;
+    left: 3px;
+    top: 120px;
+    font-size: 12px;
+  }
+  .contact-info {
+    width: 180px;
+    font-size: 14px;
+    left: 3px;
+    top: 200px;
   }
   .Vector7 {
     width: 70%;
-    height: 20px;
+    left: 15%;
+    top: 150px;
   }
 }
