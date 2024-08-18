@@ -77,6 +77,8 @@ color:#8B6E80;
 
 
   .Image1{
+    flex-direction: row;
+
     width: 369px; 
     height: 170.14px; 
     padding: 2px; 
@@ -127,6 +129,8 @@ color:#8B6E80;
 
 
   .Image7 {
+    flex-direction: row;
+
     width: 369px; 
     height: 170.14px; 
     left: 1px; 
@@ -136,6 +140,8 @@ color:#8B6E80;
 
 
 .ContactDes{
+  flex-direction: row;
+
   left: 99px; 
   top: 250px; 
   position: absolute; 
@@ -146,6 +152,8 @@ color:#8B6E80;
   word-wrap: break-word;
 }
 .ContactText{
+  flex-direction: row;
+
   width: 1200px; 
   height: 252px; 
   left: 30px; 
@@ -161,6 +169,8 @@ color:#8B6E80;
 
 
 .contact-info{
+  flex-direction: row;
+
     width: 820px;
     position: absolute;
     left: 100px;
@@ -182,6 +192,8 @@ color:#8B6E80;
 }
 
 .Vector7{
+  flex-direction: row;
+
   width: 1070px; 
   height: 0px; 
   left: 20px; 
@@ -193,6 +205,30 @@ color:#8B6E80;
 
  @media(max-width: 600px){
   .BackgroundBaseColor{
+    flex-direction: column;
+  }
+  .contact-info{
+    flex-direction: column;
+  }
+  .Contact-Me{
+    flex-direction: column;
+  }
+  .ContactDes{
+    flex-direction: column;
+  }
+  .ContactText{
+    flex-direction: column;
+  }
+  .CTA {
+    flex-direction: column;
+  }
+  .Image1{
+    flex-direction: column;
+  }
+  .Image7 {
+    flex-direction: column;
+  }
+  .Vector7{
     flex-direction: column;
   }
  }
