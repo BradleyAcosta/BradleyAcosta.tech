@@ -66,7 +66,6 @@ color:#8B6E80;
 
 
 .BackgroundBaseColor{
-  flex-direction: row;
   width: 100%;
     overflow: hidden; /* Prevent overflow issues */
     height: 100%; 
@@ -77,7 +76,6 @@ color:#8B6E80;
 
 
   .Image1{
-    flex-direction: row;
 
     width: 369px; 
     height: 170.14px; 
@@ -129,7 +127,6 @@ color:#8B6E80;
 
 
   .Image7 {
-    flex-direction: row;
 
     width: 369px; 
     height: 170.14px; 
@@ -140,7 +137,6 @@ color:#8B6E80;
 
 
 .ContactDes{
-  flex-direction: row;
 
   left: 99px; 
   top: 250px; 
@@ -152,8 +148,6 @@ color:#8B6E80;
   word-wrap: break-word;
 }
 .ContactText{
-  flex-direction: row;
-
   width: 1200px; 
   height: 252px; 
   left: 30px; 
@@ -169,8 +163,6 @@ color:#8B6E80;
 
 
 .contact-info{
-  flex-direction: row;
-
     width: 820px;
     position: absolute;
     left: 100px;
@@ -192,8 +184,6 @@ color:#8B6E80;
 }
 
 .Vector7{
-  flex-direction: row;
-
   width: 1070px; 
   height: 0px; 
   left: 20px; 
@@ -203,32 +193,45 @@ color:#8B6E80;
   }
 
 
- @media(max-width: 600px){
+@media only screen and (max-width: 768px){
   .BackgroundBaseColor{
-    flex-direction: column;
+    width: 100%;
   }
-  .contact-info{
-    flex-direction: column;
-  }
-  .Contact-Me{
-    flex-direction: column;
+  .CTA{
+    font-size: 20px;
+    width: 360px;
+    margin-top: 650px;
+    left: 0;
   }
   .ContactDes{
-    flex-direction: column;
+    width: 100%;
+    font-size: 45px;
+    left: 0;
+
+  }
+  .contact-info{
+    width: 100%;
+    font-size: 20px;
+    left: 0;
+    top: 450px;
   }
   .ContactText{
-    flex-direction: column;
-  }
-  .CTA {
-    flex-direction: column;
+    left: 0;
+    width: 100%;
   }
   .Image1{
-    flex-direction: column;
+    top: 0px;
+    width: 100px;
+    left: 20px;
   }
-  .Image7 {
-    flex-direction: column;
+  .Image7{
+    top: 0;
+    left: 1px;
+    width: 100%;
   }
   .Vector7{
-    flex-direction: column;
+    width: 100%;
+    left: 0;
+    top: 415px;
   }
- }
+}
