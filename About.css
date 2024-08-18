@@ -1,13 +1,11 @@
 body {
-    
-         background: linear-gradient(180deg, #839A8D 31.01%, #8B6E80 100%);
+    background-color: #d9fdeb;
         height: 100vh;
         margin: 0;
         font-family: Modern Sans; 
         line-height: 1.6;
         margin: 0;
         padding: 0;
-        color:#839A8D;
 }
 
 
@@ -38,11 +36,11 @@ body {
 }
 
 h1, h2 {
-    color: #8B6E80;
+    color: #004d4d;
 }
 
 h1 {
-    border-bottom: 2px solid #839A8D;
+    border-bottom: 2px solid #004d4d;
     padding-bottom: 10px;
 }
 
@@ -62,7 +60,7 @@ p {
 }
 
 .contact-info a {
-    color:#839A8D;
+    color:#004d4d;
     text-decoration: none;
 }
 
@@ -76,8 +74,7 @@ p {
     right: 2px;
     display: flex;
     margin-left: auto;
-    background: linear-gradient(180deg, #5A6A61 0%, #9BB8A8 100%);
-    color: white; 
+    background-color: #d9fdeb;
     font-size: 25px; 
     font-family: Modern Sans; 
     line-height: normal;
@@ -115,7 +112,7 @@ p {
   .nav__links li a {
       transition: all 0.3s ease 0s;
       text-align: left;
-      color: white; /* Add this line to set the link color to white */
+      color: #004d4d; /* Add this line to set the link color to white */
       text-decoration: none;
   }
   
@@ -127,10 +124,10 @@ p {
   .Vector7 {
     width: 2750%; 
     height: 0px; 
-    left: 20px; 
+    left: 0px; 
     top: 55px; 
     position: absolute; 
-    border: 3px white solid;
+    border: 3px #004d4d solid;
   }
 
 
