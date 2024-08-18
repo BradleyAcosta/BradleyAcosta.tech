@@ -74,7 +74,7 @@ p {
     right: 2px;
     display: flex;
     margin-left: auto;
-    background-color: #d9fdeb;
+    background-color: #004d4d;
     font-size: 25px; 
     font-family: Modern Sans; 
     line-height: normal;
@@ -86,16 +86,14 @@ p {
   }
   
   .header img {
-    width: 75px;
-    height: 40px;
+    width: 50px;
+  right: 10px;
+  top: -10px;
+  height: 90px;
+  position: absolute;
     /* Remove position absolute to allow flexbox alignment */
   }
-  .Image1{
-    left: 1px;
-    top: 20px;
-    position: absolute;
-  }
-  
+
   .nav__links{
       display: inline-block;
       
@@ -112,7 +110,7 @@ p {
   .nav__links li a {
       transition: all 0.3s ease 0s;
       text-align: left;
-      color: #004d4d; /* Add this line to set the link color to white */
+      color:  #d9fdeb; /* Add this line to set the link color to white */
       text-decoration: none;
   }
   
@@ -130,10 +128,6 @@ p {
     border: 2px #004d4d solid;
   }
 
-  .Image7{
-  width: 100%; 
-  height: 40px;
-  }
 
 
   /* Medium Screens (768px to 991px) */

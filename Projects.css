@@ -1,6 +1,6 @@
 /* Global Styles */
 body{
-  background: linear-gradient(180deg, #765A6B 0%, #DCA8C7 100%);
+  background-color: #d9fdeb; /* Result of mixing Azure with darker grey */
   margin: 0;
    padding: 0;
 }
@@ -26,8 +26,7 @@ body{
   right: 2px;
   display: flex;
   margin-left: auto;
-  background: linear-gradient(180deg, #5A6A61 0%, #9BB8A8 100%);
-  color: white; 
+  background-color: #004d4d;
   font-size: 25px; 
   font-family: Modern Sans; 
   line-height: normal;
@@ -39,8 +38,12 @@ body{
 }
 
 .header img {
-  width: 75px;
-  height: 40px;
+  
+  width: 50px;
+  right: 10px;
+  top: -10px;
+  height: 90px;
+  position: absolute;
   /* Remove position absolute to allow flexbox alignment */
 }
 
@@ -61,7 +64,7 @@ body{
 .nav__links li a {
     transition: all 0.3s ease 0s;
     text-align: left;
-    color: white; /* Add this line to set the link color to white */
+    color:  #d9fdeb; /* Add this line to set the link color to white */
     text-decoration: none;
 }
 
@@ -69,7 +72,9 @@ body{
     color: #765A6B;
 
 }
-  
+
+
+
   /* Project 1 Slide 1 Styles */
   .Proyect1Slide1 {
     width: 1920px;
@@ -85,7 +90,6 @@ body{
     left: 0px; 
     top: 0px; 
     position: absolute; 
-    background: linear-gradient(180deg, #765A6B 0%, #DCA8C7 100%);
   }
   
   .ProjectOBJ {
@@ -97,7 +101,7 @@ body{
   }
   
   .ProjectObjectiveDes {
-    color: white; 
+    color: #004d4d;
     font-size: 40px; 
     font-family: Modern Sans; 
     font-weight: 500; 
@@ -105,7 +109,7 @@ body{
   }
 
   .ProjectObjectiveText{
-    color: white; 
+    color: #004d4d; 
     font-size: 27px; 
     font-family: Modern Sans; 
     font-weight: 500; 
@@ -123,14 +127,14 @@ body{
   }
   
   .InternContributionD {
-  color: white; 
+  color: #004d4d; 
   font-size: 16px; 
   font-family: Modern Sans; 
   font-weight: 500; 
   word-wrap: break-word;
   }
   .InternContributionDes{
-    color: white; 
+    color: #004d4d; 
     font-size: 40px; 
     font-family: Modern Sans; 
     font-weight: 500; 
@@ -138,7 +142,7 @@ body{
   }
 
   .InternContributionText{
-    color: white; 
+    color: #004d4d; 
     font-size: 27px; 
     font-family: Modern Sans; 
     font-weight: 500; 
@@ -151,7 +155,7 @@ body{
     left: 135px; 
     top: 202px; 
     position: absolute; 
-    color: white; 
+    color: #004d4d; 
     font-size: 80px; 
     font-family: Modern Sans; 
     font-weight: 500; 
@@ -163,7 +167,7 @@ body{
     left: 1300px; 
     top: 224px; 
     position: absolute; 
-    color: white; 
+    color: #004d4d; 
     font-size: 40px; 
     font-family: Modern Sans; 
     font-weight: 500; 
@@ -179,7 +183,7 @@ body{
   }
 
   .StartingUpDes{
-    color: white; 
+    color: #004d4d; 
     font-size: 40px; 
     font-family: Modern Sans; 
     font-weight: 500;
@@ -187,7 +191,7 @@ body{
   }
   
 .StartingUpText{
-    color: white; 
+    color: #004d4d; 
     font-size: 27px; 
     font-family: Modern Sans; 
     font-weight: 500; 
@@ -203,7 +207,7 @@ body{
 }
 
 .NodeJsDs{
-    color: white; 
+    color: #004d4d; 
     font-size: 24px; 
     font-family: Modern Sans; 
     font-weight: 500; 
@@ -211,7 +215,7 @@ body{
 }
 
 .NodeJsDes{
-    color: white; 
+    color: #004d4d; 
     font-size: 40px; 
     font-family: Modern Sans; 
     font-weight: 500; 
@@ -219,7 +223,7 @@ body{
 }
 
 .NodeJsText{
-    color: white; 
+    color: #004d4d; 
     font-size: 27px; 
     font-family: Modern Sans; 
     font-weight: 500; 
@@ -235,7 +239,7 @@ body{
 }
 
 .NodePackageDes{
-    color: white; 
+    color: #004d4d; 
     font-size: 40px; 
     font-family: Modern Sans; 
     font-weight: 500; 
@@ -243,7 +247,7 @@ body{
 }
 
 .NodePackageText{
-    color: white; 
+    color: #004d4d; 
     font-size: 27px; 
     font-family: Modern Sans; 
     font-weight: 500; 
@@ -258,7 +262,7 @@ body{
     position: absolute;
 }
 .SomeNpmLibraries{
-    color: white; 
+    color: #004d4d; 
     font-size: 40px; 
     font-family: Modern Sans; 
     font-weight: 500; 
@@ -266,7 +270,7 @@ body{
 }
 
 .Electron{
-    color: white; 
+    color: #004d4d; 
     font-size: 27px; 
     font-family: Modern Sans; 
     font-weight: 500; 
@@ -283,7 +287,7 @@ body{
 }
 
 .ExperienceITookDs{
-  color: white; 
+  color: #004d4d; 
   font-size: 70px; 
   top: 3700px; 
 
@@ -294,7 +298,7 @@ body{
 }
 
 .ExperienceITookDes{
-  color: white; 
+  color: #004d4d; 
   font-size: 45px; 
   font-family: Modern Sans; 
   font-weight: 500; 
@@ -302,7 +306,7 @@ body{
 }
 
 .ExperienceITookText{
-  color: white; 
+  color: #004d4d; 
   width: 400px;
   font-size: 40px; 
   font-family: Modern Sans; 
@@ -319,7 +323,7 @@ body{
 }
 
 .EnsuringScaleDes{
-  color: white; 
+  color: #004d4d; 
   font-size: 40px; 
   font-family: Modern Sans; 
   font-weight: 500;
@@ -327,7 +331,8 @@ body{
 }
 
 .EnsuringScaleText{
-  color: white; font-size: 27px; 
+  color: #004d4d; 
+  font-size: 27px; 
   font-family: Modern Sans;
    font-weight: 500; 
    word-wrap: break-word;
@@ -349,7 +354,7 @@ body{
 }
 
 .CreatedAnElectronText{
-  color: white; 
+  color: #004d4d; 
   font-size: 30px; 
   font-family: Modern Sans; 
   font-weight: 500; 
@@ -362,7 +367,7 @@ body{
   top: 2644px; 
   position: absolute; 
   text-align: center; 
-  color: white; 
+  color: #004d4d; 
   font-size: 70px; 
   font-family: Modern Sans; 
   font-weight: 500; 
@@ -375,7 +380,7 @@ body{
   left: 1165px; 
   top: 2765px; 
   position: absolute; 
-  color: white; 
+  color: #004d4d; 
   font-size: 30px; 
   font-family: Modern Sans; 
   font-weight: 500; 
