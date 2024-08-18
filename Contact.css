@@ -204,7 +204,7 @@ color:#8B6E80;
       padding: 20px;
       margin-top: 680px;
       width: 90%;
-      position: relative;
+      position: absolute;
     }
   
     .Image1 {
@@ -212,6 +212,7 @@ color:#8B6E80;
       height: auto;
       left: 10px;
       top: 20px;
+      
     }
   
     .Image7 {
