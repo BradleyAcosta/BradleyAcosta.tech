@@ -195,41 +195,48 @@ color:#8B6E80;
 /* iPhone 12/12 Pro and iPhone 13/13 Pro (Screen width: 390px) */
 @media only screen and (min-device-width: 390px) and (max-device-width: 390px) and (-webkit-device-pixel-ratio: 3) {
   .CTA {
+    position: absolute;
     font-size: 18px;
     padding: 30px;
     margin-top: 640px;
     width: 350px;
   }
   .Image1 {
+    position: absolute;
     width: 100px;
     height: 45px;
     left: 10px;
     top: 20px;
   }
   .Image7 {
+    position: absolute;
     width: 100px;
     height: 100px;
     left: 5px;
     top: 5px;
   }
   .ContactDes {
+    position: absolute;
     font-size: 40px;
     left: 10px;
     top: 150px;
   }
   .ContactText {
+    position: absolute;
     width: 300px;
     left: 10px;
     top: 200px;
     font-size: 16px;
   }
   .contact-info {
+    position: absolute;
     width: 300px;
     font-size: 20px;
     left: 10px;
     top: 350px;
   }
   .Vector7 {
+    position: absolute;
     width: 90%;
     left: 1%;
     top: 250px;
@@ -237,11 +244,12 @@ color:#8B6E80;
 }
 
 /* iPhone 12 Pro Max, 13 Pro Max, 14 Pro Max, 15 Pro Max (Screen width: 430px) */
-@media only screen and (min-device-width: 490px)  {
+@media only screen and (min-device-width: 430px) and (max-device-width: 430px) and (-webkit-device-pixel-ratio: 3) {
   .CTA {
     font-size: 20px;
     padding: 40px;
     margin-top: 680px;
+    position: absolute;
     width: 400px;
   }
   .Image1 {
@@ -249,33 +257,39 @@ color:#8B6E80;
     height: 0;
     left: 15px;
     top: 0;
+    position: absolute;
   }
   .Image7 {
     width: 120px;
     height: 100px;
     left: 10px;
     top: 0;
+    position: absolute;
   }
   .ContactDes {
     font-size: 50px;
     left: 20px;
     top: 150px;
+    position: absolute;
   }
   .ContactText {
     width: 350px;
     left: 20px;
     top: 230px;
     font-size: 18px;
+    position: absolute;
   }
   .contact-info {
     width: 350px;
     font-size: 20px;
     left: 20px;
     top: 410px;
+    position: absolute;
   }
   .Vector7 {
     width: 95%;
     left: 2.5%;
+    position: absolute;
     top: 290px;
   }
 }
