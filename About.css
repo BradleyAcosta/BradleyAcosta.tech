@@ -1,5 +1,5 @@
 body {
-    background-color: #d9fdeb;
+  background-color: #000000; /* Result of mixing Azure with darker grey */
         height: 100vh;
         margin: 0;
         font-family: Modern Sans; 
@@ -27,7 +27,7 @@ body {
 
 
 .container {
-    max-width: 5000px;
+    max-width: 83% ;
     text-align: center;
     margin:4%;
     padding: 80px;
@@ -36,11 +36,11 @@ body {
 }
 
 h1, h2 {
-    color: #004d4d;
+    color: #000000;
 }
 
 h1 {
-    border-bottom: 2px solid #004d4d;
+    border-bottom: 2px solid #000000;
     padding-bottom: 10px;
 }
 
@@ -60,7 +60,7 @@ p {
 }
 
 .contact-info a {
-    color:#004d4d;
+    color:#000000;
     text-decoration: none;
 }
 
@@ -72,9 +72,7 @@ p {
 .header {
     width: 100%;
     right: 2px;
-    display: flex;
-    margin-left: auto;
-    background-color: #004d4d;
+    background-color: #000000;
     font-size: 25px; 
     font-family: Modern Sans; 
     line-height: normal;
@@ -91,6 +89,20 @@ p {
     top: 20px;
     position: absolute;
   }
+
+
+.Vector7 {
+  color: #fff;
+  width: 100%; 
+  height: 0; 
+  left: 0; 
+ 
+  position: absolute; 
+  border: 2px #ffffff solid;
+}
+
+
+
   
   .nav__links{
       display: inline-block;
@@ -108,7 +120,7 @@ p {
   .nav__links li a {
       transition: all 0.3s ease 0s;
       text-align: left;
-      color:  #d9fdeb; /* Add this line to set the link color to white */
+      color:  white; /* Add this line to set the link color to white */
       text-decoration: none;
   }
   
@@ -117,20 +129,12 @@ p {
   
   }
 
-  .Vector7 {
-    width: 10%; 
-    height: 0; 
-    left: 0; 
-    top: 0; 
-    position: absolute; 
-    border: 2px #004d4d solid;
-  }
-
 
   .Image1{
     position: absolute;
     width: 0;
     height: 100px;
+  
   }
   .Image7{
     position: absolute;
@@ -139,182 +143,3 @@ p {
 
   }
 
-
-  /* Medium Screens (768px to 991px) */
-  @media only screen and (min-width: 768px)  {
-  
-    .container {
-      padding: 60px;
-      max-width: 5000px;
-      text-align: center;
-      margin:1%;
-      padding: 80px;
-    }
-    .header {
-      display: flex;
-      font-size: 25px; 
-      font-family: Modern Sans; 
-      align-items: center;
-      justify-content: space-between;
-    }
-    .nav__links {
-      
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-    }
-    .nav__links li {
-    
-      margin-left: 15px;
-    }
-    .contact-info {
-      font-size: 18px;
-    }
-    h1 {
-      font-size: 32px;
-    }
-    h2 {
-      font-size: 24px;
-    }
-    p {
-      font-size: 20px;
-    }
-    .Image1 {
-      margin-right: 20px;
-    }
-    .Image7 {
-      width: 75px;
-      height: 40px;
-    }
-    .Vector7{
-      width: 100%;
-      position: absolute;
-      top: 93px;
-
-    }
-  }
-  
-  
-  
-  
-  
- /* Mobile Screens (max-width: 767px) */
-@media only screen and (max-width: 767px) {
-  /* Adjust styles for small screens here */    
-   
-  .container {
-    position: absolute;
-    padding: 20px;
-    max-width: 100%;
-    text-align: center;
-    margin: 1%;
-  }
-  .header {
-    display: flex;
-    font-size: 9px; 
-    font-family: Modern Sans; 
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  .nav__links {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
-  .nav__links li {
-    margin-bottom: 10px;
-  }
-  .contact-info {
-    font-size: 18px;
-  }
-  h1 {
-    font-size: 24px;
-  }
-  h2 {
-    font-size: 20px;
-  }
-  p {
-    font-size: 18px;
-  }
-  .Image1 {
-    top: 0px;
-    left: 1px;
-    position: absolute;
-    width: 0;
-    height: 0;
-
-  }
-  .Image7 {
-    width: 75px;
-    height: 40px;
- 
-  }
-  .Vector7{
-    left: 0;
-    width: 800px;
-      position: absolute;
-      top: 40px;
-  }
-}
-  
-  
-/* Mobile Screens (max-width: 320px) */
-@media only screen and (max-width: 320px) {
-  /* Adjust styles for small screens here */    
-   
-  .container {
-    position: absolute;
-    padding: 20px;
-    max-width: 100%;
-    text-align: center;
-    margin: 1%;
-  }
-  .header {
-    display: flex;
-    font-size: 5px; 
-    font-family: Modern Sans; 
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  .nav__links {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
-  .nav__links li {
-    margin-bottom: 10px;
-  }
-  .contact-info {
-    font-size: 18px;
-  }
-  h1 {
-    font-size: 24px;
-  }
-  h2 {
-    font-size: 20px;
-  }
-  p {
-    font-size: 18px;
-  }
-  .Image1 {
-    top: 0px;
-    left: 1px;
-    position: absolute;
-    width: 0;
-    height: 0;
-
-  }
-  .Image7 {
-    width: 75px;
-    height: 40px;
- 
-  }
-  .Vector7{
-    left: 0;
-    width: 800px;
-      position: absolute;
-      top: 40px;
-  }
-}

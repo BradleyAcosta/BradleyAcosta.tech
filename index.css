@@ -4,7 +4,7 @@ html, body {
 }
 
 body {
-  background-color: #d9fdeb; /* Result of mixing Azure with darker grey */
+  background-color: #000000; /* Result of mixing Azure with darker grey */
   display: flex;
   flex-direction: column;
 }
@@ -27,7 +27,7 @@ body {
   }
   
   .CTA {
-    color: #004d4d;
+    color: white;
     font-size: 25px; 
     font-family: Modern Sans; 
     font-weight: 500;     
@@ -53,7 +53,7 @@ body {
   .nav__links li a {
     transition: all 0.3s ease 0s;
     text-align: left;
-    color: #004d4d;
+    color: white;
     text-decoration: none;
   
   }
@@ -84,7 +84,7 @@ body {
   .Image1:hover {
     animation: shake 0.5s ease-in-out;
     box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.25); /* increase box shadow on hover */
-    color: #004d4d;
+    color: white;
   }
   @keyframes shake {
     0% {
@@ -119,7 +119,7 @@ body {
     left: 99px; 
     top: 250px; 
     position: absolute; 
-    color: #004d4d;
+    color: white;
     font-size: 80px; 
     font-family: Modern Sans; 
     font-weight: 500; 
@@ -130,7 +130,7 @@ body {
     left: 891px; 
     top: 435px; 
     position: absolute; 
-    color: #004d4d;
+    color: white;
     font-size: 30px; 
     font-family: Modern Sans; 
     font-weight: 500; 
@@ -144,7 +144,7 @@ body {
     top: 510px; 
     position: absolute; 
     text-align: justify; 
-    color: #004d4d;
+    color: white;
     font-size: 27px; 
     font-family: Modern Sans; 
     font-weight: 500; 
@@ -159,7 +159,7 @@ body {
     position: absolute; 
     transform: rotate(90deg); 
     transform-origin: 0 0; 
-    border: 1px solid #004d4d;
+    border: 1px solid white;
 
   }
   .Vector3{
@@ -170,7 +170,7 @@ body {
   position: absolute; 
   transform: rotate(-180deg); 
   transform-origin: 0 0; 
-  border: 2px  solid #004d4d ;
+  border: 2px  solid white ;
   
   }
 

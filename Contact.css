@@ -1,6 +1,6 @@
 
 body {
-  background-color: #d9fdeb;
+  background-color: #000000; /* Result of mixing Azure with darker grey */
   display: flex;
   flex-direction: column;
 }
@@ -23,20 +23,16 @@ body {
 
 
   .CTA {
-    color: #004d4d;
     width: 500px;
     font-size: 25px; 
     font-family: Modern Sans; 
     font-weight: 500;     
-    justify-content: flex-end;    
-    line-height: normal;
-    margin-left: auto;
-    display: flex;
     align-items: center;
-    letter-spacing: 2.97px;
+    letter-spacing: 5px;
     margin-top: 400px; /* Add this line to move it up more */
     padding: 50px; 
-    text-decoration:none;
+    right: -10%;
+    position: absolute;
   
   }
 
@@ -54,7 +50,7 @@ body {
 .nav__links li a {
   transition: all 0.3s ease 0s;
   text-align: left;
-  color: #004d4d;
+  color: #ffffff;
   /* Add this line to set the link color to white */
   text-decoration: none;
 
@@ -65,38 +61,35 @@ color:#8B6E80;
 }
 
 
-.BackgroundBaseColor{
-  width: 100%;
-    overflow: hidden; /* Prevent overflow issues */
-    height: 100%; 
-    left: 0px; 
-    top: 0px; 
-    position: absolute; 
+
+.Image1{
+  width: 369px; 
+  height: 170.14px; 
+  padding: 2px; 
+  left: 1500px;
+  top: 40px; 
+  position: absolute; 
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+
 }
-
-
-  .Image1{
-
-    width: 369px; 
-    height: 170.14px; 
-    padding: 2px; 
-    left: 1500px;
-     top: 40px; 
-     position: absolute; 
-  
-     flex-direction: column; 
-    justify-content: flex-start; 
-  
-    display: inline-flex;
-  }
 
 
   .Image1:hover{
     animation: shake 0.5s ease-in-out; 
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25); /* increase box shadow on hover */
-    color: #004d4d;
+    box-shadow: 4px 4px 4px rgb(196, 62, 62); /* increase box shadow on hover */
+    color: #ffffff;
 
   }
+  .Image7 {
+
+    width: 369px; 
+    height: 170.14px; 
+    left: 1px; 
+    top: 2px;
+     position: absolute;
+
+}
+
 
   @keyframes shake {
     0% {
@@ -126,14 +119,7 @@ color:#8B6E80;
   }
 
 
-  .Image7 {
 
-    width: 369px; 
-    height: 170.14px; 
-    left: 1px; 
-    top: 2px;
-     position: absolute;
-  }
 
 
 .ContactDes{
@@ -141,7 +127,7 @@ color:#8B6E80;
   left: 99px; 
   top: 250px; 
   position: absolute; 
-  color: #004d4d; 
+  color: #ffffff; 
   font-size: 80px; 
   font-family: Modern Sans; 
   font-weight: 500; 
@@ -154,7 +140,7 @@ color:#8B6E80;
   top: 350px; 
   position: absolute; 
   text-align: justify; 
-  color: #004d4d; 
+  color: #ffffff; 
   font-size: 20px; 
   font-family: Modern Sans; 
   font-weight: 500; 
@@ -167,7 +153,7 @@ color:#8B6E80;
     position: absolute;
     left: 100px;
     top: 480px;
-    color: #004d4d; 
+    color: #ffffff; 
     font-size: 30px; 
     font-family: Modern Sans; 
     font-weight: 500; 
@@ -175,7 +161,7 @@ color:#8B6E80;
 }
 .contact-info a {
 
-   color:#21fafa; /* LinkedIn Blue */
+   color:#00bcf5; /* LinkedIn Blue */
    text-decoration: none;
 }
 .contact-info a:hover {
@@ -189,62 +175,6 @@ color:#8B6E80;
   left: 20px; 
   top: 405px; 
   position: absolute; 
-  border: 2px #004d4d solid;
+  border: 2px #ffffff solid;
   }
 
-
-@media only screen and (max-width: 768px){
-
-  .CTA{
-    font-size: 10px;
-    width:  100%;
-    margin-top: 600px;
-    left: -50px;
-    position: absolute;
-
-  }
-  .ContactDes{
-    width: 100%;
-    font-size: 30px;
-    left: 0;
-    position: absolute;
-
-  }
-  .contact-info{
-    width: 100%;
-    position: absolute;
-    font-size: 15px;
-    left: 0;
-    top: 450px;
-  }
-  .ContactText{
-    font-size: 10px;
-    position: absolute;
-    left: 0;
-    width: 100%;
-  }
-  .Image1{
-    top: 0px;
-    position: absolute;
-    width: 100px;
-    left: 20px;
-  }
-  .Image7{
-    top: 0;
-    left: 1px;
-    width: 100%;
-    position: absolute;
-
-  }
-  .Vector7{
-    width: 100%;
-    left: 0;
-    top: 425px;
-    position: absolute;
-
-  }
-}
-
-
-
-  
