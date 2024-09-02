@@ -85,11 +85,6 @@ p {
   
   
   
-  .Image1{
-    top: 20px;
-    position: absolute;
-  }
-
 
 .Vector7 {
   color: #fff;
@@ -133,13 +128,16 @@ p {
   .Image1{
     position: absolute;
     width: 0;
-    height: 100px;
+   
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+
   
   }
   .Image7{
     position: absolute;
     right: -1850px;
     width: 100%; 
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
 
   }
 

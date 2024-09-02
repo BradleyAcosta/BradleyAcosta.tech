@@ -27,19 +27,16 @@ body {
   }
   
   .CTA {
-    color: white;
+    width: 500px;
     font-size: 25px; 
     font-family: Modern Sans; 
     font-weight: 500;     
-    justify-content: flex-end;    
-    line-height: normal;
-    margin-left: auto;
-    display: flex;
     align-items: center;
-    letter-spacing: 2.97px;
+    letter-spacing: 5px;
     margin-top: 400px; /* Add this line to move it up more */
     padding: 50px; 
-    text-decoration: none!important;
+    right: -10%;
+    position: absolute;
   }
   
   .nav__links{
@@ -76,14 +73,13 @@ body {
     height: 170.14px; 
     padding: 2px; 
     left: 1500px;
-     top: 40px; 
-     position: absolute; 
-     flex-direction: column; 
-    display: inline-flex;
+    top: 40px; 
+    position: absolute; 
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
   }
   .Image1:hover {
     animation: shake 0.5s ease-in-out;
-    box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.25); /* increase box shadow on hover */
+    box-shadow: 4px 4px 4px rgb(196, 62, 62); /* increase box shadow on hover */
     color: white;
   }
   @keyframes shake {
