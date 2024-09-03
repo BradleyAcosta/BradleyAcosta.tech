@@ -26,7 +26,7 @@ body{
   right: 2px;
   display: flex;
   margin-left: auto;
-  background-color: #004d4d;
+  background-color: #000000;
   font-size: 25px; 
   font-family: Modern Sans; 
   line-height: normal;
@@ -37,16 +37,17 @@ body{
   box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Optional: add a shadow for better visibility */
 }
 
-.header img {
-  
-  width: 50px;
-  right: 10px;
-  top: -10px;
-  height: 90px;
-  position: absolute;
-  /* Remove position absolute to allow flexbox alignment */
+.Image1{
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
 }
+.Image7{
 
+  width: 369px; 
+  height: 170.14px; 
+  right: -1300px; 
+  top: -73px; 
+  position: absolute;
+}
 
 .nav__links{
     display: inline-block;
@@ -64,7 +65,7 @@ body{
 .nav__links li a {
     transition: all 0.3s ease 0s;
     text-align: left;
-    color:  #d9fdeb; /* Add this line to set the link color to white */
+    color:  #ffffff; /* Add this line to set the link color to white */
     text-decoration: none;
 }
 
@@ -72,6 +73,8 @@ body{
     color: #765A6B;
 
 }
+
+
 
 
 
@@ -101,7 +104,7 @@ body{
   }
   
   .ProjectObjectiveDes {
-    color: #004d4d;
+    color: #ffffff;
     font-size: 40px; 
     font-family: Modern Sans; 
     font-weight: 500; 
@@ -109,7 +112,7 @@ body{
   }
 
   .ProjectObjectiveText{
-    color: #004d4d; 
+    color: #ffffff; 
     font-size: 27px; 
     font-family: Modern Sans; 
     font-weight: 500; 
@@ -127,14 +130,14 @@ body{
   }
   
   .InternContributionD {
-  color: #004d4d; 
+  color: #ffffff; 
   font-size: 16px; 
   font-family: Modern Sans; 
   font-weight: 500; 
   word-wrap: break-word;
   }
   .InternContributionDes{
-    color: #004d4d; 
+    color: #ffffff; 
     font-size: 40px; 
     font-family: Modern Sans; 
     font-weight: 500; 
@@ -142,7 +145,7 @@ body{
   }
 
   .InternContributionText{
-    color: #004d4d; 
+    color: #ffffff; 
     font-size: 27px; 
     font-family: Modern Sans; 
     font-weight: 500; 
@@ -155,7 +158,7 @@ body{
     left: 135px; 
     top: 202px; 
     position: absolute; 
-    color: #004d4d; 
+    color: #ffffff; 
     font-size: 80px; 
     font-family: Modern Sans; 
     font-weight: 500; 
@@ -167,7 +170,7 @@ body{
     left: 1300px; 
     top: 224px; 
     position: absolute; 
-    color: #004d4d; 
+    color: #ffffff; 
     font-size: 40px; 
     font-family: Modern Sans; 
     font-weight: 500; 
@@ -183,7 +186,7 @@ body{
   }
 
   .StartingUpDes{
-    color: #004d4d; 
+    color: #ffffff; 
     font-size: 40px; 
     font-family: Modern Sans; 
     font-weight: 500;
@@ -191,7 +194,7 @@ body{
   }
   
 .StartingUpText{
-    color: #004d4d; 
+    color: #ffffff; 
     font-size: 27px; 
     font-family: Modern Sans; 
     font-weight: 500; 
@@ -207,7 +210,7 @@ body{
 }
 
 .NodeJsDs{
-    color: #004d4d; 
+    color: #ffffff; 
     font-size: 24px; 
     font-family: Modern Sans; 
     font-weight: 500; 
@@ -215,7 +218,7 @@ body{
 }
 
 .NodeJsDes{
-    color: #004d4d; 
+    color: #ffffff; 
     font-size: 40px; 
     font-family: Modern Sans; 
     font-weight: 500; 
@@ -223,7 +226,7 @@ body{
 }
 
 .NodeJsText{
-    color: #004d4d; 
+    color: #ffffff; 
     font-size: 27px; 
     font-family: Modern Sans; 
     font-weight: 500; 
@@ -239,7 +242,7 @@ body{
 }
 
 .NodePackageDes{
-    color: #004d4d; 
+    color: #ffffff; 
     font-size: 40px; 
     font-family: Modern Sans; 
     font-weight: 500; 
@@ -247,7 +250,7 @@ body{
 }
 
 .NodePackageText{
-    color: #004d4d; 
+    color: #ffffff; 
     font-size: 27px; 
     font-family: Modern Sans; 
     font-weight: 500; 
@@ -262,7 +265,7 @@ body{
     position: absolute;
 }
 .SomeNpmLibraries{
-    color: #004d4d; 
+    color: #ffffff; 
     font-size: 40px; 
     font-family: Modern Sans; 
     font-weight: 500; 
@@ -270,7 +273,7 @@ body{
 }
 
 .Electron{
-    color: #004d4d; 
+    color: #ffffff; 
     font-size: 27px; 
     font-family: Modern Sans; 
     font-weight: 500; 
@@ -287,18 +290,16 @@ body{
 }
 
 .ExperienceITookDs{
-  color: #004d4d; 
+  color: #ffffff; 
   font-size: 70px; 
   top: 3700px; 
-
   font-family: Modern Sans; 
   font-weight: 500; 
   word-wrap: break-word;
-
 }
 
 .ExperienceITookDes{
-  color: #004d4d; 
+  color: #ffffff; 
   font-size: 45px; 
   font-family: Modern Sans; 
   font-weight: 500; 
@@ -306,7 +307,7 @@ body{
 }
 
 .ExperienceITookText{
-  color: #004d4d; 
+  color: #ffffff; 
   width: 400px;
   font-size: 40px; 
   font-family: Modern Sans; 
@@ -323,7 +324,7 @@ body{
 }
 
 .EnsuringScaleDes{
-  color: #004d4d; 
+  color: #ffffff; 
   font-size: 40px; 
   font-family: Modern Sans; 
   font-weight: 500;
@@ -331,7 +332,7 @@ body{
 }
 
 .EnsuringScaleText{
-  color: #004d4d; 
+  color: #ffffff; 
   font-size: 27px; 
   font-family: Modern Sans;
    font-weight: 500; 
@@ -354,7 +355,7 @@ body{
 }
 
 .CreatedAnElectronText{
-  color: #004d4d; 
+  color: #ffffff; 
   font-size: 30px; 
   font-family: Modern Sans; 
   font-weight: 500; 
@@ -367,7 +368,7 @@ body{
   top: 2644px; 
   position: absolute; 
   text-align: center; 
-  color: #004d4d; 
+  color: #ffffff; 
   font-size: 70px; 
   font-family: Modern Sans; 
   font-weight: 500; 
@@ -380,7 +381,7 @@ body{
   left: 1165px; 
   top: 2765px; 
   position: absolute; 
-  color: #004d4d; 
+  color: #ffffff; 
   font-size: 30px; 
   font-family: Modern Sans; 
   font-weight: 500; 
@@ -388,69 +389,3 @@ body{
 }
 
 
-/* Phone media query */
-@media only screen and (max-width: 600px) {
-  /* Styles for phone layout */
-  .header {
-    font-size: 18px;
-  }
-  .nav__links li {
-    margin-left: 10px;
-  }
-  .Proyect1Slide1 {
-    width: 100%;
-    height: auto;
-  }
-
-  .ProjectOBJ {
-    top: 350px;
-    width: 90%;
-    left: 5%;
-  }
-  .InternContribution {
-    top: 500px;
-    width: 90%;
-    left: 5%;
-  }
-  .FullStackDevelopmentUsingElectronAndNode {
-    font-size: 40px;
-  }
-  .NavalAirWarfare {
-    font-size: 30px;
-  }
- 
-  /* Add more styles as needed */
-}
-
-/* Tablet media query */
-@media only screen and (min-width: 601px) and (max-width: 1024px) {
-  /* Styles for tablet layout */
-  .header {
-    font-size: 22px;
-  }
-  .nav__links li {
-    margin-left: 15px;
-  }
-  .Proyect1Slide1 {
-    width: 90%;
-    height: auto;
-  }
- 
-  .ProjectOBJ {
-    top: 350px;
-    width: 90%;
-    left: 5%;
-  }
-  .InternContribution {
-    top: 500px;
-    width: 90%;
-    left: 5%;
-  }
-  .FullStackDevelopmentUsingElectronAndNode {
-    font-size: 50px;
-  }
-  .NavalAirWarfare {
-    font-size: 35px;
-  }
-  /* Add more styles as needed */
-}
