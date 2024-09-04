@@ -24,16 +24,10 @@ body{
 .header {
   width: 100%;
   right: 2px;
-  display: flex;
-  margin-left: auto;
+  text-align: center;
   background-color: #000000;
   font-size: 25px; 
   font-family: Modern Sans; 
-  line-height: normal;
-  position: fixed;
-  z-index: 1000; /* Ensure it stays above other content */
-  display: flex;
-  justify-content: space-between;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Optional: add a shadow for better visibility */
 }
 
@@ -44,7 +38,7 @@ body{
 
   width: 369px; 
   height: 170.14px; 
-  right: -1300px; 
+  left: -850px; 
   top: -73px; 
   position: absolute;
 }
