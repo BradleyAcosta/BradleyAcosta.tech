@@ -78,3 +78,41 @@ body{
 
 }
 
+.projects {
+  font-size: 12px;
+  color: #fff;
+  font-style: oblique;
+  text-align: center;
+  text-decoration: underline;
+  width: 100%;
+}
+
+.project {
+  margin-top: 20px;  /* Adds space above each project */
+  margin-bottom: 20px;  /* Adds space below each project */
+  padding: 10px;  /* Adds padding inside each project block */
+  border-bottom: 1px solid #444; /* Adds a separator line between projects */
+}
+
+.project h3 {
+  font-size: 16px;
+  margin-bottom: 5px;  /* Space below the project name */
+}
+
+.project p {
+  font-size: 14px;
+  margin-bottom: 10px;  /* Space below the project description */
+}
+
+.project a {
+  font-size: 14px;
+  color:#aebbb3;
+  text-decoration: none;
+}
+
+.project a:hover {
+  text-decoration: underline;
+}
+
+
+  

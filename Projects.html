@@ -29,6 +29,24 @@
 
 
 
+<div id="projects" class="projects"></div>
+<script>
+  fetch('https://api.github.com/users/BradleyAcosta/repos')
+    .then(response => response.json())
+    .then(data => {
+      let projects = '';
+      data.forEach(repo => {
+        projects += `
+          <div class="project">
+            <h3>${repo.name}</h3>
+            <p>${repo.description}</p>
+            <a href="${repo.html_url}" target="_blank">View on GitHub</a>
+          </div>`;
+      });
+      document.getElementById('projects').innerHTML = projects;
+    });
+</script>
+
       
 </body>
 </html>
