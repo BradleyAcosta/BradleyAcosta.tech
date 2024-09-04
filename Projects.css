@@ -49,6 +49,16 @@ body{
   position: absolute;
 }
 
+.Vector7 {
+  color: #fff;
+  width: 100%; 
+  height: 0; 
+  top: 78px;
+  left: 0; 
+  position: absolute; 
+  border: 2px #ffffff solid;
+}
+
 .nav__links{
     display: inline-block;
     

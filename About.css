@@ -83,6 +83,17 @@ p {
     box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Optional: add a shadow for better visibility */
   }
   
+  .Image1{
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+  }
+  .Image7{
+  
+    width: 369px; 
+    height: 170.14px; 
+    right: -1300px; 
+    top: -73px; 
+    position: absolute;
+  }
   
   
 
@@ -91,7 +102,6 @@ p {
   width: 100%; 
   height: 0; 
   left: 0; 
- 
   position: absolute; 
   border: 2px #ffffff solid;
 }
@@ -125,19 +135,5 @@ p {
   }
 
 
-  .Image1{
-    position: absolute;
-    width: 0;
-   
-    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
 
-  
-  }
-  .Image7{
-    position: absolute;
-    right: -1850px;
-    width: 100%; 
-    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
-
-  }
 
