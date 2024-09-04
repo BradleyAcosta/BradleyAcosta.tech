@@ -78,318 +78,35 @@ body{
 
 }
 
-
-
-
-
-  /* Project 1 Slide 1 Styles */
-  .Proyect1Slide1 {
-    width: 1920px;
-    height: 5200px;
-    position: relative;
-  
-  }
-  
- 
-  .BackgrountBaseColor{
-    width: 1920px; 
-    height: 5200px; 
-    left: 0px; 
-    top: 0px; 
-    position: absolute; 
-  }
-  
-  .ProjectOBJ {
-    width: 723px; 
-    height: 224px; 
-    left: 135px; 
-    top: 440px; 
-    position: absolute;
-  }
-  
-  .ProjectObjectiveDes {
-    color: #ffffff;
-    font-size: 40px; 
-    font-family: Modern Sans; 
-    font-weight: 500; 
-    word-wrap: break-word;
-  }
-
-  .ProjectObjectiveText{
-    color: #ffffff; 
-    font-size: 27px; 
-    font-family: Modern Sans; 
-    font-weight: 500; 
-    word-wrap: break-word;
-  }
-  
-  .InternContribution {
-    width: 685px;
-    height: 156px;
-    left: 1079px;
-    top: 419px;
-    position: absolute;
-    font-size: 40px;
-    font-weight: 500;
-  }
-  
-  .InternContributionD {
-  color: #ffffff; 
-  font-size: 16px; 
-  font-family: Modern Sans; 
-  font-weight: 500; 
-  word-wrap: break-word;
-  }
-  .InternContributionDes{
-    color: #ffffff; 
-    font-size: 40px; 
-    font-family: Modern Sans; 
-    font-weight: 500; 
-    word-wrap: break-word;
-  }
-
-  .InternContributionText{
-    color: #ffffff; 
-    font-size: 27px; 
-    font-family: Modern Sans; 
-    font-weight: 500; 
-    word-wrap: break-word;
-  }
-  
-  .FullStackDevelopmentUsingElectronAndNode {
-    width: 1202px; 
-    height: 156px; 
-    left: 135px; 
-    top: 202px; 
-    position: absolute; 
-    color: #ffffff; 
-    font-size: 80px; 
-    font-family: Modern Sans; 
-    font-weight: 500; 
-    word-wrap: break-word;
-  }
-
-  .NavalAirWarfare{
-    width: 519px; 
-    left: 1300px; 
-    top: 224px; 
-    position: absolute; 
-    color: #ffffff; 
-    font-size: 40px; 
-    font-family: Modern Sans; 
-    font-weight: 500; 
-    word-wrap: break-word;
-  }
-
-  .StartingUpRepository{
-    width: 400px; 
-    height: 319px; 
-    left: 155px; 
-    top: 994px; 
-    position: absolute;
-  }
-
-  .StartingUpDes{
-    color: #ffffff; 
-    font-size: 40px; 
-    font-family: Modern Sans; 
-    font-weight: 500;
-     word-wrap: break-word;
-  }
-  
-.StartingUpText{
-    color: #ffffff; 
-    font-size: 27px; 
-    font-family: Modern Sans; 
-    font-weight: 500; 
-    word-wrap: break-word;
-}
- 
-.NodeJs{
-    width: 344px; 
-    height: 428px; 
-    left: 669px; 
-    top: 1115px; 
-    position: absolute;
+.project-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-size: cover;
+  position: relative;
+  background-position: center;
+  height: 200px;
+  width: 300px;
+  margin: 20px;
 }
 
-.NodeJsDs{
-    color: #ffffff; 
-    font-size: 24px; 
-    font-family: Modern Sans; 
-    font-weight: 500; 
-    word-wrap: break-word;
+.project-card h2 {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #fff;
 }
 
-.NodeJsDes{
-    color: #ffffff; 
-    font-size: 40px; 
-    font-family: Modern Sans; 
-    font-weight: 500; 
-    word-wrap: break-word;
+.project-card p {
+  font-size: 14px;
+  color: #fff;
+  font-family:'Times New Roman', Times, serif;
 }
 
-.NodeJsText{
-    color: #ffffff; 
-    font-size: 27px; 
-    font-family: Modern Sans; 
-    font-weight: 500; 
-    word-wrap: break-word;
+.project-card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
-
-.NodePackage{
-    width: 677px; 
-    height: 310px; 
-    left: 1101px; 
-    top: 1409px; 
-    position: absolute;
-}
-
-.NodePackageDes{
-    color: #ffffff; 
-    font-size: 40px; 
-    font-family: Modern Sans; 
-    font-weight: 500; 
-    word-wrap: break-word;
-}
-
-.NodePackageText{
-    color: #ffffff; 
-    font-size: 27px; 
-    font-family: Modern Sans; 
-    font-weight: 500; 
-    word-wrap: break-word;
-}
-
-.SomeOfNpms{
-    width: 587px; 
-    height: 196px; 
-    left: 133px; 
-    top: 1708px; 
-    position: absolute;
-}
-.SomeNpmLibraries{
-    color: #ffffff; 
-    font-size: 40px; 
-    font-family: Modern Sans; 
-    font-weight: 500; 
-    word-wrap: break-word;
-}
-
-.Electron{
-    color: #ffffff; 
-    font-size: 27px; 
-    font-family: Modern Sans; 
-    font-weight: 500; 
-    word-wrap: break-word;
-}
-
-.ExperienceITook{
-  width: 1147px; 
-  height: 781px; 
-  left: 404px; 
-  top: 3600px; 
-  position: absolute; 
-  text-align: center;
-}
-
-.ExperienceITookDs{
-  color: #ffffff; 
-  font-size: 70px; 
-  top: 3700px; 
-  font-family: Modern Sans; 
-  font-weight: 500; 
-  word-wrap: break-word;
-}
-
-.ExperienceITookDes{
-  color: #ffffff; 
-  font-size: 45px; 
-  font-family: Modern Sans; 
-  font-weight: 500; 
-  word-wrap: break-word;
-}
-
-.ExperienceITookText{
-  color: #ffffff; 
-  width: 400px;
-  font-size: 40px; 
-  font-family: Modern Sans; 
-  font-weight: 500; 
-  word-wrap: break-word;
-}
-
-.EnsuringScale{
-   width: 680px; 
-   height: 213px; 
-   left: 696px; 
-   top: 2190px;
-   position: absolute;
-}
-
-.EnsuringScaleDes{
-  color: #ffffff; 
-  font-size: 40px; 
-  font-family: Modern Sans; 
-  font-weight: 500;
-   word-wrap: break-word;
-}
-
-.EnsuringScaleText{
-  color: #ffffff; 
-  font-size: 27px; 
-  font-family: Modern Sans;
-   font-weight: 500; 
-   word-wrap: break-word;
-}
-
-.CreatedAnElectron{
-  width: 702px; 
-  height: 580px; 
-  left: 180px;
-   top: 2677px; 
-   position: absolute;
-}
-
-.CreatedAnElectronDs{
-  font-size: 70px; 
-  font-family: Modern Sans; 
-  font-weight: 500; 
-  word-wrap: break-word;
-}
-
-.CreatedAnElectronText{
-  color: #ffffff; 
-  font-size: 30px; 
-  font-family: Modern Sans; 
-  font-weight: 500; 
-  word-wrap: break-word;
-}
-
-.PuttingItAllTogether{
-  width: 1014px; 
-  left: 352px; 
-  top: 2644px; 
-  position: absolute; 
-  text-align: center; 
-  color: #ffffff; 
-  font-size: 70px; 
-  font-family: Modern Sans; 
-  font-weight: 500; 
-  word-wrap: break-word"
-}
-
-.UsedNode{
-  width: 563px; 
-  height: 366px; 
-  left: 1165px; 
-  top: 2765px; 
-  position: absolute; 
-  color: #ffffff; 
-  font-size: 30px; 
-  font-family: Modern Sans; 
-  font-weight: 500; 
-  word-wrap: break-word;
-}
-
-
