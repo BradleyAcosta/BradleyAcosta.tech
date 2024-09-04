@@ -35,11 +35,11 @@ body{
   filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
 }
 .Image7{
-
-  width: 369px; 
-  height: 170.14px; 
-  left: -850px; 
-  top: -73px; 
+  background-position: center;
+  width: 300px; 
+  height: 120px; 
+  left: -830px; 
+  top: -50px; 
   position: absolute;
 }
 
