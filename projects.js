@@ -1,6 +1,4 @@
 // projects.js
-const apiUrl = 'https://api.github.com/users/BradleyAcosta/repos';
-const token = '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';
 
 fetch(apiUrl, {
   headers: {
