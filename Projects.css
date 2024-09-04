@@ -78,35 +78,3 @@ body{
 
 }
 
-.project-card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px;
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  background-size: cover;
-  position: relative;
-  background-position: center;
-  height: 200px;
-  width: 300px;
-  margin: 20px;
-}
-
-.project-card h2 {
-  font-weight: bold;
-  margin-bottom: 10px;
-  color: #fff;
-}
-
-.project-card p {
-  font-size: 14px;
-  color: #fff;
-  font-family:'Times New Roman', Times, serif;
-}
-
-.project-card:hover {
-  transform: scale(1.1);
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-}
