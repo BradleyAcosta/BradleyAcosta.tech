@@ -1,6 +1,6 @@
-html, body {
-  height: 100%;
-  margin: 0;
+* {
+margin: 0;
+padding: 0;
 }
 
 body {
@@ -27,7 +27,7 @@ body {
   }
   
   .CTA {
-    width: 500px;
+    width: 30%;
     font-size: 25px; 
     font-family: Modern Sans; 
     font-weight: 500;     
@@ -66,18 +66,27 @@ body {
     height: 100%; 
     left: 0px; 
     top: 0px; 
-    position: absolute; 
+
   }
   
   .Image1{
-    width: 369px; 
-    height: 170.14px; 
-    padding: 2px; 
-    left: 1500px;
-    top: 40px; 
-    position: absolute; 
+    position: absolute;
+  width: 369px;
+  height: 170.14px;
+  left: 1500px;
+  top: 40px;
     filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
   }
+ 
+
+  .Image7{
+    position: absolute;
+    width: 369px;
+    height: 170.14px;
+    left: 1px;
+    top: 2px;
+  }
+
   .Image1:hover {
     animation: shake 0.5s ease-in-out;
     box-shadow: 4px 4px 4px rgb(196, 62, 62); /* increase box shadow on hover */
@@ -103,16 +112,8 @@ body {
       transform: translateX(0) translateY(0);
     }
   }
-
-  .Image7{
-    width: 369px; 
-    height: 170.14px; 
-    left: 1px; 
-    top: 2px; 
-    position: absolute;
-  }
-
   .BradleyAcostaRojas{
+    width: 100%;
     left: 99px; 
     top: 250px; 
     position: absolute; 
@@ -149,7 +150,7 @@ body {
   }
 
   .Vector2{
-    width: 0px; 
+    width: 0; 
     height: 400px; 
     left: 1280px; 
     top: 468px; 
@@ -160,7 +161,7 @@ body {
 
   }
   .Vector3{
-  width: 0px; 
+  width: 0; 
   height: 260px; 
   left: 171px; 
   top:780px; 
@@ -188,437 +189,6 @@ body.loading a, body.loading nav ul li a {
     pointer-events: none; /* Disable interactions while loading */
 }
 
-
-/* Tablet styles------------------------------------------------------------------------ */
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-  .BradleyAcostaRojas {
-    font-size: 60px;
-    left: 50px;
-    width: 800px;
-    top: 200px;
-  }
-  .WebDeveloper {
-    font-size: 25px;
-    width: 300px;
-    left: 600px;
-    top: 350px;
-  }
-  .BradleyHi {
-    width: 500px;
-    height: 200px;
-    left: 100px;
-    top: 700px;
-    font-size: 22px;
-  }
-  .CTA {
-    margin-top: 550px;
-  }
-  .Vector2 {
-    width: 0px; 
-    height: 200px; 
-    left: 810px; 
-    top: 385px; 
-    position: absolute; 
-    transform: rotate(90deg); 
-    transform-origin: 0 0; 
-    border: 1px white solid;
-  }
-  .Vector3 {
-    width: 0px; 
-    height: 180px; 
-    left: 90px; 
-    top: 870px; 
-    position: absolute; 
-    transform: rotate(-180deg); 
-    transform-origin: 0 0; 
-    border: 2px white solid;
-  }
+@media {
+  
 }
-
-/* IPhone 12 Pro max queries-------------------------------------------------------------------------------*/
-@media only screen and (max-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) {
-  .BackgroundBaseColor {
-    width: 428px;
-    height: 926px;
-    position: relative;
-  }
-
-  .BradleyHi {
-    width: 182px;
-    height: 208px;
-    left: 26px;
-    top: 422px;
-    position: absolute;
-    text-align: justify;
-    font-size: 16px;
-    font-family: Modern Sans;
-    font-weight: 500;
-    word-wrap: break-word;
-  }
-
-  .BradleyAcostaRojas {
-    width: 427px;
-    left: 26px;
-    top: 195px;
-    position: absolute;
-    font-size: 24px;
-    font-family: Modern Sans;
-    font-weight: 500;
-    word-wrap: break-word;
-  }
-
-  .Image1 {
-    width: 124px;
-    height: 67px;
-    left: 280px;
-    top: 32px;
-    position: absolute;
-  
-  }
-
-  .Image7{
-    width: 123px;
-    height: 63px;
-    left: 4px;
-    top: 5px;
-    position: absolute;
-
-  }
-
-
-  .WebDeveloper {
-    left: 172px;
-    top: 282px;
-    position: absolute;
-    font-size: 24px;
-    font-family: Modern Sans;
-    font-weight: 500;
-    word-wrap: break-word;
-  }
-
-  .Vector2 {
-    width: 0px;
-    height: 200px;
-    left: 335px;
-    top: 380px;
-    position: absolute;
-    transform: rotate(90deg);
-    transform-origin: 0 0;
-    border: 1px  solid;
-  }
-
-  .CTA {
-    top: 250px;
-    right: -55px;
-    position: absolute;
-    font-size: 27px;
-    font-family: Modern Sans;
-    font-weight: 500;
-    letter-spacing: 2.97px;
-    word-wrap: break-word;
-  }
-  
-
-  .Vector3 {
-    width: 0px;
-    height: 214px;
-    left: 18px;
-    top: 630px;
-    position: absolute;
-    transform: rotate(-180deg);
-    transform-origin: 0 0;
-  }
-}
-
-
-/* IPhone 14-15 Pro max queries---------------------------------------------------------------------------*/
-@media only screen and (max-width: 430px) and (device-height: 932px) and (-webkit-device-pixel-ratio: 3) {
-  .BackgroundBaseColor {
-    width: 430px;
-    height: 932px;
-    position: relative;
-  }
-
-  .BradleyHi {
-    width: 182px;
-    height: 208px;
-    left: 26px;
-    top: 422px;
-    position: absolute;
-    text-align: justify;
-    font-size: 16px;
-    font-family: Modern Sans;
-    font-weight: 500;
-    word-wrap: break-word;
-  }
-
-  .BradleyAcostaRojas {
-    width: 427px;
-    left: 26px;
-    top: 195px;
-    position: absolute;
-    font-size: 24px;
-    font-family: Modern Sans;
-    font-weight: 500;
-    word-wrap: break-word;
-  }
-
-  .Image1 {
-    width: 124px;
-    height: 67px;
-    left: 280px;
-    top: 32px;
-    position: absolute;
-  
-  }
-
-  .Image7{
-    width: 123px;
-    height: 63px;
-    left: 4px;
-    top: 5px;
-    position: absolute;
-
-  }
-
-
-  .WebDeveloper {
-    left: 172px;
-    top: 282px;
-    position: absolute;
-    font-size: 24px;
-    font-family: Modern Sans;
-    font-weight: 500;
-    word-wrap: break-word;
-  }
-
-  .Vector2 {
-    width: 0px;
-    height: 200px;
-    left: 372px;
-    top: 335px;
-    position: absolute;
-    transform: rotate(90deg);
-    transform-origin: 0 0;
-    border: 1px  solid;
-  }
-
-  .CTA {
-    top: 250px;
-    right: -55px;
-    position: absolute;
-  
-    font-size: 27px;
-    font-family: Modern Sans;
-    font-weight: 500;
-    letter-spacing: 2.97px;
-    word-wrap: break-word;
-  }
-  
-
-  .Vector3 {
-    width: 0px;
-    height: 214px;
-    left: 18px;
-    top: 630px;
-    position: absolute;
-    transform: rotate(-180deg);
-    transform-origin: 0 0;
-    border: 1px solid;
-  }
-}
-/*iPhone pro 12-15----------------------------------------------------------------------------------------*/
-@media only screen and (max-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) {
-  .BackgroundBaseColor {
-    width: 390px;
-    height: 844px;
-    position: relative;
-  }
-
-  .BradleyHi {
-    width: 182px;
-    height: 208px;
-    left: 26px;
-    top: 422px;
-    position: absolute;
-    text-align: justify;
-    font-size: 16px;
-    font-family: Modern Sans;
-    font-weight: 500;
-    word-wrap: break-word;
-  }
-
-  .BradleyAcostaRojas {
-    width: 300px;
-    left: 26px;
-    top: 195px;
-    position: absolute;
-    font-size: 24px;
-    font-family: Modern Sans;
-    font-weight: 500;
-    word-wrap: break-word;
-  }
-
-  .Image1 {
-    width: 114px;
-    height: 60px;
-    left: 260px;
-    top: 30px;
-    position: absolute;
-  
-  }
-
-  .Image7{
-    width: 113px;
-    height: 58px;
-    left: 4px;
-    top: 3px;
-    position: absolute;
-
-  }
-
-
-  .WebDeveloper {
-    left: 172px;
-    top: 282px;
-    position: absolute;
-    font-size: 24px;
-    font-family: Modern Sans;
-    font-weight: 500;
-    word-wrap: break-word;
-  }
-
-  .Vector2 {
-    width: 0px;
-    height: 200px;
-    left: 372px;
-    top: 335px;
-    position: absolute;
-    transform: rotate(90deg);
-    transform-origin: 0 0;
-    border: 1px  solid;
-  }
-
-  .CTA {
-    top: 230px;
-    right: -55px;
-    position: absolute;
-    font-size: 20px;
-    font-family: Modern Sans;
-    font-weight: 500;
-    letter-spacing: 2.97px;
-    word-wrap: break-word;
-  }
-  
-
-  .Vector3 {
-    width: 0px;
-    height: 214px;
-    left: 18px;
-    top: 630px;
-    position: absolute;
-    transform: rotate(-180deg);
-    transform-origin: 0 0;
-    border: 1px solid;
-  }
-}
-
-
-  /* Mobile screens (max-width: 767px) */
-  @media only screen and (max-width: 767px) {
-    /* Adjust styles for small screens here */
-    .CTA {
-      top: 230px;
-      right: -55px;
-      position: absolute;
-      font-size: 20px;
-      font-family: Modern Sans;
-      font-weight: 500;
-      letter-spacing: 2.97px;
-      word-wrap: break-word;
-    }
-
-  .BradleyHi {
-    width: 182px;
-    height: 208px;
-    left: 26px;
-    top: 422px;
-    position: absolute;
-    text-align: justify;
-    font-size: 16px;
-    font-family: Modern Sans;
-    font-weight: 500;
-    word-wrap: break-word;
-  }
-
-  .BradleyAcostaRojas {
-    width: 300px;
-    left: 26px;
-    top: 195px;
-    position: absolute;
-    font-size: 24px;
-    font-family: Modern Sans;
-    font-weight: 500;
-    word-wrap: break-word;
-  }
-
-  .Image1 {
-    width: 114px;
-    height: 60px;
-    left: 20px;
-    top: 30px;
-    position: absolute;
-  }
-
-  .Image7 {
-    width: 113px;
-    height: 58px;
-    left: 4px;
-    top: 3px;
-    position: absolute;
-  }
-
-  .WebDeveloper {
-    left: 172px;
-    top: 282px;
-    position: absolute;
-    font-size: 24px;
-    font-family: Modern Sans;
-    font-weight: 500;
-    word-wrap: break-word;
-  }
-
-  .Vector2 {
-    width: 0px;
-    height: 200px;
-    left: 372px;
-    top: 335px;
-    position: absolute;
-    transform: rotate(90deg);
-    transform-origin: 0 0;
-    border: 1px solid;
-  }
-
-  .CTA {
-    top: 230px;
-    right: -55px;
-    position: absolute;
-    font-size: 20px;
-    font-family: Modern Sans;
-    font-weight: 500;
-    letter-spacing: 2.97px;
-    word-wrap: break-word;
-  }
-
-  .Vector3 {
-    width: 0px;
-    height: 214px;
-    left: 18px;
-    top: 630px;
-    position: absolute;
-    transform: rotate(-180deg);
-    transform-origin: 0 0;
-    border: 1px solid;
-  }
-}
-
