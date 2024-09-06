@@ -189,6 +189,54 @@ body.loading a, body.loading nav ul li a {
     pointer-events: none; /* Disable interactions while loading */
 }
 
-@media {
+/* General Mobile Phones */
+@media (max-width: 767px) {
+  .CTA {
+      width: 100%;
+      font-size: 20px; /* Adjust font size for readability */
+      margin-top: 700px; /* Adjust for better spacing */
+      padding: 20px;
+      right: 0;
+      text-align: center; /* Center text on smaller screens */
+  }
   
+  .BackgroundBaseColor {
+      width: 100%;
+      height: auto; /* Adjust height for better fit */
+  }
+
+  .BradleyAcostaRojas {
+      width: 100%;
+      font-size: 30px; /* Adjust for better readability */
+      left: 0;
+      top: 250px;
+      text-align: center; /* Center text */
+  }
+
+  .WebDeveloper {
+      width: 100%;
+      font-size: 20px;
+      left: 0;
+      top: 340px;
+      text-align: center;
+  }
+
+  .BradleyHi {
+      width: 90%; /* Adjust width to fit the screen */
+      font-size: 18px; /* Make the text smaller */
+      left: 5%; /* Center the div */
+      top: 400px;
+  }
+
+  .Image1, .Image7 {
+      width: 80%;
+      height: auto; /* Maintain aspect ratio */
+      left: 10%; /* Center image */
+      top: -30px;
+  }
+
+  .Vector2, .Vector3 {
+      display: none; /* Hide vectors on small screens */
+  }
 }
+
