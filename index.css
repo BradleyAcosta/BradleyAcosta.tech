@@ -240,3 +240,54 @@ body.loading a, body.loading nav ul li a {
   }
 }
 
+/* General Tablets */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .CTA {
+      width: 60%; /* More space for content */
+      font-size: 22px; /* Slightly larger text */
+      margin-top: 50px;
+      padding: 30px;
+      right: 0;
+      text-align: center;
+  }
+  
+  .BackgroundBaseColor {
+      width: 100%;
+      height: auto;
+  }
+
+  .BradleyAcostaRojas {
+      width: 100%;
+      font-size: 70px; /* Adjust for larger screens */
+      left: 0;
+      top: 200px; /* Increase top space */
+      text-align: center;
+  }
+
+  .WebDeveloper {
+      width: 100%;
+      font-size: 28px;
+      left: 0;
+      top: 300px;
+      text-align: center;
+  }
+
+  .BradleyHi {
+      width: 80%; /* Make the text block wider */
+      font-size: 20px;
+      left: 10%; /* Center the block */
+      top: 370px;
+  }
+
+  .Image1, .Image7 {
+      width: 50%;
+      height: auto; /* Maintain aspect ratio */
+      left: 25%; /* Center image */
+      top: 50px;
+  }
+
+  .Vector2, .Vector3 {
+      width: 1px; /* Thinner lines for larger screens */
+      border-width: 1px;
+  }
+}
