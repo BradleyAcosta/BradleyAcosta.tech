@@ -243,9 +243,9 @@ body.loading a, body.loading nav ul li a {
 /* General Tablets */
 @media (min-width: 768px) and (max-width: 1024px) {
   .CTA {
-      width: 60%; /* More space for content */
+      width: 100%; /* More space for content */
       font-size: 22px; /* Slightly larger text */
-      margin-top: 50px;
+      margin-top: 650px;
       padding: 30px;
       right: 0;
       text-align: center;
@@ -258,7 +258,7 @@ body.loading a, body.loading nav ul li a {
 
   .BradleyAcostaRojas {
       width: 100%;
-      font-size: 70px; /* Adjust for larger screens */
+      font-size: 40px; /* Adjust for larger screens */
       left: 0;
       top: 200px; /* Increase top space */
       text-align: center;
@@ -283,11 +283,53 @@ body.loading a, body.loading nav ul li a {
       width: 50%;
       height: auto; /* Maintain aspect ratio */
       left: 25%; /* Center image */
-      top: 50px;
+      top: -20px;
   }
 
-  .Vector2, .Vector3 {
-      width: 1px; /* Thinner lines for larger screens */
+
+  .Vector3{
+    position: fixed;
+    top: 470px;
+    left: 70px;
+    width: 0; /* Thinner lines for larger screens */
+    border-width: 1px;
+    height: 90px;
+  }
+  .Vector2 {
+      top: 330px;
+      left: 75%;
+      width: 0; /* Thinner lines for larger screens */
       border-width: 1px;
+  }
+}
+
+/* Large Tablets / Small Laptops */
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .CTA {
+      width: 45%;
+      font-size: 26px;
+      margin-top: 40px;
+      padding: 35px;
+  }
+  
+  .BradleyAcostaRojas {
+      font-size: 80px;
+      top: 220px;
+  }
+
+  .WebDeveloper {
+      font-size: 32px;
+      top: 320px;
+  }
+
+  .BradleyHi {
+      font-size: 24px;
+      top: 400px;
+  }
+
+  .Image1, .Image7 {
+      width: 35%;
+      left: 32.5%; /* Center the image */
+      top: 60px;
   }
 }
