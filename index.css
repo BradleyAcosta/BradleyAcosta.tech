@@ -60,38 +60,34 @@ body {
 
   }
   
-  .BackgroundBaseColor{
-    width: 100%;
-    overflow: hidden; /* Prevent overflow issues */
-    height: 100%; 
-    left: 0px; 
-    top: 0px; 
 
-  }
-  
-  .Image1{
-    position: absolute;
-  width: 369px;
-  height: 170.14px;
-  left: 1500px;
-  top: 40px;
+
+  .Image1 {
+    z-index: 1000;
+    position: relative;
+    width: 369px; 
+    height: 170.14px; 
+    padding: 2px; 
+    left: 1500px;
+    top: 40px; 
     filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+}
+
+.Image7 {
+  width: 369px; 
+  height: 170.14px; 
+  left: 0; 
+  top: 0;
+}
+
+
+  .Image1:hover{
+    animation: shake 0.5s ease-in-out; 
+    box-shadow: 4px 4px 4px rgb(196, 62, 62); /* increase box shadow on hover */
+    color: #ffffff;
+
   }
  
-
-  .Image7{
-    position: absolute;
-    width: 369px;
-    height: 170.14px;
-    left: 1px;
-    top: 2px;
-  }
-
-  .Image1:hover {
-    animation: shake 0.5s ease-in-out;
-    box-shadow: 4px 4px 4px rgb(196, 62, 62); /* increase box shadow on hover */
-    color: white;
-  }
   @keyframes shake {
     0% {
       transform: translateX(0) translateY(0);
@@ -112,6 +108,8 @@ body {
       transform: translateX(0) translateY(0);
     }
   }
+
+
   .BradleyAcostaRojas{
     width: 100%;
     left: 99px; 
@@ -192,12 +190,12 @@ body.loading a, body.loading nav ul li a {
 /* General Mobile Phones */
 @media (max-width: 767px) {
   .CTA {
-      width: 100%;
-      font-size: 20px; /* Adjust font size for readability */
-      margin-top: 700px; /* Adjust for better spacing */
-      padding: 20px;
-      right: 0;
-      text-align: center; /* Center text on smaller screens */
+    width: 100%;
+    font-size: 20px; /* Adjust font size for readability */
+    margin-top: 800px; /* Adjust for better spacing */
+    padding: 20px;
+    right: 0;
+    text-align: center; /* Center text on smaller screens */
   }
   
   .BackgroundBaseColor {
@@ -228,11 +226,15 @@ body.loading a, body.loading nav ul li a {
       top: 400px;
   }
 
-  .Image1, .Image7 {
-      width: 80%;
-      height: auto; /* Maintain aspect ratio */
-      left: 10%; /* Center image */
-      margin: 0 auto; /* Center image horizontally */
+  .Image1 {
+    position: absolute;
+    top: 0;
+    left: 50px; /* Change this line */
+    width: 78%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
   }
 
   .Vector2, .Vector3 {
@@ -279,12 +281,17 @@ body.loading a, body.loading nav ul li a {
       top: 370px;
   }
 
-  .Image1, .Image7 {
-      width: 50%;
-      height: auto; /* Maintain aspect ratio */
-      left: 25%; /* Center image */
-      top: -20px;
+  .Image1 {
+    position: absolute;
+    top: 0;
+    left: 100px; /* Change this line */
+    width: 78%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
   }
+
 
 
   .Vector3{

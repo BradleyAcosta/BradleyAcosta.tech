@@ -62,15 +62,22 @@ body {
 
 
 
-.Image1{
+.Image1 {
+    z-index: 1000;
+    position: relative;
+    width: 369px; 
+    height: 170.14px; 
+    padding: 2px; 
+    left: 1500px;
+    top: 40px; 
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+}
+
+.Image7 {
   width: 369px; 
   height: 170.14px; 
-  padding: 2px; 
-  left: 1500px;
-  top: 40px; 
-  position: absolute; 
-  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
-
+  left: 0; 
+  top: 0;
 }
 
 
@@ -80,16 +87,7 @@ body {
     color: #ffffff;
 
   }
-  .Image7 {
-
-    width: 369px; 
-    height: 170.14px; 
-    left: 1px; 
-    top: 2px;
-     position: absolute;
-
-}
-
+ 
 
   @keyframes shake {
     0% {
@@ -178,28 +176,92 @@ body {
   border: 2px #ffffff solid;
   }
 
+/* -----------------Phone Size------------------------ */
 
   @media (max-width: 767px) {
     .CTA {
-        width: 100%;
-        font-size: 20px; /* Adjust font size for readability */
-        margin-top: 700px; /* Adjust for better spacing */
-        padding: 20px;
-        right: 0;
-        text-align: center; /* Center text on smaller screens */
-    }
-
-
-    .Image1, .Image7 {
-      width: 85%;
-      height: auto; /* Maintain aspect ratio */
-      left: 10%; /* Center image */
-      top: -30px;
-      text-align: center;
+      width: 100%;
+      font-size: 20px; /* Adjust font size for readability */
+      margin-top: 800px; /* Adjust for better spacing */
+      padding: 20px;
+      right: 0;
+      text-align: center; /* Center text on smaller screens */
   }
+  
+ .ContactDes{
+  font-size: 40px;
+  width: 100%;
+ }
+ .ContactText{
+  font-size: 18px;
+  width: 100%;
+  left: 0;
+ }
+  .contact-info{
+    width: 100%;
+    font-size: 20px;
+    left: auto;
+  }
+  
+    .Image1 {
+      position: absolute;
+      top: 0;
+      left: 50px; /* Change this line */
+      width: 78%;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      margin: 0 auto;
+    }
+  
 
-  .Vector2, .Vector3 {
+  .Vector7 {
       display: none; /* Hide vectors on small screens */
   }
 
+}
+
+
+
+
+/* -----------------Tablet size------------------------ */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .CTA {
+      width: 80%; /* Adjust width for tablets */
+      font-size: 22px; /* Slightly larger font size */
+      margin-top: 600px; /* Adjust spacing */
+      padding: 30px;
+      right: 10%;
+      text-align: center; /* Keep text centered */
+  }
+
+  .ContactDes {
+      font-size: 50px; /* Increase font size for tablets */
+      width: 90%; /* Adjust width */
+      margin: 0 auto; /* Center horizontally */
+  }
+
+  .ContactText {
+      font-size: 20px; /* Slightly larger text */
+      width: 90%; /* Adjust width */
+      left: 0;
+      margin: 0 auto; /* Center horizontally */
+  }
+
+  .contact-info {
+      width: 90%; /* Adjust width */
+      font-size: 22px; /* Increase font size for readability */
+      left: 5%; /* Center content */
+  }
+
+  .Image1, .Image7 {
+      width: 70%; /* Adjust image size */
+      height: auto; /* Maintain aspect ratio */
+      left: 15%; /* Center image */
+      margin: 20px auto; /* Center image horizontally */
+  }
+
+  .Vector7 {
+      display: none; /* Continue to hide vectors */
+  }
 }
