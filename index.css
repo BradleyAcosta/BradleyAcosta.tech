@@ -232,7 +232,7 @@ body.loading a, body.loading nav ul li a {
       width: 80%;
       height: auto; /* Maintain aspect ratio */
       left: 10%; /* Center image */
-      top: -30px;
+      margin: 0 auto; /* Center image horizontally */
   }
 
   .Vector2, .Vector3 {
