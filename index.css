@@ -334,9 +334,15 @@ body.loading a, body.loading nav ul li a {
       top: 400px;
   }
 
-  .Image1, .Image7 {
-      width: 35%;
-      left: 32.5%; /* Center the image */
-      top: 60px;
+  .Image1 {
+    position: absolute;
+    top: 0;
+    left: 100px; /* Change this line */
+    width: 78%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
   }
+
 }

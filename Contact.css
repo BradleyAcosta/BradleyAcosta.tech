@@ -206,7 +206,7 @@ body {
     .Image1 {
       position: absolute;
       top: 0;
-      left: 50px; /* Change this line */
+      left:80px; /* Change this line */
       width: 78%;
       height: auto;
       display: flex;
@@ -229,7 +229,7 @@ body {
   .CTA {
       width: 80%; /* Adjust width for tablets */
       font-size: 22px; /* Slightly larger font size */
-      margin-top: 600px; /* Adjust spacing */
+      margin-top: 700px; /* Adjust spacing */
       padding: 30px;
       right: 10%;
       text-align: center; /* Keep text centered */
@@ -242,7 +242,7 @@ body {
   }
 
   .ContactText {
-      font-size: 20px; /* Slightly larger text */
+      font-size: 19px; /* Slightly larger text */
       width: 90%; /* Adjust width */
       left: 0;
       margin: 0 auto; /* Center horizontally */
@@ -254,14 +254,71 @@ body {
       left: 5%; /* Center content */
   }
 
-  .Image1, .Image7 {
-      width: 70%; /* Adjust image size */
-      height: auto; /* Maintain aspect ratio */
-      left: 15%; /* Center image */
-      margin: 20px auto; /* Center image horizontally */
+  .Image1 {
+    position: absolute;
+    top: 0;
+    left: 100px; /* Change this line */
+    width: 78%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
   }
 
   .Vector7 {
-      display: none; /* Continue to hide vectors */
+    display: block; /* Show vectors on larger screens */
+    width: 88%; /* Adjust vector size */
+    left: 0; /* Align content */
   }
 }
+
+
+
+/* -----------------Laptop size------------------------ */
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .CTA {
+      width: 70%; /* Adjust width for laptops */
+      font-size: 24px; /* Slightly larger font size */
+      margin-top: 770px; /* Adjust spacing */
+      padding: 40px;
+      right: -7%; /* Align content more to the right */
+      text-align: left; /* Align text to the left */
+  }
+
+  .ContactDes {
+      font-size: 55px; /* Increase font size for laptops */
+      width: 80%; /* Adjust width */
+      margin: 0 auto; /* Center horizontally */
+  }
+
+  .ContactText {
+      font-size: 22px; /* Increase font size */
+      width: 80%; /* Adjust width */
+      left: 1%; /* Align content */
+      margin: 0; /* Keep original alignment */
+  }
+
+  .contact-info {
+      width: 80%; /* Adjust width */
+      font-size: 24px; /* Increase font size for readability */
+      left: 10%; /* Align content */
+  }
+
+  .Image1 {
+      position: absolute;
+      top: 0;
+      left: 100px; /* Adjust for laptop screen size */
+      width: 70%; /* Adjust image size */
+      height: auto; /* Maintain aspect ratio */
+      display: flex;
+      justify-content: center;
+      margin: 0 auto; /* Center image horizontally */
+  }
+
+  .Vector7 {
+      display: block; /* Show vectors on larger screens */
+      width: 80%; /* Adjust vector size */
+      left: 1%; /* Align content */
+  }
+}
+
