@@ -192,7 +192,7 @@ p {
 
   .Image1, .Image7{
   position: relative; /* Change from absolute to relative */
-  top: 173%; /* Move the image 50% from the top */
+  top: 170%; /* Move the image 50% from the top */
   left: -25%; /* Move the image 50% from the left */
   transform: translate(-50%, -50%); /* Move the image back 50% of its own width and height */
   width: 40%;
