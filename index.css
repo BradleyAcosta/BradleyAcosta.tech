@@ -229,7 +229,7 @@ body.loading a, body.loading nav ul li a {
   .Image1 {
     position: absolute;
     top: 0;
-    left: 50px; /* Change this line */
+    left: 70px; /* Change this line */
     width: 78%;
     height: auto;
     display: flex;
@@ -301,8 +301,10 @@ body.loading a, body.loading nav ul li a {
     height: 90px;
   }
   .Vector2 {
+    position: relative;
+    height: 500px;
       top: 330px;
-      left: 75%;
+      left: 80%;
       width: 0; /* Thinner lines for larger screens */
       border-width: 1px;
   }
@@ -313,23 +315,33 @@ body.loading a, body.loading nav ul li a {
   .CTA {
       width: 45%;
       font-size: 26px;
-      margin-top: 40px;
+      margin-top: 700px;
       padding: 35px;
+      right: 10%;
   }
   
   .BradleyAcostaRojas {
-      font-size: 80px;
+      font-size: 65px;
       top: 220px;
   }
 
   .WebDeveloper {
-      font-size: 32px;
-      top: 320px;
+    left: 67%;
+      font-size: 25px;
+      top: 420px;
   }
 
   .BradleyHi {
+      left: 3%;
       font-size: 24px;
       top: 400px;
+  }
+  .Vector2{
+    left: 100%;
+  }
+  .Vector3{
+    left: 2%;
+    top: 80%;
   }
 
   .Image1 {
