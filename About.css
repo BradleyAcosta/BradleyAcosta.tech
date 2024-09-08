@@ -37,9 +37,6 @@ body {
 
 h1, h2 {
     color: #000000;
-}
-
-h1 {
     border-bottom: 2px solid #000000;
     padding-bottom: 10px;
 }
@@ -132,3 +129,51 @@ p {
 
 
 
+
+@media (max-width: 767px) and (min-width: 344px) {
+  .container {
+    max-width: 83% ;
+    text-align: center;
+    margin:4%;
+    padding: 80px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1, h2 {
+  color: #000000;
+  border-bottom: 2px solid #000000;
+  padding-bottom: 15px;
+  font-size: 25px; 
+}
+
+p {
+  margin: 20px 0;
+  font-size: 10px; 
+}
+
+.header {
+  width: 100%;
+  right: 2px;
+  text-align: center;
+  background-color: #000000;
+  font-size: 12px; 
+  font-family: Modern Sans; 
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Optional: add a shadow for better visibility */
+}
+.Image1, .Image7{
+    position: relative; /* Change from absolute to relative */
+    top: 160%; /* Move the image 50% from the top */
+    left: -18%; /* Move the image 50% from the left */
+    transform: translate(-50%, -50%); /* Move the image back 50% of its own width and height */
+    width: 40%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+.Vector7{
+  display: none;
+}
+
+}
