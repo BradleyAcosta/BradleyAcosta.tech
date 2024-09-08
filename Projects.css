@@ -116,3 +116,62 @@ body{
 
 
   
+@media (max-width: 767px) and (min-width: 344px) {
+
+  .header {
+    width: 100%;
+    right: 2px;
+    text-align: center;
+    background-color: #000000;
+    font-size: 12px; 
+    font-family: Modern Sans; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Optional: add a shadow for better visibility */
+  }
+
+  .Image1, .Image7{
+    position: relative; /* Change from absolute to relative */
+    top: 160%; /* Move the image 50% from the top */
+    left: -18%; /* Move the image 50% from the left */
+    transform: translate(-50%, -50%); /* Move the image back 50% of its own width and height */
+    width: 40%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .Vector7{
+   top: 90px;
+  }
+}
+
+
+
+@media (min-width: 768px) and (max-width:1700px ) {
+
+  .header {
+    width: 100%;
+    right: 2px;
+    text-align: center;
+    background-color: #000000;
+    font-size:25px; 
+    font-family: Modern Sans; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Optional: add a shadow for better visibility */
+  }
+
+  .Image1, .Image7{
+  position: relative; /* Change from absolute to relative */
+  top: 170%; /* Move the image 50% from the top */
+  left: -25%; /* Move the image 50% from the left */
+  transform: translate(-50%, -50%); /* Move the image back 50% of its own width and height */
+  width: 40%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.Vector7{
+  top: 150px;
+}
+
+}
