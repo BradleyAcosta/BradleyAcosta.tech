@@ -9,7 +9,7 @@ body {
   flex-direction: column;
 }
 
-  
+
   .BradleyAcostaRojas, .WebDeveloper, .BradleyHi, .CTA, .Image7 {
     opacity: 0;
     animation: fadeIn 1.5s ease-in-out forwards;
@@ -109,66 +109,43 @@ body {
     }
   }
 
+  .ME {
+    position: absolute;
+    top: 80px; /* adjust this value to move the image up or down */
+    left: 80px; /* adjust this value to move the image left or right */
+    width: 300px; /* adjust this value to set the image width */
+    height: 380px; /* adjust this value to set the image height */
+  }
 
   .BradleyAcostaRojas{
     width: 100%;
     left: 99px; 
-    top: 250px; 
+    top: 3%; 
     position: absolute; 
     color: white;
     font-size: 80px; 
-    font-family: Modern Sans; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; ; 
     font-weight: 500; 
     word-wrap: break-word;
   }
   
-  .WebDeveloper{
-    left: 891px; 
-    top: 435px; 
-    position: absolute; 
-    color: white;
-    font-size: 30px; 
-    font-family: Modern Sans; 
-    font-weight: 500; 
-    word-wrap: break-word;
-  }
+ 
   
   .BradleyHi{
-    width: 393px; 
+    width: 40%; 
     height: 252px; 
-    left: 185px; 
-    top: 510px; 
+    left: 3%; 
+    top: 590px; 
     position: absolute; 
     text-align: justify; 
     color: white;
     font-size: 27px; 
-    font-family: Modern Sans; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
     font-weight: 500; 
     word-wrap: break-word;
   }
 
-  .Vector2{
-    width: 0; 
-    height: 400px; 
-    left: 1280px; 
-    top: 468px; 
-    position: absolute; 
-    transform: rotate(90deg); 
-    transform-origin: 0 0; 
-    border: 1px solid white;
 
-  }
-  .Vector3{
-  width: 0; 
-  height: 260px; 
-  left: 171px; 
-  top:780px; 
-  position: absolute; 
-  transform: rotate(-180deg); 
-  transform-origin: 0 0; 
-  border: 2px  solid white ;
-  
-  }
 
   #loading-animation {
     position: fixed;
@@ -186,6 +163,8 @@ body.loading #loading-animation {
 body.loading a, body.loading nav ul li a {
     pointer-events: none; /* Disable interactions while loading */
 }
+
+  
 
 /* General Mobile Phones */
 @media (max-width: 767px) {
@@ -237,9 +216,7 @@ body.loading a, body.loading nav ul li a {
     margin: 0 auto;
   }
 
-  .Vector2, .Vector3 {
-      display: none; /* Hide vectors on small screens */
-  }
+ 
 }
 
 /* General Tablets */
@@ -292,22 +269,7 @@ body.loading a, body.loading nav ul li a {
     margin: 0 auto;
   }
 
-  .Vector3{
-    position: fixed;
-    top: 470px;
-    left: 70px;
-    width: 0; /* Thinner lines for larger screens */
-    border-width: 1px;
-    height: 90px;
-  }
-  .Vector2 {
-    position: relative;
-    height: 500px;
-      top: 330px;
-      left: 80%;
-      width: 0; /* Thinner lines for larger screens */
-      border-width: 1px;
-  }
+  
 }
 
 /* Large Tablets / Small Laptops */
@@ -336,13 +298,7 @@ body.loading a, body.loading nav ul li a {
       font-size: 24px;
       top: 400px;
   }
-  .Vector2{
-    left: 100%;
-  }
-  .Vector3{
-    left: 2%;
-    top: 80%;
-  }
+  
 
   .Image1 {
     position: absolute;
